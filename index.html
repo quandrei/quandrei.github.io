@@ -1,52 +1,37 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>quandrei.github.io by quandrei</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>quandrei.github.io</h1>
-        <p>quandrei: a cipher, wrapped in an enigma, smothered in secret sauce</p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-        <p class="view"><a href="https://github.com/quandrei">View My GitHub Profile</a></p>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-      </header>
-      <section>
-        <h3>
-<a name="mission-statement" class="anchor" href="#mission-statement"><span class="octicon octicon-link"></span></a>Mission Statement</h3>
-
-<blockquote>
-<p>What you are experiencing is a temporary distortion of reality. Do not be alarmed.</p>
-</blockquote>
-
-<p>I am currently in transition from my old <a href="http://transparent-aluminium.com/">website</a>. I will be gradually updating, and moving that content to my <a href="http://pages.github.com/">github pages</a> space.</p>
-
-<h3>
-<a name="curriculum-vitae" class="anchor" href="#curriculum-vitae"><span class="octicon octicon-link"></span></a>Curriculum Vitae</h3>
-
-<p>My current CV can be found <a href="http://transparent-aluminium.com/curriculum-vitae/">here</a>.</p>
-
-<h3>
-<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h3>
-
-<p>I can be contacted by email: <a href="mailto:andrea.zarbo@gmail.com">andrea.zarbo@gmail.com</a></p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="older">Older</a>
+  {% else %}
+    <span class="next">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="newer">Newer</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Newer</span>
+  {% endif %}
+</div>
