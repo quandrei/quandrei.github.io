@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            quandrei.github.io
+title:            '[quandrei]'
 tagline:          'a cipher, wrapped in an enigma, smothered in secret sauce'
 description:      'What you are experiencing is a temporary distortion of reality. Do not be alarmed.'
 url:              http://quandrei.github.io
