@@ -13,12 +13,17 @@ url:              http://quandrei.github.io
 
 author:
   name:           'Andrea Zarbo'
-  url:            https://twitter.com/quandrei
+  url:            http://quandrei.github.io
 
-paginate:         5
+paginate:         3
 
 # Custom vars
-version:          2.0.0
 
 github:
-  repo:           https://github.com/quandrei
+  url:            https://github.com/quandrei
+
+linkedin:
+  url:            https://www.linkedin.com/in/andreazarbo
+
+twitter:
+  url:			  https://twitter.com/quandrei
