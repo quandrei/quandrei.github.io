@@ -22,8 +22,6 @@ Obviously, this was a little dull as I needed to grab the raw content from my SS
 
 There are a few easily­ done things I liked about SS. One was having a tag cloud, which requires some plugin for Jekyll. Not sure if having a plugin is something I could do on Github Pages, so I would need to look into it. Another, was having a gallery of some photography I did in a past life. Again, a plugin is the likely route, and not sure if gh­pages blah blah blah...
 
-­­­---
+­­­-----
 
-So that's it. As a treat, I think everyone should read this: [Chief O'Brien at Work]
-
-(http://citycyclops.com/7.31.13.php)
+So that's it. As a treat, I think everyone should read this: [Chief O'Brien at Work](http://citycyclops.com/7.31.13.php)
