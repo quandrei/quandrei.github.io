@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Github pages transition'
-tags: []
+tags: [blog, github]
 ---
 
 So I've decided to make the transition from SquareSpace to [github pages](http://pages.github.com/).
