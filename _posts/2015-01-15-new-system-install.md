@@ -4,7 +4,7 @@ title: 'New System Install'
 tags: [blog, new-system-install, OS-X, homebrew, homebrew-cask, dev-tools]
 ---
 
-With the release of OS-X Mavericks, I decided it was time for a clean install of my system. I decided that this time, I would try and automate this as much as possible, without having to resort to being there very much, because, well... time is precious and I have better things to do.
+With the release of OS-X Yosemite, I decided it was time for a clean install of my system. I decided that this time, I would try and automate this as much as possible, without having to resort to being there very much, because, well... time is precious and I have better things to do.
 
 The script and general steps I used can be found in a bash file I have on my [github account](https://github.com/quandrei/new-system-install-script-osx).
 
