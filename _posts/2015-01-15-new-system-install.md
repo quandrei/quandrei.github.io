@@ -48,7 +48,7 @@ I will not go into explaining why these tools are great and why you should use t
 
 The rest of the script is essentially grabbing what I need/want; specifically, environment-wise via homebrew and gui apps via homebrew-cask. Nice thing about this, is I don't need to deal with downloaders and going to each invidual site. And updating/maintaining everything is a breeze, and achieved with a few simple commands in the terminal. 
 
-If you are too lazy to actually look at my bash script, the folling is a list of what I install:
+If you are too lazy to actually look at my bash script, the following is a list of what I install:
 
 #### homebrew packages
 * wget
