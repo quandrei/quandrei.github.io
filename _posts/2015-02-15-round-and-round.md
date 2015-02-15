@@ -18,7 +18,7 @@ And round and round she goes...
 
 I find this entire situation ridiculous, since of the 3 organizations involved, none can book a seat, all of which have a hand in the travels. To be more apt, 3 organizations, all of which are useless.
 
-I decided that the most likely of the 3 to help, would be Air Canada, since they operated the flight, and at least had access to the seating I needed. So I contacted them.
+I decided that the most likely of the 3 to help, would be Air Canada, since they operated the flight, and at least had access to the seating I needed. So I decided to escalate the situation with them.
 
 When I expressed my discontent with the Air Canada agent and requested to speak to a supervisor, I was told this was not possible. I was further informed I could not file a complaint with them, and would need to contact customer relations through an online form. When I requested an employee number or reference number for the call, for my complaint, I was told they were not permitted to give any of those out. So the only info I was given, was a first name and a city with a population of over 5 million people. I am certain in an organization as large as Air Canada, there could be only one.
 
