@@ -4,9 +4,9 @@ title: 'Round and round she goes...'
 tags: [travel, customer-service, fail]
 ---
 
-So, in preparations for a trip this summer, I had booked a few flights, through the Royal Bank rewards program. The flight tickets are held by the Lufthansa airline, while one of the flights is operated by Air Canada (being one of their partners).
+So, in preparations for a trip this summer, I had booked a few flights through the Royal Bank rewards program. The flight tickets are held by the Lufthansa airline, while one of the flights is operated by Air Canada (being one of their partners).
 
-An important piece of information to note, is that I will traveling with an infant. That being the case, I wanted to reserve seats with a bassinet, and in the case of the Air Canada operated flight, this is in the preferred seating area (which carries with it a fee, that I am more than willing to pay). 
+An important piece of information to note, is that I will be traveling with an infant. That being the case, I wanted to reserve seats with a bassinet, and in the case of the Air Canada operated flight, this is in the preferred seating area (which carries with it a fee, that I am more than willing to pay). 
 
 I contacted Lufthansa to book the seat (since the tickets were issued by them and I had the need to reserve seats on their flight as well), however, because it is a flight operated by Air Canada, they said I would need to speak to them for that specific flight. 
 
