@@ -72,7 +72,7 @@ If you are too lazy to actually look at my bash script, the following is a list 
 * virtualbox
 * alfred
 * iterm2
-* onepassword
+* 1password
 * seil
 * divvy
 * sourcetree
