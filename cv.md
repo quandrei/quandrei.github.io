@@ -6,7 +6,10 @@ title: Curriculum Vitae
 ### <strong>Professional Experience</strong>
 
 ##### <strong>Gorilla Group - Backend PHP Developer, May 2014 - Present</strong>
-* Develop modules for clients on Magento v1.13
+* Develop modules for clients on Magento v1.13-1.14
+* Performed code merges, manage backups for magento database
+* Assisted in interview process, and mentoring new PHP developers
+* Assisted with refining developer workflow, when switching to git 
 
 ##### <strong>Mira Geoscience - Software Developer, January 2013 - May 2014</strong>
 * Design and develop data management web application for geo-technical information (PHP/Laravel 4, Javascript/jQuery/AJAX, Bootstrap, SQL)
