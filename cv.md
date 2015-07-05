@@ -7,7 +7,7 @@ title: Curriculum Vitae
 
 ##### <strong>Gorilla Group - Backend PHP Developer, May 2014 - Present</strong>
 * Develop modules for clients on Magento v1.13-1.14
-* Performed code merges, manage backups for magento database
+* Performed code merges, manage backups for magento databases
 * Assisted in interview process, and mentoring new PHP developers
 * Assisted with refining developer workflow, when switching to git 
 
