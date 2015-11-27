@@ -24,4 +24,4 @@ There are a few easily­ done things I liked about SS. One was having a tag clou
 
 ­­­-----
 
-So that's it. As a treat, I think everyone should read this: [Chief O'Brien at Work](http://citycyclops.com/7.31.13.php)
+So that's it. As a treat, I think everyone should read this: [Chief O'Brien at Work](http://chiefobrienatwork.com/)
