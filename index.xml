@@ -27,7 +27,7 @@
 
 &lt;p&gt;I will update here, once more of these developments have materialized.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;[END TRANSMISSION]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[End Transmission]&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -523,13 +523,15 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
       <guid>https://quandrei.com/page/about/</guid>
-      <description>&lt;blockquote&gt;
+      <description>
+
+&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;What you are experiencing is a temporary distortion of reality. Do not be alarmed.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;This is a home for all that is dev outside my regular gig as a software developer, with a few other interests peppered in. Formerly on &lt;a href=&#34;http://squarespace.com/&#34;&gt;squarespace&lt;/a&gt;, I decided to move to github pages, and haven&amp;rsquo;t looked back. If you&amp;rsquo;re interested why, read &lt;a href=&#34;http://quandrei.github.io/2014/03/20/github-pages-transition/&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Setup for this site:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;setup-for-this-site:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Setup for this site:&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Deployed using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a wicked static site generator&lt;/li&gt;
