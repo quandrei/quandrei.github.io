@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on [quandrei]</title>
+    <link>http://quandrei.github.io/categories/android/</link>
+    <description>Recent content in Android on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 05 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CyanogenMod is the new black</title>
+      <link>http://quandrei.github.io/post/cyanogenmod/</link>
+      <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/cyanogenmod/</guid>
+      <description>
+
+&lt;p&gt;Recently, I had been a little disappointed with the battery life on my &lt;a href=&#34;http://en.wikipedia.org/wiki/Nexus_4&#34;&gt;Nexus 4 device&lt;/a&gt;. I noticed a drop in battery performance when I installed &lt;a href=&#34;http://www.android.com/versions/lollipop-5-0/&#34;&gt;Android Lollipop&lt;/a&gt;, and thought the reason might be due to all the upgrades and bloat I had accumulated. I decided that what was needed was a tried and true method: a clean install. And this was the perfect opportunity to give a custom ROM a shot; specifically, &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;CyanogenMod&lt;/a&gt;. This was my limited experience after about a week and a half of use&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-install:85692c9bc1452ade613bde8053351cd3&#34;&gt;The install:&lt;/h3&gt;
+
+&lt;p&gt;So ordinarily, installing would be a simple matter of following the instructions and visiting the &lt;a href=&#34;http://beta.download.cyanogenmod.org/install&#34;&gt;install link&lt;/a&gt; (when you have a &lt;a href=&#34;http://wiki.cyanogenmod.org/w/CyanogenMod_Installer#Supported_Devices&#34;&gt;supported device&lt;/a&gt;, which mine was). However, when running the installer, I got the message stating mine was not. The reason for this was due to the fact that I had an android version (v5.0.x) that was more recent than what CyanogenMod was using (v4.4.x). So before I was able to install, I needed to downgrade my android version to v4.3.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:85692c9bc1452ade613bde8053351cd3&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;The level of customization was the most satisfying part of this experience. Nearly everything you can think of can be modified to suit your preferences or needs. So much so, that I was able to have the interface appear almost identically to Lollipop, despite actually being on android v4.4.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:85692c9bc1452ade613bde8053351cd3&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;I noticed after a while, I could not make phone calls. I was able to dial and connect to another person when making a call, but there was no sound (I could not hear the line ringing or the person pick up, and the person could not hear me when the line picked up). There was a reported bug for this on their &lt;a href=&#34;https://jira.cyanogenmod.org/browse/CYAN-5728&#34;&gt;JIRA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Less of an issue, but still annoying, was some of the display features on a few downloaded apps was hit or miss (e.g. when using the dropdwon tray, text on my Spotify app would be blank, and only icons would appear).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:85692c9bc1452ade613bde8053351cd3&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;The battery consumption was pretty good in the beginning, with stock everything. But as I installed all the applications I needed, it was pretty much on par with Lollipop. Not so much a deal breaker, but one of the original reasons to try Cyanogenmod were some claims I had heard that battery life would be improved (at least marginally) with this ROM.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In the end, due to the critical bug, I decided to go back to Lollipop. A little disappointing, but making phone calls is kind of a necessity when having a phone.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

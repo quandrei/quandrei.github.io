@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New System Install on [quandrei]</title>
+    <link>http://quandrei.github.io/tags/new-system-install/</link>
+    <description>Recent content in New System Install on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/tags/new-system-install/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New System Install</title>
+      <link>http://quandrei.github.io/post/new-system-install/</link>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/new-system-install/</guid>
+      <description>
+
+&lt;p&gt;With the release of OS-X Yosemite, I decided it was time for a clean install of my system. I decided that this time, I would try and automate this as much as possible, without having to resort to being there very much, because, well&amp;hellip; time is precious and I have better things to do.&lt;/p&gt;
+
+&lt;p&gt;The script and general steps I used can be found in a bash file I have on my &lt;a href=&#34;https://github.com/quandrei/new-system-install-script-osx&#34;&gt;github account&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;initial-manual-steps:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;Initial (manual) steps&lt;/h3&gt;
+
+&lt;p&gt;You will notice that in the script, the first few installs are commented out. I originally did these manually, because they are crucial (i.e. the rest will just fail without the success of those), and hadn&amp;rsquo;t really planned on a script at that point. The tools are as follows:&lt;/p&gt;
+
+&lt;h4 id=&#34;os-x-command-line-tools:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;OS-X command line tools&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ xcode-select --install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;oh-my-zsh-http-ohmyz-sh:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh-my-ZSH&lt;/a&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ curl -L http://install.ohmyz.sh | sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;homebrew-http-brew-sh:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://brew.sh/&#34;&gt;homebrew&lt;/a&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;homebrew-cask-http-caskroom-io:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://caskroom.io/&#34;&gt;homebrew-cask&lt;/a&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install caskroom/cask/brew-cask
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You might also want to specify some defaults for homebrew-cask, e.g. default of where you want your apps installed:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;### Specify your defaults in this environment variable 
+### (in .bash_profile or .zshenv) 
+$ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More can be found in the &lt;a href=&#34;https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md&#34;&gt;usage docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I will not go into explaining why these tools are great and why you should use them. There are many articles out there. Just use the googles or &lt;a href=&#34;https://duckduckgo.com/&#34;&gt;duck-duck-go&lt;/a&gt;, whichever you prefer.&lt;/p&gt;
+
+&lt;p&gt;The rest of the script is essentially grabbing what I need/want; specifically, environment-wise via homebrew and gui apps via homebrew-cask. Nice thing about this, is I don&amp;rsquo;t need to deal with downloaders and going to each invidual site. And updating/maintaining everything is a breeze, and achieved with a few simple commands in the terminal.&lt;/p&gt;
+
+&lt;p&gt;If you are too lazy to actually look at my bash script, the following is a list of what I install:&lt;/p&gt;
+
+&lt;h4 id=&#34;homebrew-packages:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;homebrew packages:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wget&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;git-flow&lt;/li&gt;
+&lt;li&gt;tree&lt;/li&gt;
+&lt;li&gt;node&lt;/li&gt;
+&lt;li&gt;sqlite&lt;/li&gt;
+&lt;li&gt;postgresql&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;li&gt;mcrypt&lt;/li&gt;
+&lt;li&gt;php56&lt;/li&gt;
+&lt;li&gt;php56-mcrypt&lt;/li&gt;
+&lt;li&gt;php56-xdebug&lt;/li&gt;
+&lt;li&gt;phpunit&lt;/li&gt;
+&lt;li&gt;openssl&lt;/li&gt;
+&lt;li&gt;gpg2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;homebrew-cask-packages:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;homebrew cask packages&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vagrant&lt;/li&gt;
+&lt;li&gt;virtualbox&lt;/li&gt;
+&lt;li&gt;alfred&lt;/li&gt;
+&lt;li&gt;iterm2&lt;/li&gt;
+&lt;li&gt;1password&lt;/li&gt;
+&lt;li&gt;seil&lt;/li&gt;
+&lt;li&gt;divvy&lt;/li&gt;
+&lt;li&gt;sourcetree&lt;/li&gt;
+&lt;li&gt;dropbox&lt;/li&gt;
+&lt;li&gt;firefox&lt;/li&gt;
+&lt;li&gt;firefoxdeveloperedition&lt;/li&gt;
+&lt;li&gt;google-chrome&lt;/li&gt;
+&lt;li&gt;google-chrome-canary&lt;/li&gt;
+&lt;li&gt;spotify&lt;/li&gt;
+&lt;li&gt;vlc&lt;/li&gt;
+&lt;li&gt;sublime-text3&lt;/li&gt;
+&lt;li&gt;sequel-pro&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have not linked to any of these, cause I am lazy too. If this irks you, please submit your grievance to the complaints dept.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

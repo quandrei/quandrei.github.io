@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on [quandrei]</title>
+    <link>http://quandrei.github.io/tags/code/</link>
+    <description>Recent content in Code on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 29 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grunt Master 6000</title>
+      <link>http://quandrei.github.io/post/grunt-master-6000/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/grunt-master-6000/</guid>
+      <description>
+
+&lt;p&gt;So, let&amp;rsquo;s start this off with a quote from my last post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There I was, fairly new to a company, and asked to take the reigns of a project because of limited developer resources. Everyone else was committed to another project, and although I didn&amp;rsquo;t have the expertise to do this on my own, I was the only one around available for the the task at hand. Although, it should be noted that one of the other developers committed to another project, was around to give guidance, should I encounter any serious problems.&lt;/p&gt;
+
+&lt;h3 id=&#34;challenge-the-first:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the first:&lt;/h3&gt;
+
+&lt;p&gt;Our first big challenge was designing what the system should look like, based on the requirements that were somewhat ambiguous at the time. Furthermore, one of the desires of the system was for the user to have complete freedom in designing the geological constructs to store data. This meant, we would have no idea what a &amp;ldquo;something&amp;rdquo; would look like until the user created it, and what additional attributes it may have. There was talk of creating database tables as needed, for each new construct. Basically, the user would be a god in the system (or dog, I forget which). This would be problematic. How does one query a database when you have no idea what it looks like? Furthermore, how does a DBA maintain it? How would you adapt software to adapt to the ever-changing data-store?&lt;/p&gt;
+
+&lt;p&gt;Our first conclusion was creating tables dynamically, for an unknown number of constructs, would be messy, and likely suicidal. There was a DB paradigm out there that we could possibly use, as a RDBMS didn&amp;rsquo;t seem ideal for our needs. It was &lt;a href=&#34;http://en.wikipedia.org/wiki/NoSQL&#34;&gt;No-SQL&lt;/a&gt;. We had focused a little on learning &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; and high hopes for using this, but alas, we had no in-house expertise, and the timeline for project completion didn&amp;rsquo;t leave much for gambling on something we knew little about. As an alternative, our database team suggested we use an &lt;a href=&#34;http://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model&#34;&gt;EAV&lt;/a&gt; database design pattern for storing dynamic data within a RDBMS. The only caveat would be we would need to limit the user from creating dynamic constructs, and give them pre-built ones, but general enough so they could design their own templates on top of our core. This was an accepted solution, so we moved forward.&lt;/p&gt;
+
+&lt;h3 id=&#34;challenge-the-second:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the second:&lt;/h3&gt;
+
+&lt;p&gt;Since another web product the company was committed to was already built using PHP and various Microsoft technologies (namely, IIS and SQL Server) due to client imposed restrictions, the trend was that we would develop this new web application with the same technologies.&lt;/p&gt;
+
+&lt;p&gt;Using PHP, and the Microsoft colors of the rainbow is not particularly advantageous. They are technologies that do not compliment each other. And as a result, there is very little help and documentation out there in the event you hit a wall. Stick to a solution stack that works well together, like LAMP (Linux, Apache, MySQL, PHP) or if Microsoft is your preference, well ASP.NET would be preferable over PHP.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Disclaimer: Microsoft is not my preference for web application development and I could go on and on about why I hate developing in Windows at all, because it is giant pile of garbage, but I won&amp;rsquo;t do that here. Maybe some other time. I will say that I do love their debugger for C++ development and is matched by no one right now, at least to my knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And finally, a client should not be dictating what your software solution stack is, but rather it should be transparent to them when delivering a fully realized software solution. But that is an argument for a another time.&lt;/p&gt;
+
+&lt;h3 id=&#34;challenge-the-third:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the third:&lt;/h3&gt;
+
+&lt;p&gt;Development resources were something that was lacking on this project. Others assisted where they could, but they were primarily assigned to other projects, and so much of the day-to-day coding was done by myself. Now the main issue with this, was that I am not a web developer by trade, however, due to the circumstances, I became one. I learned as much as I could, and did the best with the what skills I had and what I could learn from the only other web developer in the company. I learned a great deal, which is one of the pluses when thrown into a situation as this, but most days I felt like this. Also, I am certain that had there been more experienced web developers throughout the development of the project, certain steps could have been achieved more quickly.&lt;/p&gt;
+
+&lt;p&gt;In the end, it turned out better than I had expected, but there is still much to be done in the next phases of QA, deployment, and maintenance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn me a PHP for great good: Laravel 4</title>
+      <link>http://quandrei.github.io/post/laravel4/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <description>
+
+&lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
+
+&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project. Those issues will be the subject of a later post. RIght now, I will just write about my experience with the framework and architecture decision we made.&lt;/p&gt;
+
+&lt;h3 id=&#34;laravel-4-http-laravel-com:d9086dbed090496934deaef636486657&#34;&gt;&lt;a href=&#34;http://laravel.com/&#34;&gt;Laravel 4:&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Basically, it is a PHP framework that uses an &lt;a href=&#34;http://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; implementation (referred to as &lt;a href=&#34;http://laravel.com/docs/eloquent&#34;&gt;Eloquent ORM&lt;/a&gt; in their documentation). It is somewhat reminiscent to Rails for Ruby. It works with various databases, including MySQL, Postgres, SQLite, and SQL Server. Dependencies and packages can be managed with &lt;a href=&#34;http://getcomposer.org/&#34;&gt;composer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:d9086dbed090496934deaef636486657&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Development speed: Once our database schema was established, creating models and defining their relations was exceptionally quick and straightforward. There were very limited resources on this project (mostly it was me doing about 75% of the coding), but was still able to get a fully functional system in a few months.&lt;/p&gt;
+
+&lt;p&gt;RESTful routing: One of the aims of the web application was to make it RESTful, and setting up the &lt;a href=&#34;http://laravel.com/docs/routing&#34;&gt;routing with Laravel 4&lt;/a&gt; was simple, and had enough features to handle more complex requests.&lt;/p&gt;
+
+&lt;p&gt;MVC: Through the &lt;a href=&#34;https://github.com/JeffreyWay/Laravel-4-Generators&#34;&gt;Jeffrey Way Laravel 4 Generators&lt;/a&gt;, coding a model-view-controller web application became a lot quicker.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:d9086dbed090496934deaef636486657&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Magic unicorn sprinkles: With all the bells and whistles of Laravel 4, which speed up development time, there is a lot going on in the background, handling things for you, most of which you may not be aware of. This might be handy in a pinch, but this will eventually result in you hitting a wall when there is a bug, that you cannot immediately resolve because you do not fully understand what is going on under the hood.&lt;/p&gt;
+
+&lt;p&gt;One issue I encountered was naming of certain functions, classes, or tables, must follow a specific convention in order to work within the web application.&lt;/p&gt;
+
+&lt;p&gt;One example is camelCase must be used to define specific relational functions. I had made the mistake of using snake_case in the function definition of a many-to-many relationship (due to some older Laravel documantation where snake_case was the standard prior to Laravel 4), and the result was a rather bizarre and uninformative error. After much digging on StackOverflow, I found the resolution.&lt;/p&gt;
+
+&lt;p&gt;Another example of naming causing a problem, is that it is assumed that all &amp;lsquo;Model&amp;rsquo; classes are named in the singular tense, and the table that stores those instantiations of the model, in the plural tense. Often, this may work fine, however, there were a few situation where this did not make sense for my web application. This caused an issue, as my table schema didn&amp;rsquo;t follow this convention, and when trying to save a model instantiation, it would throw an error. The fix was simple (as you can specify a different table name in your model class), but again, something that may not be obvious to the new-comer.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:d9086dbed090496934deaef636486657&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;All in all, I found this a pretty good framework to work with, and handles the ActiveRecord paradigm competently. I am sure I will be facing some magic unicorn dust in the near future, but the key will be understanding the underpinnings to handle any tailspins and &lt;a href=&#34;http://tinyurl.com/lpfef3n&#34;&gt;barrel rolls&lt;/a&gt;. I am still discovering new features everyday, and some neat things to optimize my web application. And the adventure continues, as I step into the QA testing and subsequent maintenance phases of this development project. My hope is that, time permitting, I can start implementing unit tests and continuous integration in phase 2. Until then, keep looking to the stars!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Codeschool</title>
+      <link>http://quandrei.github.io/post/codeschool/</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/codeschool/</guid>
+      <description>
+
+&lt;p&gt;A few months ago, I had decided to give &lt;a href=&#34;http://www.codeschool.com&#34;&gt;codeschool&lt;/a&gt; a try. It was more out of curiosity than necessity, to see if an online learning tool would help me learn a new language more quickly. Due to a billing hiccup, they were very gracious and gave me a free subscription for 6 months. This is my take on the whole concept:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Most of the courses give you a good overview of the subject it is trying to educate you on. They go into a few details, and I have experienced a few TIL moments. The interface is pretty slick, and the intro videos/themes of each subject is engaging and entertaining. Some neat features also include in-browser exercises and tracking of progress of each course, with badges as achievements. It is also handy to have the slides of each course available for later reference.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Their motto, &amp;ldquo;Learn by doing&amp;rdquo; is a little light on the &amp;lsquo;doing&amp;rsquo; part. I feel the &amp;lsquo;challenges&amp;rsquo; after each section are not terribly challenging. Most times, a quick view of the slides, and I can get through them fairly quickly (but this may also be due to my experience as a developer&amp;hellip; maybe beginners might find these more challenging). My one main critique would be to create more involved exercises for the subject matter, to really ingrain the material learned.&lt;/p&gt;
+
+&lt;p&gt;A second observation I have is how fickle the system is when interpreting your submitted code. Often, I have found that an odd space somewhere will throw an error, and your submission is considered incorrect, despite it being perfectly valid code for the solution. I have probably spent more time trying to figure out what EXACTLY they wanted (character by character), than actually solving the problems presented to me.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;I would say that this would be a good beginner to anyone wanting to learn the very basics of language, and maybe pick up a few details. I don&amp;rsquo;t really feel this would be useful to experienced developers, as most of this information can be picked up through a good text, in which more details and subtleties of the language can be learned. It&amp;rsquo;s in knowing those underpinnings and details, that makes decisions on whether to use that language/technology on a project more informed and valid. And since getting a text would be the next step in really learning something, the codeschool step might seem unnecessary.&lt;/p&gt;
+
+&lt;p&gt;The only advantage I see would be that learning those tidbits from codeschool will definitely be quicker than learning from a text. In my humble opinion, that hardly seems worth it when there exists the potential of really borking something when you don&amp;rsquo;t know the technology all that well.&lt;/p&gt;
+
+&lt;p&gt;To learn and know something well, I feel that nothing really trumps experience. And experience takes TIME. There is no such thing as &lt;a href=&#34;http://www.acartoofar.co.uk/wp-content/uploads/2010/03/Teach-yourself-C++-in-21-days.png&#34;&gt;learning [insert language here] in 21 days&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My main concern with this form of learning (and other specialized courses), is the generation of incompetent coders, who deem themselves to be highly knowledgeable, that will be turning up due to this trend of learning. Many will have the skills to churn out working code, but not the knowledge of a solid CS background that teaches fundamental concepts, which in turn helps you produce efficient and future-proof products/code. Basically, they will know enough to be dangerous.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on [quandrei]</title>
+    <link>http://quandrei.github.io/page/</link>
+    <description>Recent content in Pages on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://quandrei.github.io/page/about/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/page/about/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;What you are experiencing is a temporary distortion of reality. Do not be alarmed.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a home for all that is dev outside my regular gig as a software developer, with a few other interests peppered in. Formerly on &lt;a href=&#34;http://squarespace.com/&#34;&gt;squarespace&lt;/a&gt;, I decided to move to github pages, and haven&amp;rsquo;t looked back. If you&amp;rsquo;re interested why, read &lt;a href=&#34;http://quandrei.github.io/2014/03/20/github-pages-transition/&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Setup for this site:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deployed using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a wicked static site generator&lt;/li&gt;
+&lt;li&gt;Hosted for free on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Built using tools like &lt;a href=&#34;http://www.sublimetext.com/&#34;&gt;Sublime Text&lt;/a&gt; and &lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh my ZSH&lt;/a&gt;, in between coffees&lt;/li&gt;
+&lt;li&gt;Using &lt;a href=&#34;http://themes.gohugo.io/redlounge/&#34;&gt;Red Lounge&lt;/a&gt; as a theme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;[End Transmission]&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://quandrei.github.io/page/projects/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/page/projects/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;What you are experiencing is a temporary distortion of reality. Do not be alarmed.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This section is currently &lt;em&gt;&lt;code&gt;in progress&lt;/code&gt;&lt;/em&gt;, much like a few of my projects at the moment. Once something is ready, I will update this page accordingly. Until then, keep watching the stars.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[End Transmission]&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

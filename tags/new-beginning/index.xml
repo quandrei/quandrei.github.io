@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Beginning on [quandrei]</title>
+    <link>http://quandrei.github.io/tags/new-beginning/</link>
+    <description>Recent content in New Beginning on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/tags/new-beginning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I am bored...</title>
+      <link>http://quandrei.github.io/post/boredom/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/boredom/</guid>
+      <description>&lt;p&gt;So I have been extraordinarily busy with work these past few months, and haven&amp;rsquo;t had very much time for side projects, and interesting things that I&amp;rsquo;ve wanted to devote some time to. I&amp;rsquo;ve also been getting pretty bored with the work I am doing, something very dangerous in my profession, since this usually leads to the itch for new surroundings. This is a fairly engaging read on how to combat boredom for employees: &lt;a href=&#34;http://randsinrepose.com/archives/bored-people-quit/&#34;&gt;Bored People Quit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In an effort to combat my boredom, I have been devoting time to learning a few new things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://progrium.viewdocs.io/dokku/&#34;&gt;Dokku&lt;/a&gt; - PAAS (mini-Heroku) I deployed to my VPS to host everything&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt; - python microframework used to create a web app&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; / &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - golang site generator to provide info on various projects&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; - iOS app to interface with the web app API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will update here, once more of these developments have materialized.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[END TRANSMISSION]&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

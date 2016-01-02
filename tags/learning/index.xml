@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on [quandrei]</title>
+    <link>http://quandrei.github.io/tags/learning/</link>
+    <description>Recent content in Learning on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 28 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learn me a PHP for great good: Laravel 4</title>
+      <link>http://quandrei.github.io/post/laravel4/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <description>
+
+&lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
+
+&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project. Those issues will be the subject of a later post. RIght now, I will just write about my experience with the framework and architecture decision we made.&lt;/p&gt;
+
+&lt;h3 id=&#34;laravel-4-http-laravel-com:d9086dbed090496934deaef636486657&#34;&gt;&lt;a href=&#34;http://laravel.com/&#34;&gt;Laravel 4:&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Basically, it is a PHP framework that uses an &lt;a href=&#34;http://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; implementation (referred to as &lt;a href=&#34;http://laravel.com/docs/eloquent&#34;&gt;Eloquent ORM&lt;/a&gt; in their documentation). It is somewhat reminiscent to Rails for Ruby. It works with various databases, including MySQL, Postgres, SQLite, and SQL Server. Dependencies and packages can be managed with &lt;a href=&#34;http://getcomposer.org/&#34;&gt;composer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:d9086dbed090496934deaef636486657&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Development speed: Once our database schema was established, creating models and defining their relations was exceptionally quick and straightforward. There were very limited resources on this project (mostly it was me doing about 75% of the coding), but was still able to get a fully functional system in a few months.&lt;/p&gt;
+
+&lt;p&gt;RESTful routing: One of the aims of the web application was to make it RESTful, and setting up the &lt;a href=&#34;http://laravel.com/docs/routing&#34;&gt;routing with Laravel 4&lt;/a&gt; was simple, and had enough features to handle more complex requests.&lt;/p&gt;
+
+&lt;p&gt;MVC: Through the &lt;a href=&#34;https://github.com/JeffreyWay/Laravel-4-Generators&#34;&gt;Jeffrey Way Laravel 4 Generators&lt;/a&gt;, coding a model-view-controller web application became a lot quicker.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:d9086dbed090496934deaef636486657&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Magic unicorn sprinkles: With all the bells and whistles of Laravel 4, which speed up development time, there is a lot going on in the background, handling things for you, most of which you may not be aware of. This might be handy in a pinch, but this will eventually result in you hitting a wall when there is a bug, that you cannot immediately resolve because you do not fully understand what is going on under the hood.&lt;/p&gt;
+
+&lt;p&gt;One issue I encountered was naming of certain functions, classes, or tables, must follow a specific convention in order to work within the web application.&lt;/p&gt;
+
+&lt;p&gt;One example is camelCase must be used to define specific relational functions. I had made the mistake of using snake_case in the function definition of a many-to-many relationship (due to some older Laravel documantation where snake_case was the standard prior to Laravel 4), and the result was a rather bizarre and uninformative error. After much digging on StackOverflow, I found the resolution.&lt;/p&gt;
+
+&lt;p&gt;Another example of naming causing a problem, is that it is assumed that all &amp;lsquo;Model&amp;rsquo; classes are named in the singular tense, and the table that stores those instantiations of the model, in the plural tense. Often, this may work fine, however, there were a few situation where this did not make sense for my web application. This caused an issue, as my table schema didn&amp;rsquo;t follow this convention, and when trying to save a model instantiation, it would throw an error. The fix was simple (as you can specify a different table name in your model class), but again, something that may not be obvious to the new-comer.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:d9086dbed090496934deaef636486657&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;All in all, I found this a pretty good framework to work with, and handles the ActiveRecord paradigm competently. I am sure I will be facing some magic unicorn dust in the near future, but the key will be understanding the underpinnings to handle any tailspins and &lt;a href=&#34;http://tinyurl.com/lpfef3n&#34;&gt;barrel rolls&lt;/a&gt;. I am still discovering new features everyday, and some neat things to optimize my web application. And the adventure continues, as I step into the QA testing and subsequent maintenance phases of this development project. My hope is that, time permitting, I can start implementing unit tests and continuous integration in phase 2. Until then, keep looking to the stars!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Codeschool</title>
+      <link>http://quandrei.github.io/post/codeschool/</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/codeschool/</guid>
+      <description>
+
+&lt;p&gt;A few months ago, I had decided to give &lt;a href=&#34;http://www.codeschool.com&#34;&gt;codeschool&lt;/a&gt; a try. It was more out of curiosity than necessity, to see if an online learning tool would help me learn a new language more quickly. Due to a billing hiccup, they were very gracious and gave me a free subscription for 6 months. This is my take on the whole concept:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Most of the courses give you a good overview of the subject it is trying to educate you on. They go into a few details, and I have experienced a few TIL moments. The interface is pretty slick, and the intro videos/themes of each subject is engaging and entertaining. Some neat features also include in-browser exercises and tracking of progress of each course, with badges as achievements. It is also handy to have the slides of each course available for later reference.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Their motto, &amp;ldquo;Learn by doing&amp;rdquo; is a little light on the &amp;lsquo;doing&amp;rsquo; part. I feel the &amp;lsquo;challenges&amp;rsquo; after each section are not terribly challenging. Most times, a quick view of the slides, and I can get through them fairly quickly (but this may also be due to my experience as a developer&amp;hellip; maybe beginners might find these more challenging). My one main critique would be to create more involved exercises for the subject matter, to really ingrain the material learned.&lt;/p&gt;
+
+&lt;p&gt;A second observation I have is how fickle the system is when interpreting your submitted code. Often, I have found that an odd space somewhere will throw an error, and your submission is considered incorrect, despite it being perfectly valid code for the solution. I have probably spent more time trying to figure out what EXACTLY they wanted (character by character), than actually solving the problems presented to me.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;I would say that this would be a good beginner to anyone wanting to learn the very basics of language, and maybe pick up a few details. I don&amp;rsquo;t really feel this would be useful to experienced developers, as most of this information can be picked up through a good text, in which more details and subtleties of the language can be learned. It&amp;rsquo;s in knowing those underpinnings and details, that makes decisions on whether to use that language/technology on a project more informed and valid. And since getting a text would be the next step in really learning something, the codeschool step might seem unnecessary.&lt;/p&gt;
+
+&lt;p&gt;The only advantage I see would be that learning those tidbits from codeschool will definitely be quicker than learning from a text. In my humble opinion, that hardly seems worth it when there exists the potential of really borking something when you don&amp;rsquo;t know the technology all that well.&lt;/p&gt;
+
+&lt;p&gt;To learn and know something well, I feel that nothing really trumps experience. And experience takes TIME. There is no such thing as &lt;a href=&#34;http://www.acartoofar.co.uk/wp-content/uploads/2010/03/Teach-yourself-C++-in-21-days.png&#34;&gt;learning [insert language here] in 21 days&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My main concern with this form of learning (and other specialized courses), is the generation of incompetent coders, who deem themselves to be highly knowledgeable, that will be turning up due to this trend of learning. Many will have the skills to churn out working code, but not the knowledge of a solid CS background that teaches fundamental concepts, which in turn helps you produce efficient and future-proof products/code. Basically, they will know enough to be dangerous.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

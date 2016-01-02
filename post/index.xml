@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on [quandrei]</title>
+    <link>http://quandrei.github.io/post/</link>
+    <description>Recent content in Posts on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I am bored...</title>
+      <link>http://quandrei.github.io/post/boredom/</link>
+      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/boredom/</guid>
+      <description>&lt;p&gt;So I have been extraordinarily busy with work these past few months, and haven&amp;rsquo;t had very much time for side projects, and interesting things that I&amp;rsquo;ve wanted to devote some time to. I&amp;rsquo;ve also been getting pretty bored with the work I am doing, something very dangerous in my profession, since this usually leads to the itch for new surroundings. This is a fairly engaging read on how to combat boredom for employees: &lt;a href=&#34;http://randsinrepose.com/archives/bored-people-quit/&#34;&gt;Bored People Quit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In an effort to combat my boredom, I have been devoting time to learning a few new things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://progrium.viewdocs.io/dokku/&#34;&gt;Dokku&lt;/a&gt; - PAAS (mini-Heroku) I deployed to my VPS to host everything&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt; - python microframework used to create a web app&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; / &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - golang site generator to provide info on various projects&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; - iOS app to interface with the web app API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will update here, once more of these developments have materialized.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[END TRANSMISSION]&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Magento is as Magento does</title>
+      <link>http://quandrei.github.io/post/magento/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/magento/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;
+
+&lt;p&gt;Have you ever heard the expression:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Stupid is as stupid does&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well, by that same token, I think that the following expression is an apt decription of Magento:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Magento is as Magento does&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For a more full explanation of the underlying expression, see &lt;a href=&#34;http://answers.google.com/answers/threadview?id=392986&#34;&gt;this&lt;/a&gt; (you can ignore all the preachy comments, and stick to the first answer given). But basically, this boils down to judging people or things by what they do, and not by how they appear.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Magento &lt;em&gt;appears&lt;/em&gt; to be a very shiny e-commerce solution. And in some respects it is. It provides a great degree of flexibility for those that want an e-commerce store, and has proven itself in the marketplace as a vetted solution.&lt;/p&gt;
+
+&lt;p&gt;It provides a clean approach to create custom modules for new functionality, allowing for compartmentalizing code, and also provides mechanisms for injecting code in the execution process through minimal intrusion using event observers.&lt;/p&gt;
+
+&lt;p&gt;These are all great things, however&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;To achieve this level of flexibility, it has made some design decisions (one being an &lt;a href=&#34;https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model&#34;&gt;EAV&lt;/a&gt; database schema design), which in turn sacrifices performance and scalability. To combat this issue, boosting performance is achieved through various caching techniques, but in my opinion is a hack at best, and a better solution should be sought out instead of applying a patching approach. Due to these performance issues, daily development can get slow and time consuming.&lt;/p&gt;
+
+&lt;p&gt;The monolithic codebase is often difficult to navigate, and coupled with many different developers who have worked on this over a decade, and many having different approaches/visions to solving the same problem, often has led me in circles when trying to determine the best solution to a problem I am facing.&lt;/p&gt;
+
+&lt;p&gt;A very picky naming convention for files/classes/modules/XML data can be frustrating at first, since often times, no errors are reported and fails silently, causing you to scratch your head wondering what went wrong.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;Fortunately, a new hope has appeared in the form of Magento 2, and coupled with the release of PHP 7, should at the very least be intersting. Hopefully, this will help in resolving some of the annoyances in working with the platform on a daily basis (although XML files seem to have tripled&amp;hellip; ugh). From my limited knowledge of the release, some database architecture changes have been made to improve on performance. Personally, I would have liked to see something like &lt;a href=&#34;http://www.postgresql.org/docs/current/static/hstore.html&#34;&gt;PostgreSQL and the hstore&lt;/a&gt; column applied. With that approach, you would get the relational database components where needed, and the hstore column (similar to a document store applied in NoSQL) used where the dynamic nature of EAV is needed.&lt;/p&gt;
+
+&lt;p&gt;Time will tell if this release will redeem Magento in my eyes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CyanogenMod is the new black</title>
+      <link>http://quandrei.github.io/post/cyanogenmod/</link>
+      <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/cyanogenmod/</guid>
+      <description>
+
+&lt;p&gt;Recently, I had been a little disappointed with the battery life on my &lt;a href=&#34;http://en.wikipedia.org/wiki/Nexus_4&#34;&gt;Nexus 4 device&lt;/a&gt;. I noticed a drop in battery performance when I installed &lt;a href=&#34;http://www.android.com/versions/lollipop-5-0/&#34;&gt;Android Lollipop&lt;/a&gt;, and thought the reason might be due to all the upgrades and bloat I had accumulated. I decided that what was needed was a tried and true method: a clean install. And this was the perfect opportunity to give a custom ROM a shot; specifically, &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;CyanogenMod&lt;/a&gt;. This was my limited experience after about a week and a half of use&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-install:85692c9bc1452ade613bde8053351cd3&#34;&gt;The install:&lt;/h3&gt;
+
+&lt;p&gt;So ordinarily, installing would be a simple matter of following the instructions and visiting the &lt;a href=&#34;http://beta.download.cyanogenmod.org/install&#34;&gt;install link&lt;/a&gt; (when you have a &lt;a href=&#34;http://wiki.cyanogenmod.org/w/CyanogenMod_Installer#Supported_Devices&#34;&gt;supported device&lt;/a&gt;, which mine was). However, when running the installer, I got the message stating mine was not. The reason for this was due to the fact that I had an android version (v5.0.x) that was more recent than what CyanogenMod was using (v4.4.x). So before I was able to install, I needed to downgrade my android version to v4.3.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:85692c9bc1452ade613bde8053351cd3&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;The level of customization was the most satisfying part of this experience. Nearly everything you can think of can be modified to suit your preferences or needs. So much so, that I was able to have the interface appear almost identically to Lollipop, despite actually being on android v4.4.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:85692c9bc1452ade613bde8053351cd3&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;I noticed after a while, I could not make phone calls. I was able to dial and connect to another person when making a call, but there was no sound (I could not hear the line ringing or the person pick up, and the person could not hear me when the line picked up). There was a reported bug for this on their &lt;a href=&#34;https://jira.cyanogenmod.org/browse/CYAN-5728&#34;&gt;JIRA&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Less of an issue, but still annoying, was some of the display features on a few downloaded apps was hit or miss (e.g. when using the dropdwon tray, text on my Spotify app would be blank, and only icons would appear).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:85692c9bc1452ade613bde8053351cd3&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;The battery consumption was pretty good in the beginning, with stock everything. But as I installed all the applications I needed, it was pretty much on par with Lollipop. Not so much a deal breaker, but one of the original reasons to try Cyanogenmod were some claims I had heard that battery life would be improved (at least marginally) with this ROM.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In the end, due to the critical bug, I decided to go back to Lollipop. A little disappointing, but making phone calls is kind of a necessity when having a phone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Round and round she goes...</title>
+      <link>http://quandrei.github.io/post/round-and-round/</link>
+      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/round-and-round/</guid>
+      <description>&lt;p&gt;So, in preparations for a trip this summer, I had booked a few flights through the Royal Bank rewards program. The flight tickets are held by the Lufthansa airline, while one of the flights is operated by Air Canada (being one of their partners).&lt;/p&gt;
+
+&lt;p&gt;An important piece of information to note, is that I will be traveling with an infant. That being the case, I wanted to reserve seats with a bassinet, and in the case of the Air Canada operated flight, this is in the preferred seating area (which carries with it a fee, that I am more than willing to pay).&lt;/p&gt;
+
+&lt;p&gt;I contacted Lufthansa to book the seat (since the tickets were issued by them and I had the need to reserve seats on their flight as well), however, because it is a flight operated by Air Canada, they said I would need to speak to them for that specific flight.&lt;/p&gt;
+
+&lt;p&gt;I contacted Air Canada to book the seats, but the agent refused, because although the flight is operated by Air Canada, the ticket is with Lufthansa, so they cannot accept payment for seat reservation.&lt;/p&gt;
+
+&lt;p&gt;I contacted RBC Rewards, to see if I can reserve and pay the fee with them, and they referred me back to Lufthansa, because they were unable to do so.&lt;/p&gt;
+
+&lt;p&gt;And round and round she goes&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I find this entire situation ridiculous, since of the 3 organizations involved, none can book a seat, all of which have a hand in the travels. To be more apt, 3 organizations, all of which are useless.&lt;/p&gt;
+
+&lt;p&gt;I decided that the most likely of the 3 to help, would be Air Canada, since they operated the flight, and at least had access to the seating I needed. So I decided to escalate the situation with them.&lt;/p&gt;
+
+&lt;p&gt;When I expressed my discontent with the Air Canada agent and requested to speak to a supervisor, I was told this was not possible. I was further informed I could not file a complaint with them, and would need to contact customer relations through an online form. When I requested an employee number or reference number for the call, for my complaint, I was told they were not permitted to give any of those out. So the only info I was given, was a first name and a city with a population of over 5 million people. I am certain in an organization as large as Air Canada, there could be only one.&lt;/p&gt;
+
+&lt;p&gt;BUT I decided to file my grievance anyway, as instructed. I contacted customer relations, with the limited information I had, and received an answer fairly quickly. What was the answer, you ask? To contact the reservations department. The very same department that could do nothing to help me, the same department that refused to allow me to file a complaint with them, and the same department that referred me to customer relations to resolve my grievance in the first place.&lt;/p&gt;
+
+&lt;p&gt;And round and round she goes&amp;hellip; again.&lt;/p&gt;
+
+&lt;p&gt;These circles are making me dizzy.&lt;/p&gt;
+
+&lt;p&gt;So, an open question to all 3 of these seemingly impotent organizations. Which one of you will step up and make a legitimate attempt at resolving my problem?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New System Install</title>
+      <link>http://quandrei.github.io/post/new-system-install/</link>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/new-system-install/</guid>
+      <description>
+
+&lt;p&gt;With the release of OS-X Yosemite, I decided it was time for a clean install of my system. I decided that this time, I would try and automate this as much as possible, without having to resort to being there very much, because, well&amp;hellip; time is precious and I have better things to do.&lt;/p&gt;
+
+&lt;p&gt;The script and general steps I used can be found in a bash file I have on my &lt;a href=&#34;https://github.com/quandrei/new-system-install-script-osx&#34;&gt;github account&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;initial-manual-steps:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;Initial (manual) steps&lt;/h3&gt;
+
+&lt;p&gt;You will notice that in the script, the first few installs are commented out. I originally did these manually, because they are crucial (i.e. the rest will just fail without the success of those), and hadn&amp;rsquo;t really planned on a script at that point. The tools are as follows:&lt;/p&gt;
+
+&lt;h4 id=&#34;os-x-command-line-tools:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;OS-X command line tools&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ xcode-select --install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;oh-my-zsh-http-ohmyz-sh:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh-my-ZSH&lt;/a&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ curl -L http://install.ohmyz.sh | sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;homebrew-http-brew-sh:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://brew.sh/&#34;&gt;homebrew&lt;/a&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;homebrew-cask-http-caskroom-io:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://caskroom.io/&#34;&gt;homebrew-cask&lt;/a&gt;&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install caskroom/cask/brew-cask
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You might also want to specify some defaults for homebrew-cask, e.g. default of where you want your apps installed:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;### Specify your defaults in this environment variable 
+### (in .bash_profile or .zshenv) 
+$ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More can be found in the &lt;a href=&#34;https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md&#34;&gt;usage docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I will not go into explaining why these tools are great and why you should use them. There are many articles out there. Just use the googles or &lt;a href=&#34;https://duckduckgo.com/&#34;&gt;duck-duck-go&lt;/a&gt;, whichever you prefer.&lt;/p&gt;
+
+&lt;p&gt;The rest of the script is essentially grabbing what I need/want; specifically, environment-wise via homebrew and gui apps via homebrew-cask. Nice thing about this, is I don&amp;rsquo;t need to deal with downloaders and going to each invidual site. And updating/maintaining everything is a breeze, and achieved with a few simple commands in the terminal.&lt;/p&gt;
+
+&lt;p&gt;If you are too lazy to actually look at my bash script, the following is a list of what I install:&lt;/p&gt;
+
+&lt;h4 id=&#34;homebrew-packages:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;homebrew packages:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;wget&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;git-flow&lt;/li&gt;
+&lt;li&gt;tree&lt;/li&gt;
+&lt;li&gt;node&lt;/li&gt;
+&lt;li&gt;sqlite&lt;/li&gt;
+&lt;li&gt;postgresql&lt;/li&gt;
+&lt;li&gt;mongodb&lt;/li&gt;
+&lt;li&gt;mcrypt&lt;/li&gt;
+&lt;li&gt;php56&lt;/li&gt;
+&lt;li&gt;php56-mcrypt&lt;/li&gt;
+&lt;li&gt;php56-xdebug&lt;/li&gt;
+&lt;li&gt;phpunit&lt;/li&gt;
+&lt;li&gt;openssl&lt;/li&gt;
+&lt;li&gt;gpg2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;homebrew-cask-packages:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;homebrew cask packages&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vagrant&lt;/li&gt;
+&lt;li&gt;virtualbox&lt;/li&gt;
+&lt;li&gt;alfred&lt;/li&gt;
+&lt;li&gt;iterm2&lt;/li&gt;
+&lt;li&gt;1password&lt;/li&gt;
+&lt;li&gt;seil&lt;/li&gt;
+&lt;li&gt;divvy&lt;/li&gt;
+&lt;li&gt;sourcetree&lt;/li&gt;
+&lt;li&gt;dropbox&lt;/li&gt;
+&lt;li&gt;firefox&lt;/li&gt;
+&lt;li&gt;firefoxdeveloperedition&lt;/li&gt;
+&lt;li&gt;google-chrome&lt;/li&gt;
+&lt;li&gt;google-chrome-canary&lt;/li&gt;
+&lt;li&gt;spotify&lt;/li&gt;
+&lt;li&gt;vlc&lt;/li&gt;
+&lt;li&gt;sublime-text3&lt;/li&gt;
+&lt;li&gt;sequel-pro&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have not linked to any of these, cause I am lazy too. If this irks you, please submit your grievance to the complaints dept.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github Pages Launch</title>
+      <link>http://quandrei.github.io/post/github-pages-launch/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/github-pages-launch/</guid>
+      <description>
+
+&lt;p&gt;So the process was slow­moving (due to a few other things going on in my life), but it is finally up and running. A few things to take note of:&lt;/p&gt;
+
+&lt;h3 id=&#34;deciding-on-a-jekyll-theme:2c26a5b1b5753de0d42116532c98c907&#34;&gt;Deciding on a Jekyll theme&lt;/h3&gt;
+
+&lt;p&gt;This was more challenging than I thought. There are quite a few out there, but I decided on one that was simple, and looked slick, namely, &lt;a href=&#34;http://getpoole.com/&#34;&gt;Poole&lt;/a&gt; (the Jekyll butler) using the &lt;a href=&#34;http://lanyon.getpoole.com/&#34;&gt;Lanyon&lt;/a&gt; theme. &lt;a href=&#34;http://hyde.getpoole.com/&#34;&gt;Hyde&lt;/a&gt; was a close second, but I preferred having the hidden menu.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-css-is-a-bit-buggy:2c26a5b1b5753de0d42116532c98c907&#34;&gt;The CSS is a bit buggy&lt;/h3&gt;
+
+&lt;p&gt;It does not seem to be completely cross­browser friendly. I noticed that clicking on the menu icon (top­right) in FF will still have the icon super­imposed on the text, whereas in other browsers, it will move left when displaying the menu (as it should). When using a fresh Jekyll install locally, with no content changed, this is not the case, but as soon as I changed something, it broke for some reason. It&amp;rsquo;s possible I borked something somewhere, but haven&amp;rsquo;t looked into it much. Funny enough, it works nicely on my Nexus 4 using the FF browser.&lt;/p&gt;
+
+&lt;h3 id=&#34;moving-content:2c26a5b1b5753de0d42116532c98c907&#34;&gt;Moving Content&lt;/h3&gt;
+
+&lt;p&gt;Obviously, this was a little dull as I needed to grab the raw content from my SS site, and format it for markdown. SS doesn&amp;rsquo;t have an API I&amp;rsquo;m aware of for such a task (although I didn&amp;rsquo;t look into it much), and I probably could&amp;rsquo;ve written a script for this, but I would&amp;rsquo;ve needed to go through the content anyway to ensure everything was pristine. The script would&amp;rsquo;ve likely taken more time than actually going through the few blog posts I had.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-few-nice-things:2c26a5b1b5753de0d42116532c98c907&#34;&gt;A few nice things&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;There are a few easily­ done things I liked about SS. One was having a tag cloud, which requires some plugin for Jekyll. Not sure if having a plugin is something I could do on Github Pages, so I would need to look into it. Another, was having a gallery of some photography I did in a past life. Again, a plugin is the likely route, and not sure if gh­pages blah blah blah&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;­­­&amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s it. As a treat, I think everyone should read this: &lt;a href=&#34;http://chiefobrienatwork.com/&#34;&gt;Chief O&amp;rsquo;Brien at Work&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github Pages Transition</title>
+      <link>http://quandrei.github.io/post/github-pages-transition/</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/github-pages-transition/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;ve decided to make the transition from SquareSpace to &lt;a href=&#34;http://pages.github.com/&#34;&gt;github pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are a few reasons for this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;gh-pages is available for the low, bargain-basement price of free as opposed to SS costing money&lt;/li&gt;
+&lt;li&gt;gh-pages allows me to version-control my site &amp;ndash; being an avid developer, this appeals to me&lt;/li&gt;
+&lt;li&gt;gh-pages has the basic features I need &amp;ndash; all I really do is put up links to my projects and blog, and gh-pages allows me to do this easily. SS offers many more features, like e-commerce, but when unused, seems silly to pay for them&lt;/li&gt;
+&lt;li&gt;the longer I stay with SS, the more difficult it will be to move away from them (i.e. move my content somewhere else, if I ever wish to leave)&lt;/li&gt;
+&lt;li&gt;the UI in SS seems to be a bit more cumbersome lately, and is starting to annoy me&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will be moving my content gradually to my new digs: &lt;a href=&#34;http://quandrei.github.io/&#34;&gt;quandrei.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[End transmission]&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grunt Master 6000</title>
+      <link>http://quandrei.github.io/post/grunt-master-6000/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/grunt-master-6000/</guid>
+      <description>
+
+&lt;p&gt;So, let&amp;rsquo;s start this off with a quote from my last post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There I was, fairly new to a company, and asked to take the reigns of a project because of limited developer resources. Everyone else was committed to another project, and although I didn&amp;rsquo;t have the expertise to do this on my own, I was the only one around available for the the task at hand. Although, it should be noted that one of the other developers committed to another project, was around to give guidance, should I encounter any serious problems.&lt;/p&gt;
+
+&lt;h3 id=&#34;challenge-the-first:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the first:&lt;/h3&gt;
+
+&lt;p&gt;Our first big challenge was designing what the system should look like, based on the requirements that were somewhat ambiguous at the time. Furthermore, one of the desires of the system was for the user to have complete freedom in designing the geological constructs to store data. This meant, we would have no idea what a &amp;ldquo;something&amp;rdquo; would look like until the user created it, and what additional attributes it may have. There was talk of creating database tables as needed, for each new construct. Basically, the user would be a god in the system (or dog, I forget which). This would be problematic. How does one query a database when you have no idea what it looks like? Furthermore, how does a DBA maintain it? How would you adapt software to adapt to the ever-changing data-store?&lt;/p&gt;
+
+&lt;p&gt;Our first conclusion was creating tables dynamically, for an unknown number of constructs, would be messy, and likely suicidal. There was a DB paradigm out there that we could possibly use, as a RDBMS didn&amp;rsquo;t seem ideal for our needs. It was &lt;a href=&#34;http://en.wikipedia.org/wiki/NoSQL&#34;&gt;No-SQL&lt;/a&gt;. We had focused a little on learning &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; and high hopes for using this, but alas, we had no in-house expertise, and the timeline for project completion didn&amp;rsquo;t leave much for gambling on something we knew little about. As an alternative, our database team suggested we use an &lt;a href=&#34;http://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model&#34;&gt;EAV&lt;/a&gt; database design pattern for storing dynamic data within a RDBMS. The only caveat would be we would need to limit the user from creating dynamic constructs, and give them pre-built ones, but general enough so they could design their own templates on top of our core. This was an accepted solution, so we moved forward.&lt;/p&gt;
+
+&lt;h3 id=&#34;challenge-the-second:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the second:&lt;/h3&gt;
+
+&lt;p&gt;Since another web product the company was committed to was already built using PHP and various Microsoft technologies (namely, IIS and SQL Server) due to client imposed restrictions, the trend was that we would develop this new web application with the same technologies.&lt;/p&gt;
+
+&lt;p&gt;Using PHP, and the Microsoft colors of the rainbow is not particularly advantageous. They are technologies that do not compliment each other. And as a result, there is very little help and documentation out there in the event you hit a wall. Stick to a solution stack that works well together, like LAMP (Linux, Apache, MySQL, PHP) or if Microsoft is your preference, well ASP.NET would be preferable over PHP.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Disclaimer: Microsoft is not my preference for web application development and I could go on and on about why I hate developing in Windows at all, because it is giant pile of garbage, but I won&amp;rsquo;t do that here. Maybe some other time. I will say that I do love their debugger for C++ development and is matched by no one right now, at least to my knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And finally, a client should not be dictating what your software solution stack is, but rather it should be transparent to them when delivering a fully realized software solution. But that is an argument for a another time.&lt;/p&gt;
+
+&lt;h3 id=&#34;challenge-the-third:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the third:&lt;/h3&gt;
+
+&lt;p&gt;Development resources were something that was lacking on this project. Others assisted where they could, but they were primarily assigned to other projects, and so much of the day-to-day coding was done by myself. Now the main issue with this, was that I am not a web developer by trade, however, due to the circumstances, I became one. I learned as much as I could, and did the best with the what skills I had and what I could learn from the only other web developer in the company. I learned a great deal, which is one of the pluses when thrown into a situation as this, but most days I felt like this. Also, I am certain that had there been more experienced web developers throughout the development of the project, certain steps could have been achieved more quickly.&lt;/p&gt;
+
+&lt;p&gt;In the end, it turned out better than I had expected, but there is still much to be done in the next phases of QA, deployment, and maintenance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn me a PHP for great good: Laravel 4</title>
+      <link>http://quandrei.github.io/post/laravel4/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <description>
+
+&lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
+
+&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project. Those issues will be the subject of a later post. RIght now, I will just write about my experience with the framework and architecture decision we made.&lt;/p&gt;
+
+&lt;h3 id=&#34;laravel-4-http-laravel-com:d9086dbed090496934deaef636486657&#34;&gt;&lt;a href=&#34;http://laravel.com/&#34;&gt;Laravel 4:&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Basically, it is a PHP framework that uses an &lt;a href=&#34;http://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; implementation (referred to as &lt;a href=&#34;http://laravel.com/docs/eloquent&#34;&gt;Eloquent ORM&lt;/a&gt; in their documentation). It is somewhat reminiscent to Rails for Ruby. It works with various databases, including MySQL, Postgres, SQLite, and SQL Server. Dependencies and packages can be managed with &lt;a href=&#34;http://getcomposer.org/&#34;&gt;composer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:d9086dbed090496934deaef636486657&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Development speed: Once our database schema was established, creating models and defining their relations was exceptionally quick and straightforward. There were very limited resources on this project (mostly it was me doing about 75% of the coding), but was still able to get a fully functional system in a few months.&lt;/p&gt;
+
+&lt;p&gt;RESTful routing: One of the aims of the web application was to make it RESTful, and setting up the &lt;a href=&#34;http://laravel.com/docs/routing&#34;&gt;routing with Laravel 4&lt;/a&gt; was simple, and had enough features to handle more complex requests.&lt;/p&gt;
+
+&lt;p&gt;MVC: Through the &lt;a href=&#34;https://github.com/JeffreyWay/Laravel-4-Generators&#34;&gt;Jeffrey Way Laravel 4 Generators&lt;/a&gt;, coding a model-view-controller web application became a lot quicker.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:d9086dbed090496934deaef636486657&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Magic unicorn sprinkles: With all the bells and whistles of Laravel 4, which speed up development time, there is a lot going on in the background, handling things for you, most of which you may not be aware of. This might be handy in a pinch, but this will eventually result in you hitting a wall when there is a bug, that you cannot immediately resolve because you do not fully understand what is going on under the hood.&lt;/p&gt;
+
+&lt;p&gt;One issue I encountered was naming of certain functions, classes, or tables, must follow a specific convention in order to work within the web application.&lt;/p&gt;
+
+&lt;p&gt;One example is camelCase must be used to define specific relational functions. I had made the mistake of using snake_case in the function definition of a many-to-many relationship (due to some older Laravel documantation where snake_case was the standard prior to Laravel 4), and the result was a rather bizarre and uninformative error. After much digging on StackOverflow, I found the resolution.&lt;/p&gt;
+
+&lt;p&gt;Another example of naming causing a problem, is that it is assumed that all &amp;lsquo;Model&amp;rsquo; classes are named in the singular tense, and the table that stores those instantiations of the model, in the plural tense. Often, this may work fine, however, there were a few situation where this did not make sense for my web application. This caused an issue, as my table schema didn&amp;rsquo;t follow this convention, and when trying to save a model instantiation, it would throw an error. The fix was simple (as you can specify a different table name in your model class), but again, something that may not be obvious to the new-comer.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:d9086dbed090496934deaef636486657&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;All in all, I found this a pretty good framework to work with, and handles the ActiveRecord paradigm competently. I am sure I will be facing some magic unicorn dust in the near future, but the key will be understanding the underpinnings to handle any tailspins and &lt;a href=&#34;http://tinyurl.com/lpfef3n&#34;&gt;barrel rolls&lt;/a&gt;. I am still discovering new features everyday, and some neat things to optimize my web application. And the adventure continues, as I step into the QA testing and subsequent maintenance phases of this development project. My hope is that, time permitting, I can start implementing unit tests and continuous integration in phase 2. Until then, keep looking to the stars!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Codeschool</title>
+      <link>http://quandrei.github.io/post/codeschool/</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/codeschool/</guid>
+      <description>
+
+&lt;p&gt;A few months ago, I had decided to give &lt;a href=&#34;http://www.codeschool.com&#34;&gt;codeschool&lt;/a&gt; a try. It was more out of curiosity than necessity, to see if an online learning tool would help me learn a new language more quickly. Due to a billing hiccup, they were very gracious and gave me a free subscription for 6 months. This is my take on the whole concept:&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Most of the courses give you a good overview of the subject it is trying to educate you on. They go into a few details, and I have experienced a few TIL moments. The interface is pretty slick, and the intro videos/themes of each subject is engaging and entertaining. Some neat features also include in-browser exercises and tracking of progress of each course, with badges as achievements. It is also handy to have the slides of each course available for later reference.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Their motto, &amp;ldquo;Learn by doing&amp;rdquo; is a little light on the &amp;lsquo;doing&amp;rsquo; part. I feel the &amp;lsquo;challenges&amp;rsquo; after each section are not terribly challenging. Most times, a quick view of the slides, and I can get through them fairly quickly (but this may also be due to my experience as a developer&amp;hellip; maybe beginners might find these more challenging). My one main critique would be to create more involved exercises for the subject matter, to really ingrain the material learned.&lt;/p&gt;
+
+&lt;p&gt;A second observation I have is how fickle the system is when interpreting your submitted code. Often, I have found that an odd space somewhere will throw an error, and your submission is considered incorrect, despite it being perfectly valid code for the solution. I have probably spent more time trying to figure out what EXACTLY they wanted (character by character), than actually solving the problems presented to me.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;I would say that this would be a good beginner to anyone wanting to learn the very basics of language, and maybe pick up a few details. I don&amp;rsquo;t really feel this would be useful to experienced developers, as most of this information can be picked up through a good text, in which more details and subtleties of the language can be learned. It&amp;rsquo;s in knowing those underpinnings and details, that makes decisions on whether to use that language/technology on a project more informed and valid. And since getting a text would be the next step in really learning something, the codeschool step might seem unnecessary.&lt;/p&gt;
+
+&lt;p&gt;The only advantage I see would be that learning those tidbits from codeschool will definitely be quicker than learning from a text. In my humble opinion, that hardly seems worth it when there exists the potential of really borking something when you don&amp;rsquo;t know the technology all that well.&lt;/p&gt;
+
+&lt;p&gt;To learn and know something well, I feel that nothing really trumps experience. And experience takes TIME. There is no such thing as &lt;a href=&#34;http://www.acartoofar.co.uk/wp-content/uploads/2010/03/Teach-yourself-C++-in-21-days.png&#34;&gt;learning [insert language here] in 21 days&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My main concern with this form of learning (and other specialized courses), is the generation of incompetent coders, who deem themselves to be highly knowledgeable, that will be turning up due to this trend of learning. Many will have the skills to churn out working code, but not the knowledge of a solid CS background that teaches fundamental concepts, which in turn helps you produce efficient and future-proof products/code. Basically, they will know enough to be dangerous.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exposed: MIMIC</title>
+      <link>http://quandrei.github.io/post/exposed-mimic/</link>
+      <pubDate>Sun, 06 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/exposed-mimic/</guid>
+      <description>&lt;p&gt;One of the most influential and interesting projects I have ever had the challenge and pleasure of doing, was organizing the end-of-year exhibition for the Computation Art students. This was several years back, when I was in school, and much younger.&lt;/p&gt;
+
+&lt;p&gt;I recently decided to update my CV and join the 21st century, so that it can be contained in an online format, and to my dismay, much of the work that went into that project, seems to have been removed/deleted/obliterated. All I can find remaining online, is a &lt;a href=&#34;http://newmediafix.net/daily/?p=1967&#34;&gt;press release&lt;/a&gt; on some website. The page that contained this archive still &lt;a href=&#34;http://exposed.concordia.ca/&#34;&gt;exists&lt;/a&gt;, but has been revamped to hold my successors&amp;rsquo; organization of their show. No mention of archives, or past shows. As if nothing my team had achieved mattered. We pioneered that society, and built enough resources for them to continue for years to come, and all we had done&amp;hellip; gone. Disappointing.&lt;/p&gt;
+
+&lt;p&gt;I still have some of the print media (hard copy&amp;hellip; I know, I know), but it is still a shame that many of the interesting projects are no longer chronicled online.&lt;/p&gt;
+
+&lt;p&gt;Just need to get that off my chest. I&amp;rsquo;m done now. Carry on.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kanako&#39;s Kitchen</title>
+      <link>http://quandrei.github.io/post/kanakos-kitchen/</link>
+      <pubDate>Sat, 05 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/kanakos-kitchen/</guid>
+      <description>&lt;p&gt;So I found a blog recently about Japanese home cooking, and it seemed intriguing. I am not, by any stretch, an expert but do enjoy cooking from time to time. I&amp;rsquo;ve been trying a few of the recipes, and this is what I have prepared so far:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To note, the soy sauce I used was general purpose Kikkoman soy sauce for all the recipes, which is considered a Koikuchi soy sauce and not an Usukuchi (a point I wasn&amp;rsquo;t clear on from the recipes).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2012/07/30/hakusai-tuna-nimono/&#34;&gt;Hakusai and tuna fish nimono:&lt;/a&gt; This is a very simple and easy recipe that came out really well. Easy for any newbie, nice flavor, and good in a pinch, but I think I would have preferred it with minced pork. Will definitely be trying this one again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2010/07/19/saba-nitsuke/&#34;&gt;Saba Nitsuke:&lt;/a&gt; This was also a great dish. Although, since I was using 4 filets of mackerel instead of the 2 in the recipe, I doubled the portions for the sauce. I don&amp;rsquo;t think this was necessary in the end, as I had way too much sauce while simmering the fish, and had a hard time reducing it to an acceptable thickness. It was still quite tasty, just wasted ingredients is all.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2010/07/22/yakinasu/&#34;&gt;Yakinasu:&lt;/a&gt;  I love eggplants. And this recipe had promise, but I don&amp;rsquo;t think I executed very well. Fairly simple, but takes patience and time. I only used the katsuobushi as a seasoning, and skipped the ginger. Also, because we were eating several dishes at once, and I had made a plate for each person, I forgot to put some soy sauce on the side for seasoning, which I think would&amp;rsquo;ve complimented this quite well. Overall, the dish was very smokey, and nice, but I felt lacked something to compliment the smokiness. Again, likely due to the absence of soy sauce.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2009/11/16/nuta/&#34;&gt;Nuta:&lt;/a&gt; I used &amp;ldquo;white&amp;rdquo; miso paste for this recipe, but can use whichever you prefer. It was quite good, but due to other cooking distractions, I overcooked the green onions slightly. Still quite tasty, and complimented the above mackerel nicely.&lt;/p&gt;
+
+&lt;p&gt;As with most dishes, I served all of these with Japanese white rice. I highly recommend reading on how to prepare it, because having mediocre rice can really spoil a meal.&lt;/p&gt;
+
+&lt;p&gt;Will continue to go through these, and I suggest you do too. Lots to discover on this blog!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My gaming rig...</title>
+      <link>http://quandrei.github.io/post/my-gaming-rig/</link>
+      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/my-gaming-rig/</guid>
+      <description>&lt;p&gt;So, one of my passions is building my own gaming rigs. To the point, where I usually have parts lying around, and have been able to build a few additional towers on the side. Here are the specs to my latest:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BitFenix Shinobi XL&lt;/li&gt;
+&lt;li&gt;Intel i5 2500K&lt;/li&gt;
+&lt;li&gt;MSI Z68A-GD55 motherboard&lt;/li&gt;
+&lt;li&gt;16 GB Patriot Viper Xtreme (1866mhz)&lt;/li&gt;
+&lt;li&gt;2 x MSI GeForce GTX 560 Ti&lt;/li&gt;
+&lt;li&gt;Plextor 128Gb SSD M5 Pro Xtreme&lt;/li&gt;
+&lt;li&gt;AData 120Gb SSD SandForce SF-2281&lt;/li&gt;
+&lt;li&gt;WD 2Tb Caviar Green HD&lt;/li&gt;
+&lt;li&gt;DasKeyboard Model S Professional&lt;/li&gt;
+&lt;li&gt;Razer DeathAdder Black&lt;/li&gt;
+&lt;li&gt;BenQ RL2450HT monitor&lt;/li&gt;
+&lt;li&gt;SteelSeries Siberia V2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My main platform for gaming, like most, is Steam. Considering the most recent announcement of the SteamOS, machines, and gamepad, being excited is pretty much a given. I won&amp;rsquo;t dwell too much on a subject that has been dissected and discussed at length across the inter-webs, but will say that I am really interested to see the level of customization available, and possibly being rid of Windows once and for all!&lt;/p&gt;
+
+&lt;p&gt;I suppose I would have to say that two of my favorite game developers are Ubisoft and Valve. Huge fan of the Prince of Persia, Assassin&amp;rsquo;s Creed, Portal, and Half-Life series. The Bioshock series is also pretty damned awesome.&lt;/p&gt;
+
+&lt;p&gt;If anyone needs a friend on Steam for the hardware beta, I go by the handle &amp;lsquo;quandrei&amp;rsquo;.  Just ping me.&lt;/p&gt;
+
+&lt;p&gt;L8r!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First!</title>
+      <link>http://quandrei.github.io/post/2013/09/30/first/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/2013/09/30/first/</guid>
+      <description>&lt;p&gt;That&amp;rsquo;s right, you guessed it. This is my first post. What to say, what to say&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Well, first off, if you haven&amp;rsquo;t already noticed, my site is pretty much littered with obscure references to things I love (both geeky and non-geeky alike). There will be more to come.&lt;/p&gt;
+
+&lt;p&gt;I have a very well thought-out point system, which I am making up as I go along. To the first person to name one of these references, I will award 44012.3 points! To the second 1507 syst&amp;hellip; er, I mean points, and so on&amp;hellip; until I have dispensed all the points within my pool.&lt;/p&gt;
+
+&lt;p&gt;After which, a short list of finalists will be announced so that they may basque in their adept attention to trivial knowledge. And they will be asked to move to the next level of confronting the quandary that is quandrei. To delve deeper into solving the cipher, which is wrapped in an enigma, smothered in secret sauce&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Or we can just go out for a beer, and cake (it&amp;rsquo;s not a lie, I swear). Always up for chatting with people that know as much freaky stuff as I do. And if beer isn&amp;rsquo;t your thing, I can be persuaded to try new beverages&amp;hellip;. even plums, floating in perfume, served in a man&amp;rsquo;s hat (last one, I promise&amp;hellip; maybe).&lt;/p&gt;
+
+&lt;p&gt;restrictions: all submissions must be submitted in triplicate, and mailed to my P.O. box in Walla Walla, WA.  (if you can find it&amp;hellip; what? you expected this to be easy?)&lt;/p&gt;
+
+&lt;p&gt;disclaimer: points non-transferable, nor redeemable.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This blog post took a harsh turn from where I originally intended it to go. To those who are confused, well, so am I. To those who are entertained, well, good. To those experiencing a strange euphoric sensation, well, I am not sure what to say but I suppose that&amp;rsquo;s good too (kind of reminds me of my buddy&amp;rsquo;s trip to Tralfamadore).&lt;/p&gt;
+
+&lt;p&gt;I will try to me more coherent next time. Until then, the dude abides.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

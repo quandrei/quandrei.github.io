@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php Framework on [quandrei]</title>
+    <link>http://quandrei.github.io/categories/php-framework/</link>
+    <description>Recent content in Php Framework on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 24 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://quandrei.github.io/categories/php-framework/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Magento is as Magento does</title>
+      <link>http://quandrei.github.io/post/magento/</link>
+      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/magento/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;
+
+&lt;p&gt;Have you ever heard the expression:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Stupid is as stupid does&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well, by that same token, I think that the following expression is an apt decription of Magento:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Magento is as Magento does&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For a more full explanation of the underlying expression, see &lt;a href=&#34;http://answers.google.com/answers/threadview?id=392986&#34;&gt;this&lt;/a&gt; (you can ignore all the preachy comments, and stick to the first answer given). But basically, this boils down to judging people or things by what they do, and not by how they appear.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Magento &lt;em&gt;appears&lt;/em&gt; to be a very shiny e-commerce solution. And in some respects it is. It provides a great degree of flexibility for those that want an e-commerce store, and has proven itself in the marketplace as a vetted solution.&lt;/p&gt;
+
+&lt;p&gt;It provides a clean approach to create custom modules for new functionality, allowing for compartmentalizing code, and also provides mechanisms for injecting code in the execution process through minimal intrusion using event observers.&lt;/p&gt;
+
+&lt;p&gt;These are all great things, however&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;To achieve this level of flexibility, it has made some design decisions (one being an &lt;a href=&#34;https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model&#34;&gt;EAV&lt;/a&gt; database schema design), which in turn sacrifices performance and scalability. To combat this issue, boosting performance is achieved through various caching techniques, but in my opinion is a hack at best, and a better solution should be sought out instead of applying a patching approach. Due to these performance issues, daily development can get slow and time consuming.&lt;/p&gt;
+
+&lt;p&gt;The monolithic codebase is often difficult to navigate, and coupled with many different developers who have worked on this over a decade, and many having different approaches/visions to solving the same problem, often has led me in circles when trying to determine the best solution to a problem I am facing.&lt;/p&gt;
+
+&lt;p&gt;A very picky naming convention for files/classes/modules/XML data can be frustrating at first, since often times, no errors are reported and fails silently, causing you to scratch your head wondering what went wrong.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;Fortunately, a new hope has appeared in the form of Magento 2, and coupled with the release of PHP 7, should at the very least be intersting. Hopefully, this will help in resolving some of the annoyances in working with the platform on a daily basis (although XML files seem to have tripled&amp;hellip; ugh). From my limited knowledge of the release, some database architecture changes have been made to improve on performance. Personally, I would have liked to see something like &lt;a href=&#34;http://www.postgresql.org/docs/current/static/hstore.html&#34;&gt;PostgreSQL and the hstore&lt;/a&gt; column applied. With that approach, you would get the relational database components where needed, and the hstore column (similar to a document store applied in NoSQL) used where the dynamic nature of EAV is needed.&lt;/p&gt;
+
+&lt;p&gt;Time will tell if this release will redeem Magento in my eyes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn me a PHP for great good: Laravel 4</title>
+      <link>http://quandrei.github.io/post/laravel4/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <description>
+
+&lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
+
+&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project. Those issues will be the subject of a later post. RIght now, I will just write about my experience with the framework and architecture decision we made.&lt;/p&gt;
+
+&lt;h3 id=&#34;laravel-4-http-laravel-com:d9086dbed090496934deaef636486657&#34;&gt;&lt;a href=&#34;http://laravel.com/&#34;&gt;Laravel 4:&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Basically, it is a PHP framework that uses an &lt;a href=&#34;http://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; implementation (referred to as &lt;a href=&#34;http://laravel.com/docs/eloquent&#34;&gt;Eloquent ORM&lt;/a&gt; in their documentation). It is somewhat reminiscent to Rails for Ruby. It works with various databases, including MySQL, Postgres, SQLite, and SQL Server. Dependencies and packages can be managed with &lt;a href=&#34;http://getcomposer.org/&#34;&gt;composer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:d9086dbed090496934deaef636486657&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Development speed: Once our database schema was established, creating models and defining their relations was exceptionally quick and straightforward. There were very limited resources on this project (mostly it was me doing about 75% of the coding), but was still able to get a fully functional system in a few months.&lt;/p&gt;
+
+&lt;p&gt;RESTful routing: One of the aims of the web application was to make it RESTful, and setting up the &lt;a href=&#34;http://laravel.com/docs/routing&#34;&gt;routing with Laravel 4&lt;/a&gt; was simple, and had enough features to handle more complex requests.&lt;/p&gt;
+
+&lt;p&gt;MVC: Through the &lt;a href=&#34;https://github.com/JeffreyWay/Laravel-4-Generators&#34;&gt;Jeffrey Way Laravel 4 Generators&lt;/a&gt;, coding a model-view-controller web application became a lot quicker.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:d9086dbed090496934deaef636486657&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Magic unicorn sprinkles: With all the bells and whistles of Laravel 4, which speed up development time, there is a lot going on in the background, handling things for you, most of which you may not be aware of. This might be handy in a pinch, but this will eventually result in you hitting a wall when there is a bug, that you cannot immediately resolve because you do not fully understand what is going on under the hood.&lt;/p&gt;
+
+&lt;p&gt;One issue I encountered was naming of certain functions, classes, or tables, must follow a specific convention in order to work within the web application.&lt;/p&gt;
+
+&lt;p&gt;One example is camelCase must be used to define specific relational functions. I had made the mistake of using snake_case in the function definition of a many-to-many relationship (due to some older Laravel documantation where snake_case was the standard prior to Laravel 4), and the result was a rather bizarre and uninformative error. After much digging on StackOverflow, I found the resolution.&lt;/p&gt;
+
+&lt;p&gt;Another example of naming causing a problem, is that it is assumed that all &amp;lsquo;Model&amp;rsquo; classes are named in the singular tense, and the table that stores those instantiations of the model, in the plural tense. Often, this may work fine, however, there were a few situation where this did not make sense for my web application. This caused an issue, as my table schema didn&amp;rsquo;t follow this convention, and when trying to save a model instantiation, it would throw an error. The fix was simple (as you can specify a different table name in your model class), but again, something that may not be obvious to the new-comer.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:d9086dbed090496934deaef636486657&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;All in all, I found this a pretty good framework to work with, and handles the ActiveRecord paradigm competently. I am sure I will be facing some magic unicorn dust in the near future, but the key will be understanding the underpinnings to handle any tailspins and &lt;a href=&#34;http://tinyurl.com/lpfef3n&#34;&gt;barrel rolls&lt;/a&gt;. I am still discovering new features everyday, and some neat things to optimize my web application. And the adventure continues, as I step into the QA testing and subsequent maintenance phases of this development project. My hope is that, time permitting, I can start implementing unit tests and continuous integration in phase 2. Until then, keep looking to the stars!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
