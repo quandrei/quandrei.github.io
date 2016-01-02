@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on [quandrei]</title>
-    <link>http://quandrei.github.io/post/</link>
+    <link>https://quandrei.github.io/post/</link>
     <description>Recent content in Posts on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://quandrei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I am bored...</title>
-      <link>http://quandrei.github.io/post/boredom/</link>
+      <link>https://quandrei.github.io/post/boredom/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/boredom/</guid>
+      <guid>https://quandrei.github.io/post/boredom/</guid>
       <description>&lt;p&gt;So I have been extraordinarily busy with work these past few months, and haven&amp;rsquo;t had very much time for side projects, and interesting things that I&amp;rsquo;ve wanted to devote some time to. I&amp;rsquo;ve also been getting pretty bored with the work I am doing, something very dangerous in my profession, since this usually leads to the itch for new surroundings. This is a fairly engaging read on how to combat boredom for employees: &lt;a href=&#34;http://randsinrepose.com/archives/bored-people-quit/&#34;&gt;Bored People Quit&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In an effort to combat my boredom, I have been devoting time to learning a few new things:&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Magento is as Magento does</title>
-      <link>http://quandrei.github.io/post/magento/</link>
+      <link>https://quandrei.github.io/post/magento/</link>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/magento/</guid>
+      <guid>https://quandrei.github.io/post/magento/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;
@@ -81,10 +81,10 @@
     
     <item>
       <title>CyanogenMod is the new black</title>
-      <link>http://quandrei.github.io/post/cyanogenmod/</link>
+      <link>https://quandrei.github.io/post/cyanogenmod/</link>
       <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/cyanogenmod/</guid>
+      <guid>https://quandrei.github.io/post/cyanogenmod/</guid>
       <description>
 
 &lt;p&gt;Recently, I had been a little disappointed with the battery life on my &lt;a href=&#34;http://en.wikipedia.org/wiki/Nexus_4&#34;&gt;Nexus 4 device&lt;/a&gt;. I noticed a drop in battery performance when I installed &lt;a href=&#34;http://www.android.com/versions/lollipop-5-0/&#34;&gt;Android Lollipop&lt;/a&gt;, and thought the reason might be due to all the upgrades and bloat I had accumulated. I decided that what was needed was a tried and true method: a clean install. And this was the perfect opportunity to give a custom ROM a shot; specifically, &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;CyanogenMod&lt;/a&gt;. This was my limited experience after about a week and a half of use&amp;hellip;&lt;/p&gt;
@@ -115,10 +115,10 @@
     
     <item>
       <title>Round and round she goes...</title>
-      <link>http://quandrei.github.io/post/round-and-round/</link>
+      <link>https://quandrei.github.io/post/round-and-round/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/round-and-round/</guid>
+      <guid>https://quandrei.github.io/post/round-and-round/</guid>
       <description>&lt;p&gt;So, in preparations for a trip this summer, I had booked a few flights through the Royal Bank rewards program. The flight tickets are held by the Lufthansa airline, while one of the flights is operated by Air Canada (being one of their partners).&lt;/p&gt;
 
 &lt;p&gt;An important piece of information to note, is that I will be traveling with an infant. That being the case, I wanted to reserve seats with a bassinet, and in the case of the Air Canada operated flight, this is in the preferred seating area (which carries with it a fee, that I am more than willing to pay).&lt;/p&gt;
@@ -149,10 +149,10 @@
     
     <item>
       <title>New System Install</title>
-      <link>http://quandrei.github.io/post/new-system-install/</link>
+      <link>https://quandrei.github.io/post/new-system-install/</link>
       <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/new-system-install/</guid>
+      <guid>https://quandrei.github.io/post/new-system-install/</guid>
       <description>
 
 &lt;p&gt;With the release of OS-X Yosemite, I decided it was time for a clean install of my system. I decided that this time, I would try and automate this as much as possible, without having to resort to being there very much, because, well&amp;hellip; time is precious and I have better things to do.&lt;/p&gt;
@@ -248,10 +248,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Github Pages Launch</title>
-      <link>http://quandrei.github.io/post/github-pages-launch/</link>
+      <link>https://quandrei.github.io/post/github-pages-launch/</link>
       <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/github-pages-launch/</guid>
+      <guid>https://quandrei.github.io/post/github-pages-launch/</guid>
       <description>
 
 &lt;p&gt;So the process was slow­moving (due to a few other things going on in my life), but it is finally up and running. A few things to take note of:&lt;/p&gt;
@@ -280,10 +280,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Github Pages Transition</title>
-      <link>http://quandrei.github.io/post/github-pages-transition/</link>
+      <link>https://quandrei.github.io/post/github-pages-transition/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/github-pages-transition/</guid>
+      <guid>https://quandrei.github.io/post/github-pages-transition/</guid>
       <description>&lt;p&gt;So I&amp;rsquo;ve decided to make the transition from SquareSpace to &lt;a href=&#34;http://pages.github.com/&#34;&gt;github pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;There are a few reasons for this:&lt;/p&gt;
@@ -304,10 +304,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Grunt Master 6000</title>
-      <link>http://quandrei.github.io/post/grunt-master-6000/</link>
+      <link>https://quandrei.github.io/post/grunt-master-6000/</link>
       <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/grunt-master-6000/</guid>
+      <guid>https://quandrei.github.io/post/grunt-master-6000/</guid>
       <description>
 
 &lt;p&gt;So, let&amp;rsquo;s start this off with a quote from my last post:&lt;/p&gt;
@@ -346,10 +346,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Learn me a PHP for great good: Laravel 4</title>
-      <link>http://quandrei.github.io/post/laravel4/</link>
+      <link>https://quandrei.github.io/post/laravel4/</link>
       <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <guid>https://quandrei.github.io/post/laravel4/</guid>
       <description>
 
 &lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
@@ -386,10 +386,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Codeschool</title>
-      <link>http://quandrei.github.io/post/codeschool/</link>
+      <link>https://quandrei.github.io/post/codeschool/</link>
       <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/codeschool/</guid>
+      <guid>https://quandrei.github.io/post/codeschool/</guid>
       <description>
 
 &lt;p&gt;A few months ago, I had decided to give &lt;a href=&#34;http://www.codeschool.com&#34;&gt;codeschool&lt;/a&gt; a try. It was more out of curiosity than necessity, to see if an online learning tool would help me learn a new language more quickly. Due to a billing hiccup, they were very gracious and gave me a free subscription for 6 months. This is my take on the whole concept:&lt;/p&gt;
@@ -418,10 +418,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Exposed: MIMIC</title>
-      <link>http://quandrei.github.io/post/exposed-mimic/</link>
+      <link>https://quandrei.github.io/post/exposed-mimic/</link>
       <pubDate>Sun, 06 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/exposed-mimic/</guid>
+      <guid>https://quandrei.github.io/post/exposed-mimic/</guid>
       <description>&lt;p&gt;One of the most influential and interesting projects I have ever had the challenge and pleasure of doing, was organizing the end-of-year exhibition for the Computation Art students. This was several years back, when I was in school, and much younger.&lt;/p&gt;
 
 &lt;p&gt;I recently decided to update my CV and join the 21st century, so that it can be contained in an online format, and to my dismay, much of the work that went into that project, seems to have been removed/deleted/obliterated. All I can find remaining online, is a &lt;a href=&#34;http://newmediafix.net/daily/?p=1967&#34;&gt;press release&lt;/a&gt; on some website. The page that contained this archive still &lt;a href=&#34;http://exposed.concordia.ca/&#34;&gt;exists&lt;/a&gt;, but has been revamped to hold my successors&amp;rsquo; organization of their show. No mention of archives, or past shows. As if nothing my team had achieved mattered. We pioneered that society, and built enough resources for them to continue for years to come, and all we had done&amp;hellip; gone. Disappointing.&lt;/p&gt;
@@ -434,10 +434,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>Kanako&#39;s Kitchen</title>
-      <link>http://quandrei.github.io/post/kanakos-kitchen/</link>
+      <link>https://quandrei.github.io/post/kanakos-kitchen/</link>
       <pubDate>Sat, 05 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/kanakos-kitchen/</guid>
+      <guid>https://quandrei.github.io/post/kanakos-kitchen/</guid>
       <description>&lt;p&gt;So I found a blog recently about Japanese home cooking, and it seemed intriguing. I am not, by any stretch, an expert but do enjoy cooking from time to time. I&amp;rsquo;ve been trying a few of the recipes, and this is what I have prepared so far:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;To note, the soy sauce I used was general purpose Kikkoman soy sauce for all the recipes, which is considered a Koikuchi soy sauce and not an Usukuchi (a point I wasn&amp;rsquo;t clear on from the recipes).&lt;/em&gt;&lt;/p&gt;
@@ -458,10 +458,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>My gaming rig...</title>
-      <link>http://quandrei.github.io/post/my-gaming-rig/</link>
+      <link>https://quandrei.github.io/post/my-gaming-rig/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/my-gaming-rig/</guid>
+      <guid>https://quandrei.github.io/post/my-gaming-rig/</guid>
       <description>&lt;p&gt;So, one of my passions is building my own gaming rigs. To the point, where I usually have parts lying around, and have been able to build a few additional towers on the side. Here are the specs to my latest:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -491,10 +491,10 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
     
     <item>
       <title>First!</title>
-      <link>http://quandrei.github.io/post/2013/09/30/first/</link>
+      <link>https://quandrei.github.io/post/2013/09/30/first/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/2013/09/30/first/</guid>
+      <guid>https://quandrei.github.io/post/2013/09/30/first/</guid>
       <description>&lt;p&gt;That&amp;rsquo;s right, you guessed it. This is my first post. What to say, what to say&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Well, first off, if you haven&amp;rsquo;t already noticed, my site is pretty much littered with obscure references to things I love (both geeky and non-geeky alike). There will be more to come.&lt;/p&gt;
