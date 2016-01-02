@@ -1,0 +1,61 @@
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30rem) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+/* Categories */
+.post-category-dev{
+    background-color: #143399;
+}
+
+.post-category-web{
+    background-color: #089DCF;
+}
+
+.post-category-php-framework{
+    background-color: #817AFA;
+}
+
+.post-category-travel{
+    background-color: #880CC2;
+}
+
+.post-category-android{
+    background-color: #0CC21B;
+}
+
+.post-category-blog{
+    background-color: #FF3333;
+}
+
+.post-category-food{
+    background-color: #FF7214;
+}
+
+.post-category-gaming{
+    background-color: #000000;
+}
+
+.post-category-first{
+    background-color: #E6ED1A;
+}
+
+.post-category-online-learning{
+    background-color: #0000FF;
+}
+
+.post-category-dmsa{
+    background-color: #8000FF;
+}

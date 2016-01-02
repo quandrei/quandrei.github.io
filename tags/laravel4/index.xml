@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laravel4 on [quandrei]</title>
-    <link>http://quandrei.github.io/tags/laravel4/</link>
+    <link>https://quandrei.com/tags/laravel4/</link>
     <description>Recent content in Laravel4 on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 28 Dec 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://quandrei.github.io/tags/laravel4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.com/tags/laravel4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Learn me a PHP for great good: Laravel 4</title>
-      <link>http://quandrei.github.io/post/laravel4/</link>
+      <link>https://quandrei.com/post/laravel4/</link>
       <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <guid>https://quandrei.com/post/laravel4/</guid>
       <description>
 
 &lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;

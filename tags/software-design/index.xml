@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Design on [quandrei]</title>
-    <link>http://quandrei.github.io/tags/software-design/</link>
+    <link>https://quandrei.com/tags/software-design/</link>
     <description>Recent content in Software Design on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 29 Dec 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://quandrei.github.io/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.com/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Grunt Master 6000</title>
-      <link>http://quandrei.github.io/post/grunt-master-6000/</link>
+      <link>https://quandrei.com/post/grunt-master-6000/</link>
       <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/grunt-master-6000/</guid>
+      <guid>https://quandrei.com/post/grunt-master-6000/</guid>
       <description>
 
 &lt;p&gt;So, let&amp;rsquo;s start this off with a quote from my last post:&lt;/p&gt;

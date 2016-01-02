@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gaming on [quandrei]</title>
-    <link>http://quandrei.github.io/tags/gaming/</link>
+    <link>https://quandrei.com/tags/gaming/</link>
     <description>Recent content in Gaming on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 02 Oct 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://quandrei.github.io/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.com/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My gaming rig...</title>
-      <link>http://quandrei.github.io/post/my-gaming-rig/</link>
+      <link>https://quandrei.com/post/my-gaming-rig/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/my-gaming-rig/</guid>
+      <guid>https://quandrei.com/post/my-gaming-rig/</guid>
       <description>&lt;p&gt;So, one of my passions is building my own gaming rigs. To the point, where I usually have parts lying around, and have been able to build a few additional towers on the side. Here are the specs to my latest:&lt;/p&gt;
 
 &lt;ul&gt;

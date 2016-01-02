@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on [quandrei]</title>
-    <link>http://quandrei.github.io/tags/code/</link>
+    <link>https://quandrei.com/tags/code/</link>
     <description>Recent content in Code on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 29 Dec 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://quandrei.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Grunt Master 6000</title>
-      <link>http://quandrei.github.io/post/grunt-master-6000/</link>
+      <link>https://quandrei.com/post/grunt-master-6000/</link>
       <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/grunt-master-6000/</guid>
+      <guid>https://quandrei.com/post/grunt-master-6000/</guid>
       <description>
 
 &lt;p&gt;So, let&amp;rsquo;s start this off with a quote from my last post:&lt;/p&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>Learn me a PHP for great good: Laravel 4</title>
-      <link>http://quandrei.github.io/post/laravel4/</link>
+      <link>https://quandrei.com/post/laravel4/</link>
       <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <guid>https://quandrei.com/post/laravel4/</guid>
       <description>
 
 &lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>Codeschool</title>
-      <link>http://quandrei.github.io/post/codeschool/</link>
+      <link>https://quandrei.com/post/codeschool/</link>
       <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/codeschool/</guid>
+      <guid>https://quandrei.com/post/codeschool/</guid>
       <description>
 
 &lt;p&gt;A few months ago, I had decided to give &lt;a href=&#34;http://www.codeschool.com&#34;&gt;codeschool&lt;/a&gt; a try. It was more out of curiosity than necessity, to see if an online learning tool would help me learn a new language more quickly. Due to a billing hiccup, they were very gracious and gave me a free subscription for 6 months. This is my take on the whole concept:&lt;/p&gt;

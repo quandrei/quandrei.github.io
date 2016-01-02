@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php Framework on [quandrei]</title>
-    <link>http://quandrei.github.io/tags/php-framework/</link>
+    <link>https://quandrei.com/tags/php-framework/</link>
     <description>Recent content in Php Framework on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 24 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://quandrei.github.io/tags/php-framework/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.com/tags/php-framework/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Magento is as Magento does</title>
-      <link>http://quandrei.github.io/post/magento/</link>
+      <link>https://quandrei.com/post/magento/</link>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/magento/</guid>
+      <guid>https://quandrei.com/post/magento/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>Learn me a PHP for great good: Laravel 4</title>
-      <link>http://quandrei.github.io/post/laravel4/</link>
+      <link>https://quandrei.com/post/laravel4/</link>
       <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://quandrei.github.io/post/laravel4/</guid>
+      <guid>https://quandrei.com/post/laravel4/</guid>
       <description>
 
 &lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
