@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>First on [quandrei]</title>
-    <link>https://quandrei.github.io/tags/first/</link>
+    <link>http://quandrei.github.io/tags/first/</link>
     <description>Recent content in First on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 30 Sep 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.github.io/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://quandrei.github.io/tags/first/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First!</title>
-      <link>https://quandrei.github.io/post/2013/09/30/first/</link>
+      <link>http://quandrei.github.io/post/2013/09/30/first/</link>
       <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/2013/09/30/first/</guid>
+      <guid>http://quandrei.github.io/post/2013/09/30/first/</guid>
       <description>&lt;p&gt;That&amp;rsquo;s right, you guessed it. This is my first post. What to say, what to say&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Well, first off, if you haven&amp;rsquo;t already noticed, my site is pretty much littered with obscure references to things I love (both geeky and non-geeky alike). There will be more to come.&lt;/p&gt;

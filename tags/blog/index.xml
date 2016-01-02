@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on [quandrei]</title>
-    <link>https://quandrei.github.io/tags/blog/</link>
+    <link>http://quandrei.github.io/tags/blog/</link>
     <description>Recent content in Blog on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://quandrei.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Github Pages Launch</title>
-      <link>https://quandrei.github.io/post/github-pages-launch/</link>
+      <link>http://quandrei.github.io/post/github-pages-launch/</link>
       <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/github-pages-launch/</guid>
+      <guid>http://quandrei.github.io/post/github-pages-launch/</guid>
       <description>
 
 &lt;p&gt;So the process was slow­moving (due to a few other things going on in my life), but it is finally up and running. A few things to take note of:&lt;/p&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>Github Pages Transition</title>
-      <link>https://quandrei.github.io/post/github-pages-transition/</link>
+      <link>http://quandrei.github.io/post/github-pages-transition/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/github-pages-transition/</guid>
+      <guid>http://quandrei.github.io/post/github-pages-transition/</guid>
       <description>&lt;p&gt;So I&amp;rsquo;ve decided to make the transition from SquareSpace to &lt;a href=&#34;http://pages.github.com/&#34;&gt;github pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;There are a few reasons for this:&lt;/p&gt;

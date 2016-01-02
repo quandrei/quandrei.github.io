@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E Commerce on [quandrei]</title>
-    <link>https://quandrei.github.io/tags/e-commerce/</link>
+    <link>http://quandrei.github.io/tags/e-commerce/</link>
     <description>Recent content in E Commerce on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 24 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.github.io/tags/e-commerce/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://quandrei.github.io/tags/e-commerce/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Magento is as Magento does</title>
-      <link>https://quandrei.github.io/post/magento/</link>
+      <link>http://quandrei.github.io/post/magento/</link>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/magento/</guid>
+      <guid>http://quandrei.github.io/post/magento/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;

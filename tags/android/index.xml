@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on [quandrei]</title>
-    <link>https://quandrei.github.io/tags/android/</link>
+    <link>http://quandrei.github.io/tags/android/</link>
     <description>Recent content in Android on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 05 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://quandrei.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CyanogenMod is the new black</title>
-      <link>https://quandrei.github.io/post/cyanogenmod/</link>
+      <link>http://quandrei.github.io/post/cyanogenmod/</link>
       <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/cyanogenmod/</guid>
+      <guid>http://quandrei.github.io/post/cyanogenmod/</guid>
       <description>
 
 &lt;p&gt;Recently, I had been a little disappointed with the battery life on my &lt;a href=&#34;http://en.wikipedia.org/wiki/Nexus_4&#34;&gt;Nexus 4 device&lt;/a&gt;. I noticed a drop in battery performance when I installed &lt;a href=&#34;http://www.android.com/versions/lollipop-5-0/&#34;&gt;Android Lollipop&lt;/a&gt;, and thought the reason might be due to all the upgrades and bloat I had accumulated. I decided that what was needed was a tried and true method: a clean install. And this was the perfect opportunity to give a custom ROM a shot; specifically, &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;CyanogenMod&lt;/a&gt;. This was my limited experience after about a week and a half of use&amp;hellip;&lt;/p&gt;

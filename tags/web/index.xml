@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on [quandrei]</title>
-    <link>https://quandrei.github.io/tags/web/</link>
+    <link>http://quandrei.github.io/tags/web/</link>
     <description>Recent content in Web on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://quandrei.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>I am bored...</title>
-      <link>https://quandrei.github.io/post/boredom/</link>
+      <link>http://quandrei.github.io/post/boredom/</link>
       <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/boredom/</guid>
+      <guid>http://quandrei.github.io/post/boredom/</guid>
       <description>&lt;p&gt;So I have been extraordinarily busy with work these past few months, and haven&amp;rsquo;t had very much time for side projects, and interesting things that I&amp;rsquo;ve wanted to devote some time to. I&amp;rsquo;ve also been getting pretty bored with the work I am doing, something very dangerous in my profession, since this usually leads to the itch for new surroundings. This is a fairly engaging read on how to combat boredom for employees: &lt;a href=&#34;http://randsinrepose.com/archives/bored-people-quit/&#34;&gt;Bored People Quit&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In an effort to combat my boredom, I have been devoting time to learning a few new things:&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Magento is as Magento does</title>
-      <link>https://quandrei.github.io/post/magento/</link>
+      <link>http://quandrei.github.io/post/magento/</link>
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.github.io/post/magento/</guid>
+      <guid>http://quandrei.github.io/post/magento/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;
