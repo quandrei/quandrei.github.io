@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on [quandrei]</title>
-    <link>https://quandrei.com/tags/blog/</link>
-    <description>Recent content in Blog on [quandrei]</description>
+    <title>Hugo on [quandrei]</title>
+    <link>https://quandrei.com/tags/hugo/</link>
+    <description>Recent content in Hugo on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 02 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quandrei.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugo Migration</title>
@@ -79,62 +79,6 @@
 &lt;p&gt;I am happy with the end result. Nice looking/improved site, easy management through git/github, performance-centric. No regrets.&lt;/p&gt;
 
 &lt;p&gt;Now if I can only figure out how to get it to write Magento code&amp;hellip; and do my laundry&amp;hellip; I&amp;rsquo;d be set.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github Pages Launch</title>
-      <link>https://quandrei.com/post/github-pages-launch/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/github-pages-launch/</guid>
-      <description>
-
-&lt;p&gt;So the process was slow­moving (due to a few other things going on in my life), but it is finally up and running. A few things to take note of:&lt;/p&gt;
-
-&lt;h3 id=&#34;deciding-on-a-jekyll-theme:2c26a5b1b5753de0d42116532c98c907&#34;&gt;Deciding on a Jekyll theme&lt;/h3&gt;
-
-&lt;p&gt;This was more challenging than I thought. There are quite a few out there, but I decided on one that was simple, and looked slick, namely, &lt;a href=&#34;http://getpoole.com/&#34;&gt;Poole&lt;/a&gt; (the Jekyll butler) using the &lt;a href=&#34;http://lanyon.getpoole.com/&#34;&gt;Lanyon&lt;/a&gt; theme. &lt;a href=&#34;http://hyde.getpoole.com/&#34;&gt;Hyde&lt;/a&gt; was a close second, but I preferred having the hidden menu.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-css-is-a-bit-buggy:2c26a5b1b5753de0d42116532c98c907&#34;&gt;The CSS is a bit buggy&lt;/h3&gt;
-
-&lt;p&gt;It does not seem to be completely cross­browser friendly. I noticed that clicking on the menu icon (top­right) in FF will still have the icon super­imposed on the text, whereas in other browsers, it will move left when displaying the menu (as it should). When using a fresh Jekyll install locally, with no content changed, this is not the case, but as soon as I changed something, it broke for some reason. It&amp;rsquo;s possible I borked something somewhere, but haven&amp;rsquo;t looked into it much. Funny enough, it works nicely on my Nexus 4 using the FF browser.&lt;/p&gt;
-
-&lt;h3 id=&#34;moving-content:2c26a5b1b5753de0d42116532c98c907&#34;&gt;Moving Content&lt;/h3&gt;
-
-&lt;p&gt;Obviously, this was a little dull as I needed to grab the raw content from my SS site, and format it for markdown. SS doesn&amp;rsquo;t have an API I&amp;rsquo;m aware of for such a task (although I didn&amp;rsquo;t look into it much), and I probably could&amp;rsquo;ve written a script for this, but I would&amp;rsquo;ve needed to go through the content anyway to ensure everything was pristine. The script would&amp;rsquo;ve likely taken more time than actually going through the few blog posts I had.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-few-nice-things:2c26a5b1b5753de0d42116532c98c907&#34;&gt;A few nice things&amp;hellip;&lt;/h3&gt;
-
-&lt;p&gt;There are a few easily­ done things I liked about SS. One was having a tag cloud, which requires some plugin for Jekyll. Not sure if having a plugin is something I could do on Github Pages, so I would need to look into it. Another, was having a gallery of some photography I did in a past life. Again, a plugin is the likely route, and not sure if gh­pages blah blah blah&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;­­­&amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;So that&amp;rsquo;s it. As a treat, I think everyone should read this: &lt;a href=&#34;http://chiefobrienatwork.com/&#34;&gt;Chief O&amp;rsquo;Brien at Work&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github Pages Transition</title>
-      <link>https://quandrei.com/post/github-pages-transition/</link>
-      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/github-pages-transition/</guid>
-      <description>&lt;p&gt;So I&amp;rsquo;ve decided to make the transition from SquareSpace to &lt;a href=&#34;http://pages.github.com/&#34;&gt;github pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are a few reasons for this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;gh-pages is available for the low, bargain-basement price of free as opposed to SS costing money&lt;/li&gt;
-&lt;li&gt;gh-pages allows me to version-control my site &amp;ndash; being an avid developer, this appeals to me&lt;/li&gt;
-&lt;li&gt;gh-pages has the basic features I need &amp;ndash; all I really do is put up links to my projects and blog, and gh-pages allows me to do this easily. SS offers many more features, like e-commerce, but when unused, seems silly to pay for them&lt;/li&gt;
-&lt;li&gt;the longer I stay with SS, the more difficult it will be to move away from them (i.e. move my content somewhere else, if I ever wish to leave)&lt;/li&gt;
-&lt;li&gt;the UI in SS seems to be a bit more cumbersome lately, and is starting to annoy me&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I will be moving my content gradually to my new digs: &lt;a href=&#34;http://quandrei.github.io/&#34;&gt;quandrei.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[End transmission]&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

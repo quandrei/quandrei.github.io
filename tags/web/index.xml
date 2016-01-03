@@ -5,8 +5,82 @@
     <link>https://quandrei.com/tags/web/</link>
     <description>Recent content in Web on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 26 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quandrei.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo Migration</title>
+      <link>https://quandrei.com/post/hugo-migration/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://quandrei.com/post/hugo-migration/</guid>
+      <description>
+
+&lt;p&gt;In my endeavor to not be bored, and learn new things, I decided to take a step in a new direction, and move my existing &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; blog to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;why-hugo:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Why hugo?&lt;/h3&gt;
+
+&lt;p&gt;There seem to be some obvious advantages out ther for using Hugo over Jekyll, but the following reasons are what sold me on the idea:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;an excuse to learn me a great good; specifically get started on &lt;a href=&#34;https://golang.org/&#34;&gt;go-lang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;taxonomy implememtation was dead-simple with a decent theme (lacking in my previous blog version)&lt;/li&gt;
+&lt;li&gt;performance boost from Jekyll (there are numerous articles out there, take your pick)&lt;/li&gt;
+&lt;li&gt;easy migration from &lt;a href=&#34;https://gohugo.io/tutorials/migrate-from-jekyll/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;easily hosted on &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;github pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--watch&lt;/code&gt; and &lt;code&gt;--theme=theme_name&lt;/code&gt; options when running locally, which are incredibly useful for dynamically observing changes to the site, and testing/vetting out themes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;searching-for-a-theme:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Searching for a theme:&lt;/h3&gt;
+
+&lt;p&gt;There were a few interesting themes I was debating on, and here were a few of the front-runners:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/lanyon/&#34;&gt;lanyon-hugo&lt;/a&gt;: I felt like I needed something different than my old blog, so this was out&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/casper/&#34;&gt;casper&lt;/a&gt;: was not too keen on the menu layout and the blog rendering, and no categories&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/detox/&#34;&gt;detox&lt;/a&gt;: no tag filtering for blog posts, no categories&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/startbootstrap-clean-blog/&#34;&gt;startbootstrap-clean-blog&lt;/a&gt;: too many errors to count, didn&amp;rsquo;t work out of the box&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/purehugo/&#34;&gt;purehugo&lt;/a&gt;: this was a close second, but there was little documentation for setting defaults for things like social networks, and I did not like the fact that the entire blog post is output on the posts page (should be a partial preview imho)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since I am not the type to waste time wrangling HTML/CSS, and wanted to get something ported quickly, I finally decided on &lt;a href=&#34;http://themes.gohugo.io/redlounge/&#34;&gt;redlounge&lt;/a&gt;. The reasons being as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;simple and clean&lt;/li&gt;
+&lt;li&gt;mobile/tablet friendly&lt;/li&gt;
+&lt;li&gt;easily implement taxonomies (like tags/categories)&lt;/li&gt;
+&lt;li&gt;easily have access to social media, both for linking to my personal accounts, and for sharing links on posts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Only thing I do not like is the preview of the blog posts lacks formatting. Not a deal breaker though.&lt;/p&gt;
+
+&lt;h3 id=&#34;porting-to-hugo:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Porting to Hugo&lt;/h3&gt;
+
+&lt;p&gt;The migration tool provided by Hugo did most of the heavy lifting. It was literally as simple as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo import jekyll src_folder_of_jekyll_blog dest_folder
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After I cleaned out a few folders I didn&amp;rsquo;t need (see &lt;a href=&#34;https://gohugo.io/overview/source-directory/&#34;&gt;Hugo folder structure&lt;/a&gt; for guidance), I just &lt;code&gt;git cloned&lt;/code&gt; a few themes in the &lt;em&gt;&lt;code&gt;dest_folder/themes&lt;/code&gt;&lt;/em&gt; and then ran the following to test/vet changes/themes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo serve -w --theme=theme_name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The most time-consuming part was actually doing some light editing on the existing blog posts I already had. I just changed the &lt;a href=&#34;https://gohugo.io/content/front-matter/&#34;&gt;front-matter&lt;/a&gt; section on blog posts to make it compliant with &lt;code&gt;.toml&lt;/code&gt; structure, looked through my changes to make certain everything looked good, and I was set to start on deploying.&lt;/p&gt;
+
+&lt;p&gt;For deployment, there are quite a few tutorials out there, if you just look for them, but the &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages:fcefb200141ace3e7bfd6542457b7a72&#34;&gt;Hugo documentation&lt;/a&gt; that I followed pretty much sums up what you need to do.&lt;/p&gt;
+
+&lt;h3 id=&#34;issues:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Issues:&lt;/h3&gt;
+
+&lt;p&gt;The only issue I ran into was the CSS not rendering properly after deployment. This was not specifically due to Hugo actually, but because of the fact that I force using &lt;code&gt;https&lt;/code&gt; on my site, through &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;Cloudflare&lt;/a&gt;, and use an SSL certificate setup through their panel. The Hugo documentation specifies using your github organization URL as your base URL in your config settings (i.e. &lt;code&gt;username.github.io&lt;/code&gt;). So, when serving up the CSS, the browser displays a message saying the CSS content is not secure, and will not serve up mixed content (unless the end user allows it). All that was needed was changing my base URL in my config to &lt;code&gt;quandrei.com&lt;/code&gt; and I was good to go.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-thoughts:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Final thoughts:&lt;/h3&gt;
+
+&lt;p&gt;I am happy with the end result. Nice looking/improved site, easy management through git/github, performance-centric. No regrets.&lt;/p&gt;
+
+&lt;p&gt;Now if I can only figure out how to get it to write Magento code&amp;hellip; and do my laundry&amp;hellip; I&amp;rsquo;d be set.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>I am bored...</title>
