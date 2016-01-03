@@ -24,8 +24,9 @@
 
 &lt;ul&gt;
 &lt;li&gt;an excuse to learn me a great good; specifically get started on &lt;a href=&#34;https://golang.org/&#34;&gt;go-lang&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;taxonomy implememtation was dead-simple with a decent theme (lacking in my previous blog version)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;KISS&lt;/a&gt; principle&lt;/li&gt;
 &lt;li&gt;performance boost from Jekyll (there are numerous articles out there, take your pick)&lt;/li&gt;
+&lt;li&gt;taxonomy implememtation was dead-simple with a decent theme (lacking in my previous blog version)&lt;/li&gt;
 &lt;li&gt;easy migration from &lt;a href=&#34;https://gohugo.io/tutorials/migrate-from-jekyll/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;easily hosted on &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;github pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;--watch&lt;/code&gt; and &lt;code&gt;--theme=theme_name&lt;/code&gt; options when running locally, which are incredibly useful for dynamically observing changes to the site, and testing/vetting out themes&lt;/li&gt;
