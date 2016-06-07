@@ -46,8 +46,8 @@
 
 &lt;p&gt;You might also want to specify some defaults for homebrew-cask, e.g. default of where you want your apps installed:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;### Specify your defaults in this environment variable 
-### (in .bash_profile or .zshenv) 
+&lt;pre&gt;&lt;code&gt;### Specify your defaults in this environment variable
+### (in .bash_profile or .zshenv)
 $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
