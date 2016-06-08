@@ -5,8 +5,50 @@
     <link>https://quandrei.com/post/</link>
     <description>Recent content in Posts on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quandrei.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Godzilla Foxfire, the quickening</title>
+      <link>https://quandrei.com/post/godzilla-foxfire-python/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://quandrei.com/post/godzilla-foxfire-python/</guid>
+      <description>
+
+&lt;p&gt;I started writing a trivial bookmarking app in &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt; for the express purpose of learning that stack. I must say that it was informative and fun.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-dizzying-highs:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The dizzying highs:&lt;/h3&gt;
+
+&lt;p&gt;Writing something in Python, with its simple and clean syntax, was satisfying. Little verbosity, and getting the logic I needed into classes and organized accordingly, was not a big hurdle.&lt;/p&gt;
+
+&lt;p&gt;The microframework, Flask, did a good job of staying out of my way, and giving me what I needed when defining my routes Unlike Django, which I had tried previously (with all its batteries included), I was able to get everything defined with a proper &lt;a href=&#34;http://www.restapitutorial.com/&#34;&gt;RESTful API&lt;/a&gt; in very little time.&lt;/p&gt;
+
+&lt;p&gt;Implementing OATH (through some examples found online), turned out to be fairly straightforward. The only exception was integrating the app with &lt;a href=&#34;https://www.mongodb.com/&#34;&gt;MongoDB&lt;/a&gt; (more on that later), since it isn&amp;rsquo;t your classic SQL DB.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-terrifying-lows:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The terrifying lows:&lt;/h3&gt;
+
+&lt;p&gt;Implementing OATH and other class definitions with MongoDB turned out to be the most challenging part, since most of the tutorials were using some flavor of SQL. I fully expected this, and to be honest, wanted the challenge so as to determine if I was actually learning something. The issues were mainly finding libraries I could use for MongoDB and then mapping the models using the No-SQL fields, in an appropriate/functional way. Through some reading, trial by fire, and testing, I was able to implement it successfully.&lt;/p&gt;
+
+&lt;p&gt;Decorators still mystify me, and I confess I did not take the time to fully understand them. I am sure I am missing other core concepts. As a result, I don&amp;rsquo;t feel like I know Python/Flask confidently enough to dive into production code, but that usually comes with time (and more fire trials).&lt;/p&gt;
+
+&lt;h3 id=&#34;the-creamy-middles:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The creamy middles:&lt;/h3&gt;
+
+&lt;p&gt;I am not certain if I will ever return to this specific stack, as I have found some other tools I prefer for developing web applications and microservices (enter &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;), but it was fun to prototype something with it, and get back to using MongoDB again.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hover, the rant</title>
+      <link>https://quandrei.com/post/hover-sucks/</link>
+      <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://quandrei.com/post/hover-sucks/</guid>
+      <description>&lt;p&gt;This is minor rant really, but I have been mildly annoyed with my domain registrar, &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt;, recently. Several months ago, I inquired whether I would be able to pay in &lt;a href=&#34;http://www.xe.com/currency/cad-canadian-dollar&#34;&gt;CAD&lt;/a&gt;, instead of being charged in &lt;a href=&#34;http://www.xe.com/currency/usd-us-dollar&#34;&gt;USD&lt;/a&gt; (and then having my credit card company add a surcharge due to foreign currency conversion). I thought this would be a trivial and easy request to grant since they are a Canadian company, and I am a Canadian citizen, and it would stand to reason we could do business using our nation&amp;rsquo;s legitimate currency. Not only was the answer a no, but the they gave me some bogus reasoning why they couldn&amp;rsquo;t. Furthermore, they implied that I should take my business elsewhere if I was not happy with that policy. So I have, and moved my domains elsewhere.&lt;/p&gt;
+
+&lt;p&gt;The sad thing is, they are not the only Canadian company I have dealt with that operate this way. Companies that enjoy many benefits of our great nation, through tax shelters and government grants/subsidies, and yet the locals who support them are treated shabbily. For shame!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learn Me a Great Good</title>
@@ -551,63 +593,6 @@ $ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
 &lt;p&gt;I still have some of the print media (hard copy&amp;hellip; I know, I know), but it is still a shame that many of the interesting projects are no longer chronicled online.&lt;/p&gt;
 
 &lt;p&gt;Just need to get that off my chest. I&amp;rsquo;m done now. Carry on.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kanako&#39;s Kitchen</title>
-      <link>https://quandrei.com/post/kanakos-kitchen/</link>
-      <pubDate>Sat, 05 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/kanakos-kitchen/</guid>
-      <description>&lt;p&gt;So I found a blog recently about Japanese home cooking, and it seemed intriguing. I am not, by any stretch, an expert but do enjoy cooking from time to time. I&amp;rsquo;ve been trying a few of the recipes, and this is what I have prepared so far:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;To note, the soy sauce I used was general purpose Kikkoman soy sauce for all the recipes, which is considered a Koikuchi soy sauce and not an Usukuchi (a point I wasn&amp;rsquo;t clear on from the recipes).&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2012/07/30/hakusai-tuna-nimono/&#34;&gt;Hakusai and tuna fish nimono:&lt;/a&gt; This is a very simple and easy recipe that came out really well. Easy for any newbie, nice flavor, and good in a pinch, but I think I would have preferred it with minced pork. Will definitely be trying this one again.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2010/07/19/saba-nitsuke/&#34;&gt;Saba Nitsuke:&lt;/a&gt; This was also a great dish. Although, since I was using 4 filets of mackerel instead of the 2 in the recipe, I doubled the portions for the sauce. I don&amp;rsquo;t think this was necessary in the end, as I had way too much sauce while simmering the fish, and had a hard time reducing it to an acceptable thickness. It was still quite tasty, just wasted ingredients is all.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2010/07/22/yakinasu/&#34;&gt;Yakinasu:&lt;/a&gt;  I love eggplants. And this recipe had promise, but I don&amp;rsquo;t think I executed very well. Fairly simple, but takes patience and time. I only used the katsuobushi as a seasoning, and skipped the ginger. Also, because we were eating several dishes at once, and I had made a plate for each person, I forgot to put some soy sauce on the side for seasoning, which I think would&amp;rsquo;ve complimented this quite well. Overall, the dish was very smokey, and nice, but I felt lacked something to compliment the smokiness. Again, likely due to the absence of soy sauce.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://kanakoskitchen.com/2009/11/16/nuta/&#34;&gt;Nuta:&lt;/a&gt; I used &amp;ldquo;white&amp;rdquo; miso paste for this recipe, but can use whichever you prefer. It was quite good, but due to other cooking distractions, I overcooked the green onions slightly. Still quite tasty, and complimented the above mackerel nicely.&lt;/p&gt;
-
-&lt;p&gt;As with most dishes, I served all of these with Japanese white rice. I highly recommend reading on how to prepare it, because having mediocre rice can really spoil a meal.&lt;/p&gt;
-
-&lt;p&gt;Will continue to go through these, and I suggest you do too. Lots to discover on this blog!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My gaming rig...</title>
-      <link>https://quandrei.com/post/my-gaming-rig/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/my-gaming-rig/</guid>
-      <description>&lt;p&gt;So, one of my passions is building my own gaming rigs. To the point, where I usually have parts lying around, and have been able to build a few additional towers on the side. Here are the specs to my latest:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;BitFenix Shinobi XL&lt;/li&gt;
-&lt;li&gt;Intel i5 2500K&lt;/li&gt;
-&lt;li&gt;MSI Z68A-GD55 motherboard&lt;/li&gt;
-&lt;li&gt;16 GB Patriot Viper Xtreme (1866mhz)&lt;/li&gt;
-&lt;li&gt;2 x MSI GeForce GTX 560 Ti&lt;/li&gt;
-&lt;li&gt;Plextor 128Gb SSD M5 Pro Xtreme&lt;/li&gt;
-&lt;li&gt;AData 120Gb SSD SandForce SF-2281&lt;/li&gt;
-&lt;li&gt;WD 2Tb Caviar Green HD&lt;/li&gt;
-&lt;li&gt;DasKeyboard Model S Professional&lt;/li&gt;
-&lt;li&gt;Razer DeathAdder Black&lt;/li&gt;
-&lt;li&gt;BenQ RL2450HT monitor&lt;/li&gt;
-&lt;li&gt;SteelSeries Siberia V2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My main platform for gaming, like most, is Steam. Considering the most recent announcement of the SteamOS, machines, and gamepad, being excited is pretty much a given. I won&amp;rsquo;t dwell too much on a subject that has been dissected and discussed at length across the inter-webs, but will say that I am really interested to see the level of customization available, and possibly being rid of Windows once and for all!&lt;/p&gt;
-
-&lt;p&gt;I suppose I would have to say that two of my favorite game developers are Ubisoft and Valve. Huge fan of the Prince of Persia, Assassin&amp;rsquo;s Creed, Portal, and Half-Life series. The Bioshock series is also pretty damned awesome.&lt;/p&gt;
-
-&lt;p&gt;If anyone needs a friend on Steam for the hardware beta, I go by the handle &amp;lsquo;quandrei&amp;rsquo;.  Just ping me.&lt;/p&gt;
-
-&lt;p&gt;L8r!&lt;/p&gt;
 </description>
     </item>
     

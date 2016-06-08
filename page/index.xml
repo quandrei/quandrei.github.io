@@ -45,7 +45,11 @@
 &lt;p&gt;&lt;em&gt;What you are experiencing is a temporary distortion of reality. Do not be alarmed.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This section is currently &lt;em&gt;&lt;code&gt;in progress&lt;/code&gt;&lt;/em&gt;, much like a few of my projects at the moment. Once something is ready, I will update this page accordingly. Until then, keep watching the stars.&lt;/p&gt;
+&lt;p&gt;This section is currently &lt;em&gt;&lt;code&gt;in progress&lt;/code&gt;&lt;/em&gt;, much like a few of my projects at the moment. I will update this page accordingly as more projects become available. Until then, keep watching the stars.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/quandrei/godzilla-foxfire-flask&#34;&gt;Godzilla Foxfire&lt;/a&gt; built with Python/Flask/MongoDB&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;[End Transmission]&lt;/strong&gt;&lt;/p&gt;
 </description>
