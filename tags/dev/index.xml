@@ -5,8 +5,55 @@
     <link>https://quandrei.com/tags/dev/</link>
     <description>Recent content in Dev on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://quandrei.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learn Me a Great Good</title>
+      <link>https://quandrei.com/post/learn-me-a-great-good/</link>
+      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://quandrei.com/post/learn-me-a-great-good/</guid>
+      <description>
+
+&lt;h3 id=&#34;php-we-all-fall-down:55b9f93c2282d2c0f83dafeba6c98708&#34;&gt;PHP, we all fall down&lt;/h3&gt;
+
+&lt;p&gt;So PHP has been getting me down lately, and I have been looking for the next new thing to get my mojo rising. Despite some improvements that came out of &lt;a href=&#34;http://php.net/archive/2016.php#id2016-05-26-1&#34;&gt;PHP7&lt;/a&gt; and dependency tools like &lt;a href=&#34;https://getcomposer.org/&#34;&gt;Composer&lt;/a&gt;, there are a great many things that make day-to-day development, well, annoying. Among them, they include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;an identity crisis, where it adopts the verbosity of Java in many of its bloated frameworks, but also retains its procedural style from its C-like hay day&lt;/li&gt;
+&lt;li&gt;a lack of types, causing unpredictability and a debugging nightmare&lt;/li&gt;
+&lt;li&gt;natural assumptions regarding built in functions seem to take a holiday&lt;/li&gt;
+&lt;li&gt;the fact that its used considerably on the web, and everybody&amp;rsquo;s cousin is learning just enough to be dangerous, I often encounter terrible code I have the pleasure of supporting/maintaining&lt;/li&gt;
+&lt;li&gt;Wordpress and Drupal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If &amp;ldquo;Why PHP sucks&amp;rdquo; is a topic that interests you, some fair points can be found &lt;a href=&#34;http://webonastick.com/php.html&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://whydoesitsuck.com/why-does-php-suck/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;so-what-next:55b9f93c2282d2c0f83dafeba6c98708&#34;&gt;So what next?&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tried a few things over the past few months that may have some promise:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; / &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Rails&lt;/a&gt;&lt;/strong&gt; - easy to get a web app up and running. Although, I need to learn more about how the underpinnings work, since the automagically generating everything doesn&amp;rsquo;t sit well with me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;&lt;/strong&gt; - simple/clean syntax, and the flexibility of being a general purpose language, has made learning python a great asset to my toolset.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/strong&gt; - the most interesting option so far, as it has numerous features that appeal to me:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;statically typed, compiled language&lt;/li&gt;
+&lt;li&gt;concise/clean&lt;/li&gt;
+&lt;li&gt;concurrency baked-in&lt;/li&gt;
+&lt;li&gt;comprehensive standard library (without the need for additional tools to get things done)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Over the next few months, I will be working with Go quite a bit (it being one of the core development languages at my new digs) and am really excited to get more proficient with it. Hopefully, a quote I heard a number of years ago, doesn&amp;rsquo;t ring true:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Never fall in love with a language. It will always break your heart.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo Migration</title>
