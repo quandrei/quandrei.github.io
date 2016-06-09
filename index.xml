@@ -53,14 +53,14 @@
     <item>
       <title>Learn Me a Great Good</title>
       <link>https://quandrei.com/post/learn-me-a-great-good/</link>
-      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://quandrei.com/post/learn-me-a-great-good/</guid>
       <description>
 
-&lt;h3 id=&#34;php-we-all-fall-down:55b9f93c2282d2c0f83dafeba6c98708&#34;&gt;PHP, we all fall down&lt;/h3&gt;
+&lt;h3 id=&#34;php-we-all-fall-down:fcf46d4111ed7ad22f5a93671cb90cbf&#34;&gt;PHP, we all fall down&lt;/h3&gt;
 
-&lt;p&gt;So PHP has been getting me down lately, and I have been looking for the next new thing to get my mojo rising. Despite some improvements that came out of &lt;a href=&#34;http://php.net/archive/2016.php#id2016-05-26-1&#34;&gt;PHP7&lt;/a&gt; and dependency tools like &lt;a href=&#34;https://getcomposer.org/&#34;&gt;Composer&lt;/a&gt;, there are a great many things that make day-to-day development, well, annoying. Among them, they include:&lt;/p&gt;
+&lt;p&gt;So PHP has been getting me down lately, and I have been looking for the next new thing to get my mojo rising. Despite some improvements that came out of &lt;a href=&#34;http://php.net/manual/en/migration70.new-features.php&#34;&gt;PHP7&lt;/a&gt; and dependency tools like &lt;a href=&#34;https://getcomposer.org/&#34;&gt;Composer&lt;/a&gt;, there are a great many things that make day-to-day development, well, annoying. Among them, they include:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;an identity crisis, where it adopts the verbosity of Java in many of its bloated frameworks, but also retains its procedural style from its C-like hay day&lt;/li&gt;
@@ -72,7 +72,7 @@
 
 &lt;p&gt;If &amp;ldquo;Why PHP sucks&amp;rdquo; is a topic that interests you, some fair points can be found &lt;a href=&#34;http://webonastick.com/php.html&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://whydoesitsuck.com/why-does-php-suck/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;so-what-next:55b9f93c2282d2c0f83dafeba6c98708&#34;&gt;So what next?&lt;/h3&gt;
+&lt;h3 id=&#34;so-what-next:fcf46d4111ed7ad22f5a93671cb90cbf&#34;&gt;So what next?&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ve tried a few things over the past few months that may have some promise:&lt;/p&gt;
 
