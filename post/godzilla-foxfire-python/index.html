@@ -146,23 +146,89 @@
 
 <p>I started writing a trivial bookmarking app in <a href="https://www.python.org/">Python</a> / <a href="http://flask.pocoo.org/">Flask</a> for the main purpose of learning that stack. I must say that it was informative and fun.</p>
 
+<p>The source can be found on my <a href="https://github.com/quandrei/godzilla-foxfire-flask">github account</a> and here are the resources I used:</p>
+
+<ul>
+<li><a href="http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">Flask tutorial by Miguel Grinberg</a> for general application implementation and guide</li>
+<li><a href="https://docs.mongodb.com/ecosystem/tutorial/write-a-tumblelog-application-with-flask-mongoengine/">MongoDB documentation example for MongoEngine</a> for general usage</li>
+<li><a href="http://blog.miguelgrinberg.com/post/oauth-authentication-with-flask">OAUTH example #1 by Miguel Grinberg</a> (not part of his original tutorial)</li>
+<li><a href="http://stackoverflow.com/questions/9499286/using-google-oauth2-with-flask">OAUTH example #2 on StackOverflow</a></li>
+</ul>
+
 <h3 id="the-dizzying-highs:2ed8292b57c61dc391ddaa24e97c8149">The dizzying highs:</h3>
 
-<p>Writing something in Python, with its simple and clean syntax, was satisfying. Little verbosity, and getting the logic I needed into classes and organized accordingly, was not a big hurdle.</p>
+<h4 id="python:2ed8292b57c61dc391ddaa24e97c8149">Python</h4>
 
-<p>The microframework, Flask, did a good job of staying out of my way, and giving me what I needed when defining my routes. Unlike Django, which I had tried previously (with all its batteries included), I was able to get everything defined with a proper <a href="http://www.restapitutorial.com/">RESTful API</a> in very little time.</p>
+<p>Writing something in Python, with its simple and clean syntax, was satisfying. Little verbosity, and getting the logic I needed into classes and organized accordingly, was not a big hurdle. As an example, here is the defined model class for a User:</p>
+
+<pre><code>class User(UserMixin, db.Document):
+    created_at = db.DateTimeField(default=datetime.datetime.now, required=True)
+    social_id = db.StringField(max_length=255, required=True)
+    username = db.StringField(max_length=255, required=True)
+    email = db.StringField(max_length=255, required=False)
+
+    def __unicode__(self):
+        return self.username
+
+    meta = {
+        'allow_inheritance': True,
+        'indexes': ['social_id','username','email','-created_at'],
+        'ordering': ['-created_at']
+    }
+</code></pre>
+
+<p>In only ~10 lines of code, I am able to map out the model attributes to the database fields, how the object will be output, and some other metadata, such as indices and ordering when returning collections.</p>
+
+<h4 id="flask:2ed8292b57c61dc391ddaa24e97c8149">Flask</h4>
+
+<p>The microframework, Flask, did a good job of staying out of my way, and giving me what I needed when defining my routes. Unlike Django, which I had tried previously (with all its batteries included), I was able to get everything defined with a proper <a href="http://www.restapitutorial.com/">RESTful API</a> in very little time. Here is an example of the <em>&rsquo;/index&rsquo;</em> route:</p>
+
+<pre><code>@app.route('/index', methods=['GET'])
+@login_required
+def index():
+    user = current_user
+    return render_template('index.html',
+                         title='Godzilla Foxfire',
+                         user=user)
+</code></pre>
+
+<p>In a few short lines, I was able to define the named route, specify the HTTP verb(s) permitted to access the route, enforce that a user must be logged in to access the route, and render a specific html file. Simple and effective.</p>
+
+<h4 id="oauth:2ed8292b57c61dc391ddaa24e97c8149">OAUTH</h4>
 
 <p>Implementing OATH (through some examples found online), turned out to be fairly straightforward. The only exception was integrating the app with <a href="https://www.mongodb.com/">MongoDB</a> (more on that later), since it isn&rsquo;t your classic SQL DB.</p>
 
+<h4 id="mongodb:2ed8292b57c61dc391ddaa24e97c8149">MongoDB</h4>
+
+<p>The piece that took me the most time was having Python/Flask and MongoDB talk to each other. After going through a few tutorials, I settled on <a href="http://mongoengine.org/">MongoEngine</a> to map out my DB collection fields to my class model attributes. The differences from the SQL mappings are not that different, as you can see here:</p>
+
+<pre><code>/*** SQL ***/
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nickname = db.Column(db.String(64), index=True, unique=True)
+    email = db.Column(db.String(120), index=True, unique=True)
+
+/*** MongoDB No-SQL ***/
+class User(UserMixin, db.Document):
+    created_at = db.DateTimeField(default=datetime.datetime.now, required=True)
+    social_id = db.StringField(max_length=255, required=True)
+    username = db.StringField(max_length=255, required=True)
+    email = db.StringField(max_length=255, required=False)
+</code></pre>
+
+<p>Note that &lsquo;UserMixin&rsquo; has nothing to do with No-SQL, but there for the OAUTH implementation. However, the rest is pretty evident. The SQL implementation refers to database columns for each class attribute, and the types they adhere to, within the associated database table. The No-SQL implementation refers to fields for each class attribute, with a specified type, within the named collections (associated to the class). They each (column or field) have their own parameters to specify if columns are unique (SQL) or fields are required (No-SQL).</p>
+
 <h3 id="the-terrifying-lows:2ed8292b57c61dc391ddaa24e97c8149">The terrifying lows:</h3>
 
-<p>Implementing OATH and other class definitions with MongoDB turned out to be the most challenging part, since most of the tutorials were using some flavor of SQL. I fully expected this, and to be honest, wanted the challenge so as to determine if I was actually learning something. The issues were mainly finding libraries I could use for MongoDB and then mapping the models using the No-SQL fields, in an appropriate/functional way. Through some reading, trial by fire, and testing, I was able to implement it successfully.</p>
+<p>Implementing class definitions with MongoDB turned out to be the most challenging part, since most of the tutorials were using some flavor of SQL. I fully expected this, and to be honest, wanted the challenge so as to determine if I was actually learning something. The main issue was finding a document-object mapper that I could use to connect the MongoDB No-SQL data fields and the model class attributes, in an appropriate/functional way. Through some reading, trial by fire, and testing, I was able to implement it successfully using MongoEngine.</p>
 
 <p>Decorators still mystify me, and I confess I did not take the time to fully understand them. I am sure I am missing other core concepts. As a result, I don&rsquo;t feel like I know Python/Flask confidently enough to dive into production code, but that usually comes with time (and more fire trials).</p>
 
 <h3 id="the-creamy-middles:2ed8292b57c61dc391ddaa24e97c8149">The creamy middles:</h3>
 
 <p>I am not certain if I will ever return to this specific stack, as I have found some other tools I prefer for developing web applications and microservices (enter <a href="https://golang.org/">Go</a>), but it was fun to prototype something with it, and get back to using MongoDB again.</p>
+
+<p>The next step for me will likely be reproducing this functionality using Go, not for any groundbreaking app or discovery, but for the more important reason: <a href="https://youtu.be/qL1WqN1XKK0?t=36s">because it&rsquo;s there.</a>.</p>
 
 	
 			

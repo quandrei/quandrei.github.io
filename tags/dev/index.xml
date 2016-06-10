@@ -18,23 +18,89 @@
 
 &lt;p&gt;I started writing a trivial bookmarking app in &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt; for the main purpose of learning that stack. I must say that it was informative and fun.&lt;/p&gt;
 
+&lt;p&gt;The source can be found on my &lt;a href=&#34;https://github.com/quandrei/godzilla-foxfire-flask&#34;&gt;github account&lt;/a&gt; and here are the resources I used:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&#34;&gt;Flask tutorial by Miguel Grinberg&lt;/a&gt; for general application implementation and guide&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.mongodb.com/ecosystem/tutorial/write-a-tumblelog-application-with-flask-mongoengine/&#34;&gt;MongoDB documentation example for MongoEngine&lt;/a&gt; for general usage&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.miguelgrinberg.com/post/oauth-authentication-with-flask&#34;&gt;OAUTH example #1 by Miguel Grinberg&lt;/a&gt; (not part of his original tutorial)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/9499286/using-google-oauth2-with-flask&#34;&gt;OAUTH example #2 on StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;the-dizzying-highs:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The dizzying highs:&lt;/h3&gt;
 
-&lt;p&gt;Writing something in Python, with its simple and clean syntax, was satisfying. Little verbosity, and getting the logic I needed into classes and organized accordingly, was not a big hurdle.&lt;/p&gt;
+&lt;h4 id=&#34;python:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;Python&lt;/h4&gt;
 
-&lt;p&gt;The microframework, Flask, did a good job of staying out of my way, and giving me what I needed when defining my routes. Unlike Django, which I had tried previously (with all its batteries included), I was able to get everything defined with a proper &lt;a href=&#34;http://www.restapitutorial.com/&#34;&gt;RESTful API&lt;/a&gt; in very little time.&lt;/p&gt;
+&lt;p&gt;Writing something in Python, with its simple and clean syntax, was satisfying. Little verbosity, and getting the logic I needed into classes and organized accordingly, was not a big hurdle. As an example, here is the defined model class for a User:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class User(UserMixin, db.Document):
+    created_at = db.DateTimeField(default=datetime.datetime.now, required=True)
+    social_id = db.StringField(max_length=255, required=True)
+    username = db.StringField(max_length=255, required=True)
+    email = db.StringField(max_length=255, required=False)
+
+    def __unicode__(self):
+        return self.username
+
+    meta = {
+        &#39;allow_inheritance&#39;: True,
+        &#39;indexes&#39;: [&#39;social_id&#39;,&#39;username&#39;,&#39;email&#39;,&#39;-created_at&#39;],
+        &#39;ordering&#39;: [&#39;-created_at&#39;]
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In only ~10 lines of code, I am able to map out the model attributes to the database fields, how the object will be output, and some other metadata, such as indices and ordering when returning collections.&lt;/p&gt;
+
+&lt;h4 id=&#34;flask:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;Flask&lt;/h4&gt;
+
+&lt;p&gt;The microframework, Flask, did a good job of staying out of my way, and giving me what I needed when defining my routes. Unlike Django, which I had tried previously (with all its batteries included), I was able to get everything defined with a proper &lt;a href=&#34;http://www.restapitutorial.com/&#34;&gt;RESTful API&lt;/a&gt; in very little time. Here is an example of the &lt;em&gt;&amp;rsquo;/index&amp;rsquo;&lt;/em&gt; route:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@app.route(&#39;/index&#39;, methods=[&#39;GET&#39;])
+@login_required
+def index():
+    user = current_user
+    return render_template(&#39;index.html&#39;,
+                         title=&#39;Godzilla Foxfire&#39;,
+                         user=user)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In a few short lines, I was able to define the named route, specify the HTTP verb(s) permitted to access the route, enforce that a user must be logged in to access the route, and render a specific html file. Simple and effective.&lt;/p&gt;
+
+&lt;h4 id=&#34;oauth:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;OAUTH&lt;/h4&gt;
 
 &lt;p&gt;Implementing OATH (through some examples found online), turned out to be fairly straightforward. The only exception was integrating the app with &lt;a href=&#34;https://www.mongodb.com/&#34;&gt;MongoDB&lt;/a&gt; (more on that later), since it isn&amp;rsquo;t your classic SQL DB.&lt;/p&gt;
 
+&lt;h4 id=&#34;mongodb:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;MongoDB&lt;/h4&gt;
+
+&lt;p&gt;The piece that took me the most time was having Python/Flask and MongoDB talk to each other. After going through a few tutorials, I settled on &lt;a href=&#34;http://mongoengine.org/&#34;&gt;MongoEngine&lt;/a&gt; to map out my DB collection fields to my class model attributes. The differences from the SQL mappings are not that different, as you can see here:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*** SQL ***/
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nickname = db.Column(db.String(64), index=True, unique=True)
+    email = db.Column(db.String(120), index=True, unique=True)
+
+/*** MongoDB No-SQL ***/
+class User(UserMixin, db.Document):
+    created_at = db.DateTimeField(default=datetime.datetime.now, required=True)
+    social_id = db.StringField(max_length=255, required=True)
+    username = db.StringField(max_length=255, required=True)
+    email = db.StringField(max_length=255, required=False)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that &amp;lsquo;UserMixin&amp;rsquo; has nothing to do with No-SQL, but there for the OAUTH implementation. However, the rest is pretty evident. The SQL implementation refers to database columns for each class attribute, and the types they adhere to, within the associated database table. The No-SQL implementation refers to fields for each class attribute, with a specified type, within the named collections (associated to the class). They each (column or field) have their own parameters to specify if columns are unique (SQL) or fields are required (No-SQL).&lt;/p&gt;
+
 &lt;h3 id=&#34;the-terrifying-lows:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The terrifying lows:&lt;/h3&gt;
 
-&lt;p&gt;Implementing OATH and other class definitions with MongoDB turned out to be the most challenging part, since most of the tutorials were using some flavor of SQL. I fully expected this, and to be honest, wanted the challenge so as to determine if I was actually learning something. The issues were mainly finding libraries I could use for MongoDB and then mapping the models using the No-SQL fields, in an appropriate/functional way. Through some reading, trial by fire, and testing, I was able to implement it successfully.&lt;/p&gt;
+&lt;p&gt;Implementing class definitions with MongoDB turned out to be the most challenging part, since most of the tutorials were using some flavor of SQL. I fully expected this, and to be honest, wanted the challenge so as to determine if I was actually learning something. The main issue was finding a document-object mapper that I could use to connect the MongoDB No-SQL data fields and the model class attributes, in an appropriate/functional way. Through some reading, trial by fire, and testing, I was able to implement it successfully using MongoEngine.&lt;/p&gt;
 
 &lt;p&gt;Decorators still mystify me, and I confess I did not take the time to fully understand them. I am sure I am missing other core concepts. As a result, I don&amp;rsquo;t feel like I know Python/Flask confidently enough to dive into production code, but that usually comes with time (and more fire trials).&lt;/p&gt;
 
 &lt;h3 id=&#34;the-creamy-middles:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The creamy middles:&lt;/h3&gt;
 
 &lt;p&gt;I am not certain if I will ever return to this specific stack, as I have found some other tools I prefer for developing web applications and microservices (enter &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;), but it was fun to prototype something with it, and get back to using MongoDB again.&lt;/p&gt;
+
+&lt;p&gt;The next step for me will likely be reproducing this functionality using Go, not for any groundbreaking app or discovery, but for the more important reason: &lt;a href=&#34;https://youtu.be/qL1WqN1XKK0?t=36s&#34;&gt;because it&amp;rsquo;s there.&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -64,9 +130,9 @@
 
 &lt;p&gt;I&amp;rsquo;ve tried a few things over the past few months that may have some promise:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; / &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Rails&lt;/a&gt;&lt;/strong&gt; - easy to get a web app up and running. Although, I need to learn more about how the underpinnings work, since the automagically generating everything doesn&amp;rsquo;t sit well with me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; / &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Rails&lt;/a&gt;&lt;/strong&gt; - easy to get a web app up and running, through Rails&amp;rsquo; generators/scaffolding and Ruby&amp;rsquo;s expressiveness. Although, I need to learn more about how the underpinnings work, since the automagically generating everything doesn&amp;rsquo;t sit well with me.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;&lt;/strong&gt; - simple/clean syntax, and the flexibility of being a general purpose language, has made learning python a great asset to my toolset.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;&lt;/strong&gt; - simple/clean syntax, and the flexibility of being a general purpose language, has made learning python a great asset to my toolset. Flask gave me the flexibility I needed to get the job done, with the option to import what I wanted, without a ton of bloat.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/strong&gt; - the most interesting option so far, as it has numerous features that appeal to me:&lt;/p&gt;
 

@@ -34,9 +34,9 @@
 
 &lt;p&gt;I&amp;rsquo;ve tried a few things over the past few months that may have some promise:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; / &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Rails&lt;/a&gt;&lt;/strong&gt; - easy to get a web app up and running. Although, I need to learn more about how the underpinnings work, since the automagically generating everything doesn&amp;rsquo;t sit well with me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; / &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Rails&lt;/a&gt;&lt;/strong&gt; - easy to get a web app up and running, through Rails&amp;rsquo; generators/scaffolding and Ruby&amp;rsquo;s expressiveness. Although, I need to learn more about how the underpinnings work, since the automagically generating everything doesn&amp;rsquo;t sit well with me.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;&lt;/strong&gt; - simple/clean syntax, and the flexibility of being a general purpose language, has made learning python a great asset to my toolset.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;&lt;/strong&gt; - simple/clean syntax, and the flexibility of being a general purpose language, has made learning python a great asset to my toolset. Flask gave me the flexibility I needed to get the job done, with the option to import what I wanted, without a ton of bloat.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/strong&gt; - the most interesting option so far, as it has numerous features that appeal to me:&lt;/p&gt;
 
