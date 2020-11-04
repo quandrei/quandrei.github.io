@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>purge on [quandrei]</title>
+    <link>https://quandrei.com/tags/purge/</link>
+    <description>Recent content in purge on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://quandrei.com/tags/purge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Purge</title>
+      <link>https://quandrei.com/posts/2020/11/the-purge/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://quandrei.com/posts/2020/11/the-purge/</guid>
+      <description>No doubt, you have noticed the sparseness of the number of posts on this site. I decided it was time for change, and purged all those articles that no longer sparked joy. Likewise, for my twitter account.
+I kept a few that I liked, but most of them went into the recylcing bin. Moving forward, hopefully, I will post more quality content as time moves forward. Or backward. Or twirling towards some abstract goal.</description>
+    </item>
+    
+  </channel>
+</rss>

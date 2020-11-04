@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doctor Who Ipsum on [quandrei]</title>
+    <link>https://quandrei.com/tags/doctor-who-ipsum/</link>
+    <description>Recent content in Doctor Who Ipsum on [quandrei]</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://quandrei.com/tags/doctor-who-ipsum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Doctor Who?</title>
+      <link>https://quandrei.com/posts/2020/08/doctor-who/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://quandrei.com/posts/2020/08/doctor-who/</guid>
+      <description>Ipsum generators for the win&amp;hellip; So while working on the site, I needed some filler text to test. So why not use trusty old lorem ipsum. To my surpise, I discovered many other variations here. And better than that, I found a Doctor Who Ipsum generator.
+I was, however, disappointed to see that the Space Ipsum generator site domain seems to have been usurped, and now being used to sell steroids.</description>
+    </item>
+    
+  </channel>
+</rss>

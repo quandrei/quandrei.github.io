@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://quandrei.com/</loc>
+    <lastmod>2020-11-03T00:00:00-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://quandrei.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://quandrei.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/cleanup/</loc>
+    <lastmod>2020-11-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/</loc>
+    <lastmod>2020-11-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/purge/</loc>
+    <lastmod>2020-11-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/</loc>
+    <lastmod>2020-11-03T00:00:00-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://quandrei.com/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://quandrei.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/2020/11/the-purge/</loc>
+    <lastmod>2020-11-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/about/</loc>
+    <lastmod>2020-08-07T20:47:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/doctor-who-ipsum/</loc>
+    <lastmod>2020-08-07T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/2020/08/doctor-who/</loc>
+    <lastmod>2020-08-07T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/lorem-ipsum/</loc>
+    <lastmod>2020-08-07T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/dev/</loc>
+    <lastmod>2016-06-11T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/2016/06/flux-rad-or-how-i-learned-to-stop-worrying-and-love-the-fact-i-dont-have-time/</loc>
+    <lastmod>2016-06-11T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/motivation/</loc>
+    <lastmod>2016-06-11T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/project-management/</loc>
+    <lastmod>2013-12-29T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/software-architecture/</loc>
+    <lastmod>2013-12-29T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/software-design/</loc>
+    <lastmod>2013-12-29T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/2013/12/v0.0.1/</loc>
+    <lastmod>2013-12-29T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/food/</loc>
+    <lastmod>2013-10-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/home-cooking/</loc>
+    <lastmod>2013-10-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/japanese-cuisine/</loc>
+    <lastmod>2013-10-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/2013/10/kanakos-kitchen/</loc>
+    <lastmod>2013-10-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/cart/</loc>
+    <lastmod>2013-10-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/dmsa/</loc>
+    <lastmod>2013-10-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/2013/10/exposedmimic/</loc>
+    <lastmod>2013-10-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/exposedmimic/</loc>
+    <lastmod>2013-10-03T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/beginning/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/whoami/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/posts/1970/01/whoami/</loc>
+    <lastmod>1970-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://quandrei.com/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://quandrei.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://quandrei.com/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://quandrei.com/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://quandrei.com/tags/work/life-balance/</loc>
+  </url>
+  
+</urlset>

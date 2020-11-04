@@ -1,57 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Motivation on [quandrei]</title>
+    <title>motivation on [quandrei]</title>
     <link>https://quandrei.com/tags/motivation/</link>
-    <description>Recent content in Motivation on [quandrei]</description>
+    <description>Recent content in motivation on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.com/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jun 2016 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://quandrei.com/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Flux = Rad, or how I learned to stop worrying and love the fact I don’t have time</title>
-      <link>https://quandrei.com/post/flux-equals-rad/</link>
-      <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      <link>https://quandrei.com/posts/2016/06/flux-rad-or-how-i-learned-to-stop-worrying-and-love-the-fact-i-dont-have-time/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://quandrei.com/post/flux-equals-rad/</guid>
-      <description>
-
-&lt;p&gt;Over the last few months, between work and family time, I have come to the inescapable conclusion that there are not enough hours in a day. I know, I know, I can hear thousands of voices in cyber space cry out, &lt;strong&gt;&lt;em&gt;&amp;ldquo;No shit, Sherlock!!!&amp;rdquo;&lt;/em&gt;&lt;/strong&gt;, but bear with me&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-great-experiment:e831ab99dc0c1469e881e3a75be5a730&#34;&gt;The Great Experiment:&lt;/h3&gt;
-
-&lt;p&gt;This began when I saw an inspirational article documenting a developer&amp;rsquo;s &lt;a href=&#34;https://drksephy.github.io/2015/07/02/commit/&#34;&gt;500 day commit streak&lt;/a&gt;. At any given time, I always have a laundry list of ideas I&amp;rsquo;d like to implement and technologies I&amp;rsquo;d like to experiment with. Seeing this impressive streak, made me feel as though I was failing as a developer, by not keeping up. Because of this, I decided to try to employ a schedule that would allow me to do some kind of constructive work on a daily basis. At least 1-2 hours of &lt;em&gt;something&lt;/em&gt;. My criteria were as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;needs to be development-related and constructive (i.e. reading articles involving best practices, coding something, experimenting with some kind of dev-ops tools, strategies/tools to improve personal workflow, etc.)&lt;/li&gt;
-&lt;li&gt;does not necessarily need to be something &amp;lsquo;committed&amp;rsquo; to my github account, so as not to burn myself out&lt;/li&gt;
-&lt;li&gt;could not interfere with quality time with my family&lt;/li&gt;
-&lt;li&gt;eventually build something cool with my new and improved skills&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the beginning, I was motivated and it wasn&amp;rsquo;t too difficult. But all good things&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-kobayashi-maru:e831ab99dc0c1469e881e3a75be5a730&#34;&gt;The Kobayashi Maru:&lt;/h3&gt;
-
-&lt;p&gt;Despite my best efforts, trying to strive to do all that I want while maintaining everything else in my life, proved to be a no-win scenario. There were too many factors I had not taken into consideration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Days where my full-time job needed me to put in some more hours to stay on schedule.&lt;/li&gt;
-&lt;li&gt;Days where family obligations took more time than expected.&lt;/li&gt;
-&lt;li&gt;Days where illness zapped me completely, and led me to doing the bare minimum to get the day done.&lt;/li&gt;
-&lt;li&gt;Days where other interruptions prevented me from getting much needed sleep, completely torpedoing my energy level.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When I tried to focus more intently on my goals, other facets of my life suffered. I would skip healthy choices, like going to the gym or getting enough sleep, in order to put in the time needed. I felt those were bad choices.&lt;/p&gt;
-
-&lt;p&gt;This whole endeavor showed me a few things. One great thing it helped me with was learning some focus and organizing my time a little better. And although green squares on my github profile are satisfying, they are no substitute for having balance in life. At the end of the day, even with an impressive commit streak, I will not be able to code myself a family or good health. Don&amp;rsquo;t get me wrong, if I ever reach a point where I can have it all, I&amp;rsquo;ll go for it (and I applaud those who can achieve this). For now, having it all is not possible.&lt;/p&gt;
-
-&lt;p&gt;But, the good news is, I still have been able to find a good balance to create and experiment as much as I need to (instead of as much as I want to). If ever I question my approach, I use this formula regarding invention to help me re-evaluate:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Invention, my dear friends, is 93% perspiration, 6% electricity, 4% evaporation, and 2% butterscotch ripple.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <guid>https://quandrei.com/posts/2016/06/flux-rad-or-how-i-learned-to-stop-worrying-and-love-the-fact-i-dont-have-time/</guid>
+      <description>Over the last few months, between work and family time, I have come to the inescapable conclusion that there are not enough hours in a day. And so it goes&amp;hellip;
+The Great Experiment: This began when I saw an inspirational article documenting a developer’s 500 day commit streak. At any given time, I always have a laundry list of ideas I’d like to implement and technologies I’d like to experiment with.</description>
     </item>
     
   </channel>

@@ -1,695 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[quandrei]</title>
     <link>https://quandrei.com/</link>
     <description>Recent content on [quandrei]</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://quandrei.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://quandrei.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Purge</title>
+      <link>https://quandrei.com/posts/2020/11/the-purge/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://quandrei.com/posts/2020/11/the-purge/</guid>
+      <description>No doubt, you have noticed the sparseness of the number of posts on this site. I decided it was time for change, and purged all those articles that no longer sparked joy. Likewise, for my twitter account.
+I kept a few that I liked, but most of them went into the recylcing bin. Moving forward, hopefully, I will post more quality content as time moves forward. Or backward. Or twirling towards some abstract goal.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://quandrei.com/about/</link>
+      <pubDate>Fri, 07 Aug 2020 20:47:28 -0400</pubDate>
+      
+      <guid>https://quandrei.com/about/</guid>
+      <description>What you are experiencing is a temporary distortion of reality. Do not be alarmed.
+&amp;ndash;Phong
+ This site is a little slice of cyberspace that is mine. It is place for me to talk about tech/projects I am working on, and everyday thoughts on life that come up in between coffees.
+I made it, all on my own. It may not be glamorous, or even work in some places, but it&amp;rsquo;s still good.</description>
+    </item>
+    
+    <item>
+      <title>Doctor Who?</title>
+      <link>https://quandrei.com/posts/2020/08/doctor-who/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://quandrei.com/posts/2020/08/doctor-who/</guid>
+      <description>Ipsum generators for the win&amp;hellip; So while working on the site, I needed some filler text to test. So why not use trusty old lorem ipsum. To my surpise, I discovered many other variations here. And better than that, I found a Doctor Who Ipsum generator.
+I was, however, disappointed to see that the Space Ipsum generator site domain seems to have been usurped, and now being used to sell steroids.</description>
+    </item>
     
     <item>
       <title>Flux = Rad, or how I learned to stop worrying and love the fact I don’t have time</title>
-      <link>https://quandrei.com/post/flux-equals-rad/</link>
-      <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      <link>https://quandrei.com/posts/2016/06/flux-rad-or-how-i-learned-to-stop-worrying-and-love-the-fact-i-dont-have-time/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://quandrei.com/post/flux-equals-rad/</guid>
-      <description>
-
-&lt;p&gt;Over the last few months, between work and family time, I have come to the inescapable conclusion that there are not enough hours in a day. I know, I know, I can hear thousands of voices in cyber space cry out, &lt;strong&gt;&lt;em&gt;&amp;ldquo;No shit, Sherlock!!!&amp;rdquo;&lt;/em&gt;&lt;/strong&gt;, but bear with me&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-great-experiment:e831ab99dc0c1469e881e3a75be5a730&#34;&gt;The Great Experiment:&lt;/h3&gt;
-
-&lt;p&gt;This began when I saw an inspirational article documenting a developer&amp;rsquo;s &lt;a href=&#34;https://drksephy.github.io/2015/07/02/commit/&#34;&gt;500 day commit streak&lt;/a&gt;. At any given time, I always have a laundry list of ideas I&amp;rsquo;d like to implement and technologies I&amp;rsquo;d like to experiment with. Seeing this impressive streak, made me feel as though I was failing as a developer, by not keeping up. Because of this, I decided to try to employ a schedule that would allow me to do some kind of constructive work on a daily basis. At least 1-2 hours of &lt;em&gt;something&lt;/em&gt;. My criteria were as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;needs to be development-related and constructive (i.e. reading articles involving best practices, coding something, experimenting with some kind of dev-ops tools, strategies/tools to improve personal workflow, etc.)&lt;/li&gt;
-&lt;li&gt;does not necessarily need to be something &amp;lsquo;committed&amp;rsquo; to my github account, so as not to burn myself out&lt;/li&gt;
-&lt;li&gt;could not interfere with quality time with my family&lt;/li&gt;
-&lt;li&gt;eventually build something cool with my new and improved skills&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the beginning, I was motivated and it wasn&amp;rsquo;t too difficult. But all good things&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-kobayashi-maru:e831ab99dc0c1469e881e3a75be5a730&#34;&gt;The Kobayashi Maru:&lt;/h3&gt;
-
-&lt;p&gt;Despite my best efforts, trying to strive to do all that I want while maintaining everything else in my life, proved to be a no-win scenario. There were too many factors I had not taken into consideration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Days where my full-time job needed me to put in some more hours to stay on schedule.&lt;/li&gt;
-&lt;li&gt;Days where family obligations took more time than expected.&lt;/li&gt;
-&lt;li&gt;Days where illness zapped me completely, and led me to doing the bare minimum to get the day done.&lt;/li&gt;
-&lt;li&gt;Days where other interruptions prevented me from getting much needed sleep, completely torpedoing my energy level.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When I tried to focus more intently on my goals, other facets of my life suffered. I would skip healthy choices, like going to the gym or getting enough sleep, in order to put in the time needed. I felt those were bad choices.&lt;/p&gt;
-
-&lt;p&gt;This whole endeavor showed me a few things. One great thing it helped me with was learning some focus and organizing my time a little better. And although green squares on my github profile are satisfying, they are no substitute for having balance in life. At the end of the day, even with an impressive commit streak, I will not be able to code myself a family or good health. Don&amp;rsquo;t get me wrong, if I ever reach a point where I can have it all, I&amp;rsquo;ll go for it (and I applaud those who can achieve this). For now, having it all is not possible.&lt;/p&gt;
-
-&lt;p&gt;But, the good news is, I still have been able to find a good balance to create and experiment as much as I need to (instead of as much as I want to). If ever I question my approach, I use this formula regarding invention to help me re-evaluate:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Invention, my dear friends, is 93% perspiration, 6% electricity, 4% evaporation, and 2% butterscotch ripple.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <guid>https://quandrei.com/posts/2016/06/flux-rad-or-how-i-learned-to-stop-worrying-and-love-the-fact-i-dont-have-time/</guid>
+      <description>Over the last few months, between work and family time, I have come to the inescapable conclusion that there are not enough hours in a day. And so it goes&amp;hellip;
+The Great Experiment: This began when I saw an inspirational article documenting a developer’s 500 day commit streak. At any given time, I always have a laundry list of ideas I’d like to implement and technologies I’d like to experiment with.</description>
     </item>
     
     <item>
-      <title>Godzilla Foxfire, the quickening</title>
-      <link>https://quandrei.com/post/godzilla-foxfire-python/</link>
-      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      <title>v0.0.1</title>
+      <link>https://quandrei.com/posts/2013/12/v0.0.1/</link>
+      <pubDate>Sun, 29 Dec 2013 00:00:00 -0500</pubDate>
       
-      <guid>https://quandrei.com/post/godzilla-foxfire-python/</guid>
-      <description>
-
-&lt;p&gt;I started writing a trivial bookmarking app in &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt; for the main purpose of learning that stack. I must say that it was informative and fun.&lt;/p&gt;
-
-&lt;p&gt;The source can be found on my &lt;a href=&#34;https://github.com/quandrei/godzilla-foxfire-flask&#34;&gt;github account&lt;/a&gt; and here are the resources I used:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&#34;&gt;Flask tutorial by Miguel Grinberg&lt;/a&gt; for general application implementation and guide&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.mongodb.com/ecosystem/tutorial/write-a-tumblelog-application-with-flask-mongoengine/&#34;&gt;MongoDB documentation example for MongoEngine&lt;/a&gt; for general usage&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.miguelgrinberg.com/post/oauth-authentication-with-flask&#34;&gt;OAUTH example #1 by Miguel Grinberg&lt;/a&gt; (not part of his original tutorial)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/9499286/using-google-oauth2-with-flask&#34;&gt;OAUTH example #2 on StackOverflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;the-dizzying-highs:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The dizzying highs:&lt;/h3&gt;
-
-&lt;h4 id=&#34;python:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;Python&lt;/h4&gt;
-
-&lt;p&gt;Writing something in Python, with its simple and clean syntax, was satisfying. Little verbosity, and getting the logic I needed into classes and organized accordingly, was not a big hurdle. As an example, here is the defined model class for a User:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;class User(UserMixin, db.Document):
-    created_at = db.DateTimeField(default=datetime.datetime.now, required=True)
-    social_id = db.StringField(max_length=255, required=True)
-    username = db.StringField(max_length=255, required=True)
-    email = db.StringField(max_length=255, required=False)
-
-    def __unicode__(self):
-        return self.username
-
-    meta = {
-        &#39;allow_inheritance&#39;: True,
-        &#39;indexes&#39;: [&#39;social_id&#39;,&#39;username&#39;,&#39;email&#39;,&#39;-created_at&#39;],
-        &#39;ordering&#39;: [&#39;-created_at&#39;]
-    }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In only ~10 lines of code, I am able to map out the model attributes to the database fields, how the object will be output, and some other metadata, such as indices and ordering when returning collections.&lt;/p&gt;
-
-&lt;h4 id=&#34;flask:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;Flask&lt;/h4&gt;
-
-&lt;p&gt;The microframework, Flask, did a good job of staying out of my way, and giving me what I needed when defining my routes. Unlike Django, which I had tried previously (with all its batteries included), I was able to get everything defined with a proper &lt;a href=&#34;http://www.restapitutorial.com/&#34;&gt;RESTful API&lt;/a&gt; in very little time. Here is an example of the &lt;em&gt;&amp;rsquo;/index&amp;rsquo;&lt;/em&gt; route:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@app.route(&#39;/index&#39;, methods=[&#39;GET&#39;])
-@login_required
-def index():
-    user = current_user
-    return render_template(&#39;index.html&#39;,
-                         title=&#39;Godzilla Foxfire&#39;,
-                         user=user)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In a few short lines, I was able to define the named route, specify the HTTP verb(s) permitted to access the route, enforce that a user must be logged in to access the route, and render a specific html file. Simple and effective.&lt;/p&gt;
-
-&lt;h4 id=&#34;oauth:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;OAUTH&lt;/h4&gt;
-
-&lt;p&gt;Implementing OATH (through some examples found online), turned out to be fairly straightforward. The only exception was integrating the app with &lt;a href=&#34;https://www.mongodb.com/&#34;&gt;MongoDB&lt;/a&gt; (more on that later), since it isn&amp;rsquo;t your classic SQL DB.&lt;/p&gt;
-
-&lt;h4 id=&#34;mongodb:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;MongoDB&lt;/h4&gt;
-
-&lt;p&gt;The piece that took me the most time was having Python/Flask and MongoDB talk to each other. After going through a few tutorials, I settled on &lt;a href=&#34;http://mongoengine.org/&#34;&gt;MongoEngine&lt;/a&gt; to map out my DB collection fields to my class model attributes. The differences from the SQL mappings are not that different, as you can see here:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/*** SQL ***/
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    nickname = db.Column(db.String(64), index=True, unique=True)
-    email = db.Column(db.String(120), index=True, unique=True)
-
-/*** MongoDB No-SQL ***/
-class User(UserMixin, db.Document):
-    created_at = db.DateTimeField(default=datetime.datetime.now, required=True)
-    social_id = db.StringField(max_length=255, required=True)
-    username = db.StringField(max_length=255, required=True)
-    email = db.StringField(max_length=255, required=False)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note that &amp;lsquo;UserMixin&amp;rsquo; has nothing to do with No-SQL, but there for the OAUTH implementation. However, the rest is pretty evident. The SQL implementation refers to database columns for each class attribute, and the types they adhere to, within the associated database table. The No-SQL implementation refers to fields for each class attribute, with a specified type, within the named collections (associated to the class). They each (column or field) have their own parameters to specify if columns are unique (SQL) or fields are required (No-SQL).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-terrifying-lows:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The terrifying lows:&lt;/h3&gt;
-
-&lt;p&gt;Implementing class definitions with MongoDB turned out to be the most challenging part, since most of the tutorials were using some flavor of SQL. I fully expected this, and to be honest, wanted the challenge so as to determine if I was actually learning something. The main issue was finding a document-object mapper that I could use to connect the MongoDB No-SQL data fields and the model class attributes, in an appropriate/functional way. Through some reading, trial by fire, and testing, I was able to implement it successfully using MongoEngine.&lt;/p&gt;
-
-&lt;p&gt;Decorators still mystify me, and I confess I did not take the time to fully understand them. I am sure I am missing other core concepts. As a result, I don&amp;rsquo;t feel like I know Python/Flask confidently enough to dive into production code, but that usually comes with time (and more fire trials).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-creamy-middles:2ed8292b57c61dc391ddaa24e97c8149&#34;&gt;The creamy middles:&lt;/h3&gt;
-
-&lt;p&gt;I am not certain if I will ever return to this specific stack, as I have found some other tools I prefer for developing web applications and microservices (enter &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;), but it was fun to prototype something with it, and get back to using MongoDB again.&lt;/p&gt;
-
-&lt;p&gt;The next step for me will likely be reproducing this functionality using Go, not for any groundbreaking app or discovery, but for the more important reason: &lt;a href=&#34;https://youtu.be/qL1WqN1XKK0?t=36s&#34;&gt;because it&amp;rsquo;s there.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://quandrei.com/posts/2013/12/v0.0.1/</guid>
+      <description>There I was, fairly new to a company, and asked to take the reigns of a project because of limited developer resources. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data. Everyone else was committed to another project, and although I didn’t have the expertise to do this on my own, I was the only one around available for the the task at hand.</description>
     </item>
     
     <item>
-      <title>Hover, the rant</title>
-      <link>https://quandrei.com/post/hover-sucks/</link>
-      <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
+      <title>Kanako&#39;s Kitchen</title>
+      <link>https://quandrei.com/posts/2013/10/kanakos-kitchen/</link>
+      <pubDate>Sat, 05 Oct 2013 00:00:00 -0500</pubDate>
       
-      <guid>https://quandrei.com/post/hover-sucks/</guid>
-      <description>&lt;p&gt;This is a minor rant really, but I have been mildly annoyed with my domain registrar, &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt;, recently. Several months ago, I inquired whether I would be able to pay in &lt;a href=&#34;http://www.xe.com/currency/cad-canadian-dollar&#34;&gt;CAD&lt;/a&gt;, instead of being charged in &lt;a href=&#34;http://www.xe.com/currency/usd-us-dollar&#34;&gt;USD&lt;/a&gt; (and then having my credit card company add a surcharge due to foreign currency conversion). I thought this would be a trivial and easy request to grant since they are a Canadian company, and I am a Canadian citizen, and it would stand to reason we could do business using our nation&amp;rsquo;s legitimate currency. Not only was the answer a no, but the they gave me some bogus reasoning why they couldn&amp;rsquo;t. Furthermore, they implied that I should take my business elsewhere if I was not happy with that policy. So I have, and moved my domains elsewhere.&lt;/p&gt;
-
-&lt;p&gt;The sad thing is, they are not the only Canadian company I have dealt with that operate this way. Companies that enjoy many benefits of our great nation, through tax shelters and government grants/subsidies, and yet the locals who support them are treated shabbily. For shame!&lt;/p&gt;
-</description>
+      <guid>https://quandrei.com/posts/2013/10/kanakos-kitchen/</guid>
+      <description>So I found a blog recently about Japanese home cooking, and it seemed intriguing. I am not, by any stretch, an expert but do enjoy cooking from time to time. I’ve been trying a few of the recipes, and this is what I have prepared so far:
+To note, the soy sauce I used was general purpose Kikkoman soy sauce for all the recipes, which is considered a Koikuchi soy sauce and not an Usukuchi (a point I wasn’t clear on from the recipes).</description>
     </item>
     
     <item>
-      <title>Learn Me a Great Good</title>
-      <link>https://quandrei.com/post/learn-me-a-great-good/</link>
-      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      <title>Exposed:MIMIC</title>
+      <link>https://quandrei.com/posts/2013/10/exposedmimic/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 -0500</pubDate>
       
-      <guid>https://quandrei.com/post/learn-me-a-great-good/</guid>
-      <description>
-
-&lt;h3 id=&#34;php-we-all-fall-down:fcf46d4111ed7ad22f5a93671cb90cbf&#34;&gt;PHP, we all fall down&lt;/h3&gt;
-
-&lt;p&gt;So PHP has been getting me down lately, and I have been looking for the next new thing to get my mojo rising. Despite some improvements that came out of &lt;a href=&#34;http://php.net/manual/en/migration70.new-features.php&#34;&gt;PHP7&lt;/a&gt; and dependency tools like &lt;a href=&#34;https://getcomposer.org/&#34;&gt;Composer&lt;/a&gt;, there are a great many things that make day-to-day development, well, annoying. Among them, they include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;an identity crisis, where it adopts the verbosity of Java in many of its bloated frameworks, but also retains its procedural style from its C-like hay day&lt;/li&gt;
-&lt;li&gt;a lack of types, causing unpredictability and a debugging nightmare&lt;/li&gt;
-&lt;li&gt;natural assumptions regarding built in functions seem to take a holiday&lt;/li&gt;
-&lt;li&gt;the fact that its used considerably on the web, and everybody&amp;rsquo;s cousin is learning just enough to be dangerous, I often encounter terrible code I have the pleasure of supporting/maintaining&lt;/li&gt;
-&lt;li&gt;Wordpress and Drupal&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If &amp;ldquo;Why PHP sucks&amp;rdquo; is a topic that interests you, some fair points can be found &lt;a href=&#34;http://webonastick.com/php.html&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://whydoesitsuck.com/why-does-php-suck/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;so-what-next:fcf46d4111ed7ad22f5a93671cb90cbf&#34;&gt;So what next?&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;ve tried a few things over the past few months that may have some promise:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; / &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Rails&lt;/a&gt;&lt;/strong&gt; - easy to get a web app up and running, through Rails&amp;rsquo; generators/scaffolding and Ruby&amp;rsquo;s expressiveness. Although, I need to learn more about how the underpinnings work, since the automagically generating everything doesn&amp;rsquo;t sit well with me.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt;&lt;/strong&gt; - simple/clean syntax, and the flexibility of being a general purpose language, has made learning python a great asset to my toolset. Flask gave me the flexibility I needed to get the job done, with the option to import what I wanted, without a ton of bloat.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/strong&gt; - the most interesting option so far, as it has numerous features that appeal to me:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;statically typed, compiled language&lt;/li&gt;
-&lt;li&gt;concise/clean&lt;/li&gt;
-&lt;li&gt;concurrency baked-in&lt;/li&gt;
-&lt;li&gt;comprehensive standard library (without the need for additional tools to get things done)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Over the next few months, I will be working with Go quite a bit (it being one of the core development languages at my new digs) and am really excited to get more proficient with it. Hopefully, a quote I heard a number of years ago, doesn&amp;rsquo;t ring true:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Never fall in love with a language. It will always break your heart.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <guid>https://quandrei.com/posts/2013/10/exposedmimic/</guid>
+      <description>One of the most influential and interesting projects I have ever had the challenge and pleasure of doing, was organizing the end-of-year exhibition for the Computation Art students. This was several years back, when I was in school, and much younger.
+I recently decided to update my CV and join the 21st century, so that it can be contained in an online format, and to my dismay, much of the work that went into that project, seems to have been removed/deleted/obliterated.</description>
     </item>
     
     <item>
-      <title>Hugo Migration</title>
-      <link>https://quandrei.com/post/hugo-migration/</link>
-      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      <title>whoami</title>
+      <link>https://quandrei.com/posts/1970/01/whoami/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
-      <guid>https://quandrei.com/post/hugo-migration/</guid>
-      <description>
-
-&lt;p&gt;In my endeavor to not be bored, and learn new things, I decided to take a step in a new direction, and move my existing &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; blog to &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;why-hugo:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Why hugo?&lt;/h3&gt;
-
-&lt;p&gt;There seem to be some obvious advantages out there for using Hugo over Jekyll, but the following reasons are what sold me on the idea:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;an excuse to learn me a great good; specifically get started on &lt;a href=&#34;https://golang.org/&#34;&gt;go-lang&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;KISS&lt;/a&gt; principle&lt;/li&gt;
-&lt;li&gt;performance boost from Jekyll (there are numerous articles out there, take your pick)&lt;/li&gt;
-&lt;li&gt;taxonomy implememtation was dead-simple with a decent theme (lacking in my previous blog version)&lt;/li&gt;
-&lt;li&gt;easy migration from &lt;a href=&#34;https://gohugo.io/tutorials/migrate-from-jekyll/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;easily hosted on &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;github pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;--watch&lt;/code&gt; and &lt;code&gt;--theme=theme_name&lt;/code&gt; options when running locally, which are incredibly useful for dynamically observing changes to the site, and testing/vetting out themes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;searching-for-a-theme:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Searching for a theme:&lt;/h3&gt;
-
-&lt;p&gt;There were a few interesting themes I was debating on, and here were a few of the front-runners:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/lanyon/&#34;&gt;lanyon-hugo&lt;/a&gt;: I felt like I needed something different than my old blog, so this was out&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/casper/&#34;&gt;casper&lt;/a&gt;: was not too keen on the menu layout and the blog rendering, and no categories&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/detox/&#34;&gt;detox&lt;/a&gt;: no tag filtering for blog posts, no categories&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/startbootstrap-clean-blog/&#34;&gt;startbootstrap-clean-blog&lt;/a&gt;: too many errors to count, didn&amp;rsquo;t work out of the box&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://themes.gohugo.io/purehugo/&#34;&gt;purehugo&lt;/a&gt;: this was a close second, but there was little documentation for setting defaults for things like social networks, and I did not like the fact that the entire blog post is output on the posts page (should be a partial preview imho)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Since I am not the type to waste time wrangling HTML/CSS, and wanted to get something ported quickly, I finally decided on &lt;a href=&#34;http://themes.gohugo.io/redlounge/&#34;&gt;redlounge&lt;/a&gt;. The reasons being as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;simple and clean&lt;/li&gt;
-&lt;li&gt;mobile/tablet friendly&lt;/li&gt;
-&lt;li&gt;easily implement taxonomies (like tags/categories)&lt;/li&gt;
-&lt;li&gt;easily have access to social media, both for linking to my personal accounts, and for sharing links on posts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Only thing I do not like is the preview of the blog posts lacks formatting. Not a deal breaker though.&lt;/p&gt;
-
-&lt;h3 id=&#34;porting-to-hugo:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Porting to Hugo&lt;/h3&gt;
-
-&lt;p&gt;The migration tool provided by Hugo did most of the heavy lifting. It was literally as simple as:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ hugo import jekyll src_folder_of_jekyll_blog dest_folder
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;After I cleaned out a few folders I didn&amp;rsquo;t need (see &lt;a href=&#34;https://gohugo.io/overview/source-directory/&#34;&gt;Hugo folder structure&lt;/a&gt; for guidance), I just &lt;code&gt;git cloned&lt;/code&gt; a few themes in the &lt;em&gt;&lt;code&gt;dest_folder/themes&lt;/code&gt;&lt;/em&gt; and then ran the following to test/vet changes/themes:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ hugo serve -w --theme=theme_name
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The most time-consuming part was actually doing some light editing on the existing blog posts I already had. I just changed the &lt;a href=&#34;https://gohugo.io/content/front-matter/&#34;&gt;front-matter&lt;/a&gt; section on blog posts to make it compliant with &lt;code&gt;.toml&lt;/code&gt; structure, looked through my changes to make certain everything looked good, and I was set to start on deploying.&lt;/p&gt;
-
-&lt;p&gt;For deployment, there are quite a few tutorials out there, if you just look for them, but the &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages:fcefb200141ace3e7bfd6542457b7a72&#34;&gt;Hugo documentation&lt;/a&gt; that I followed pretty much sums up what you need to do.&lt;/p&gt;
-
-&lt;h3 id=&#34;issues:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Issues:&lt;/h3&gt;
-
-&lt;p&gt;The only issue I ran into was the CSS not rendering properly after deployment. This was not specifically due to Hugo actually, but because of the fact that I force using &lt;code&gt;https&lt;/code&gt; on my site, through &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;Cloudflare&lt;/a&gt;, and use an SSL certificate setup through their panel. The Hugo documentation specifies using your github organization URL as your base URL in your config settings (i.e. &lt;code&gt;username.github.io&lt;/code&gt;). So, when serving up the CSS, the browser displays a message saying the CSS content is not secure, and will not serve up mixed content (unless the end user allows it). All that was needed was changing my base URL in my config to &lt;code&gt;quandrei.com&lt;/code&gt; and I was good to go.&lt;/p&gt;
-
-&lt;h3 id=&#34;final-thoughts:ed8b63f31f6583b3537dd16634107c12&#34;&gt;Final thoughts:&lt;/h3&gt;
-
-&lt;p&gt;I am happy with the end result. Nice looking/improved site, easy management through git/github, performance-centric. No regrets.&lt;/p&gt;
-
-&lt;p&gt;Now if I can only figure out how to get it to write Magento code&amp;hellip; and do my laundry&amp;hellip; I&amp;rsquo;d be set.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I am bored...</title>
-      <link>https://quandrei.com/post/boredom/</link>
-      <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/boredom/</guid>
-      <description>&lt;p&gt;So I have been extraordinarily busy with work these past few months, and haven&amp;rsquo;t had very much time for side projects, and interesting things that I&amp;rsquo;ve wanted to devote some time to. I&amp;rsquo;ve also been getting pretty bored with the work I am doing, something very dangerous in my profession, since this usually leads to the itch for new surroundings. This is a fairly engaging read on how to combat boredom for employees: &lt;a href=&#34;http://randsinrepose.com/archives/bored-people-quit/&#34;&gt;Bored People Quit&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In an effort to combat my boredom, I have been devoting time to learning a few new things:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://progrium.viewdocs.io/dokku/&#34;&gt;Dokku&lt;/a&gt; - PAAS (mini-Heroku) I deployed to my VPS to host everything&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; / &lt;a href=&#34;http://flask.pocoo.org/&#34;&gt;Flask&lt;/a&gt; - python microframework used to create a web app&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; / &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; - golang site generator to provide info on various projects&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; - iOS app to interface with the web app API&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I will update here, once more of these developments have materialized.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[End Transmission]&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Magento is as Magento does</title>
-      <link>https://quandrei.com/post/magento/</link>
-      <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/magento/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve been working as a &lt;a href=&#34;http://magento.com/&#34;&gt;Magento&lt;/a&gt; developer for a little over a year and a half, and I have come to one inescapable conclusion; I am not enjoying this.&lt;/p&gt;
-
-&lt;p&gt;Have you ever heard the expression:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Stupid is as stupid does&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Well, by that same token, I think that the following expression is an apt decription of Magento:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Magento is as Magento does&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For a more full explanation of the underlying expression, see &lt;a href=&#34;http://answers.google.com/answers/threadview?id=392986&#34;&gt;this&lt;/a&gt; (you can ignore all the preachy comments, and stick to the first answer given). But basically, this boils down to judging people or things by what they do, and not by how they appear.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-dizzying-highs:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The dizzying highs:&lt;/h3&gt;
-
-&lt;p&gt;Magento &lt;em&gt;appears&lt;/em&gt; to be a very shiny e-commerce solution. And in some respects it is. It provides a great degree of flexibility for those that want an e-commerce store, and has proven itself in the marketplace as a vetted solution.&lt;/p&gt;
-
-&lt;p&gt;It provides a clean approach to create custom modules for new functionality, allowing for compartmentalizing code, and also provides mechanisms for injecting code in the execution process through minimal intrusion using event observers.&lt;/p&gt;
-
-&lt;p&gt;These are all great things, however&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-terrifying-lows:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The terrifying lows:&lt;/h3&gt;
-
-&lt;p&gt;To achieve this level of flexibility, it has made some design decisions (one being an &lt;a href=&#34;https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model&#34;&gt;EAV&lt;/a&gt; database schema design), which in turn sacrifices performance and scalability. To combat this issue, boosting performance is achieved through various caching techniques, but in my opinion is a hack at best, and a better solution should be sought out instead of applying a patching approach. Due to these performance issues, daily development can get slow and time consuming.&lt;/p&gt;
-
-&lt;p&gt;The monolithic codebase is often difficult to navigate, and coupled with many different developers who have worked on this over a decade, and many having different approaches/visions to solving the same problem, often has led me in circles when trying to determine the best solution to a problem I am facing.&lt;/p&gt;
-
-&lt;p&gt;A very picky naming convention for files/classes/modules/XML data can be frustrating at first, since often times, no errors are reported and fails silently, causing you to scratch your head wondering what went wrong.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-creamy-middles:6975f8b398b6ca097f7264381802b6f4&#34;&gt;The creamy middles:&lt;/h3&gt;
-
-&lt;p&gt;Fortunately, a new hope has appeared in the form of Magento 2, and coupled with the release of PHP 7, should at the very least be intersting. Hopefully, this will help in resolving some of the annoyances in working with the platform on a daily basis (although XML files seem to have tripled&amp;hellip; ugh). From my limited knowledge of the release, some database architecture changes have been made to improve on performance. Personally, I would have liked to see something like &lt;a href=&#34;http://www.postgresql.org/docs/current/static/hstore.html&#34;&gt;PostgreSQL and the hstore&lt;/a&gt; column applied. With that approach, you would get the relational database components where needed, and the hstore column (similar to a document store applied in NoSQL) used where the dynamic nature of EAV is needed.&lt;/p&gt;
-
-&lt;p&gt;Time will tell if this release will redeem Magento in my eyes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CyanogenMod is the new black</title>
-      <link>https://quandrei.com/post/cyanogenmod/</link>
-      <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/cyanogenmod/</guid>
-      <description>
-
-&lt;p&gt;Recently, I had been a little disappointed with the battery life on my &lt;a href=&#34;http://en.wikipedia.org/wiki/Nexus_4&#34;&gt;Nexus 4 device&lt;/a&gt;. I noticed a drop in battery performance when I installed &lt;a href=&#34;http://www.android.com/versions/lollipop-5-0/&#34;&gt;Android Lollipop&lt;/a&gt;, and thought the reason might be due to all the upgrades and bloat I had accumulated. I decided that what was needed was a tried and true method: a clean install. And this was the perfect opportunity to give a custom ROM a shot; specifically, &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;CyanogenMod&lt;/a&gt;. This was my limited experience after about a week and a half of use&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-install:85692c9bc1452ade613bde8053351cd3&#34;&gt;The install:&lt;/h3&gt;
-
-&lt;p&gt;So ordinarily, installing would be a simple matter of following the instructions and visiting the &lt;a href=&#34;http://beta.download.cyanogenmod.org/install&#34;&gt;install link&lt;/a&gt; (when you have a &lt;a href=&#34;http://wiki.cyanogenmod.org/w/CyanogenMod_Installer#Supported_Devices&#34;&gt;supported device&lt;/a&gt;, which mine was). However, when running the installer, I got the message stating mine was not. The reason for this was due to the fact that I had an android version (v5.0.x) that was more recent than what CyanogenMod was using (v4.4.x). So before I was able to install, I needed to downgrade my android version to v4.3.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-dizzying-highs:85692c9bc1452ade613bde8053351cd3&#34;&gt;The dizzying highs:&lt;/h3&gt;
-
-&lt;p&gt;The level of customization was the most satisfying part of this experience. Nearly everything you can think of can be modified to suit your preferences or needs. So much so, that I was able to have the interface appear almost identically to Lollipop, despite actually being on android v4.4.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-terrifying-lows:85692c9bc1452ade613bde8053351cd3&#34;&gt;The terrifying lows:&lt;/h3&gt;
-
-&lt;p&gt;I noticed after a while, I could not make phone calls. I was able to dial and connect to another person when making a call, but there was no sound (I could not hear the line ringing or the person pick up, and the person could not hear me when the line picked up). There was a reported bug for this on their &lt;a href=&#34;https://jira.cyanogenmod.org/browse/CYAN-5728&#34;&gt;JIRA&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Less of an issue, but still annoying, was some of the display features on a few downloaded apps was hit or miss (e.g. when using the dropdwon tray, text on my Spotify app would be blank, and only icons would appear).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-creamy-middles:85692c9bc1452ade613bde8053351cd3&#34;&gt;The creamy middles:&lt;/h3&gt;
-
-&lt;p&gt;The battery consumption was pretty good in the beginning, with stock everything. But as I installed all the applications I needed, it was pretty much on par with Lollipop. Not so much a deal breaker, but one of the original reasons to try Cyanogenmod were some claims I had heard that battery life would be improved (at least marginally) with this ROM.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;In the end, due to the critical bug, I decided to go back to Lollipop. A little disappointing, but making phone calls is kind of a necessity when having a phone.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Round and round she goes...</title>
-      <link>https://quandrei.com/post/round-and-round/</link>
-      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/round-and-round/</guid>
-      <description>&lt;p&gt;So, in preparations for a trip this summer, I had booked a few flights through the Royal Bank rewards program. The flight tickets are held by the Lufthansa airline, while one of the flights is operated by Air Canada (being one of their partners).&lt;/p&gt;
-
-&lt;p&gt;An important piece of information to note, is that I will be traveling with an infant. That being the case, I wanted to reserve seats with a bassinet, and in the case of the Air Canada operated flight, this is in the preferred seating area (which carries with it a fee, that I am more than willing to pay).&lt;/p&gt;
-
-&lt;p&gt;I contacted Lufthansa to book the seat (since the tickets were issued by them and I had the need to reserve seats on their flight as well), however, because it is a flight operated by Air Canada, they said I would need to speak to them for that specific flight.&lt;/p&gt;
-
-&lt;p&gt;I contacted Air Canada to book the seats, but the agent refused, because although the flight is operated by Air Canada, the ticket is with Lufthansa, so they cannot accept payment for seat reservation.&lt;/p&gt;
-
-&lt;p&gt;I contacted RBC Rewards, to see if I can reserve and pay the fee with them, and they referred me back to Lufthansa, because they were unable to do so.&lt;/p&gt;
-
-&lt;p&gt;And round and round she goes&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;I find this entire situation ridiculous, since of the 3 organizations involved, none can book a seat, all of which have a hand in the travels. To be more apt, 3 organizations, all of which are useless.&lt;/p&gt;
-
-&lt;p&gt;I decided that the most likely of the 3 to help, would be Air Canada, since they operated the flight, and at least had access to the seating I needed. So I decided to escalate the situation with them.&lt;/p&gt;
-
-&lt;p&gt;When I expressed my discontent with the Air Canada agent and requested to speak to a supervisor, I was told this was not possible. I was further informed I could not file a complaint with them, and would need to contact customer relations through an online form. When I requested an employee number or reference number for the call, for my complaint, I was told they were not permitted to give any of those out. So the only info I was given, was a first name and a city with a population of over 5 million people. I am certain in an organization as large as Air Canada, there could be only one.&lt;/p&gt;
-
-&lt;p&gt;BUT I decided to file my grievance anyway, as instructed. I contacted customer relations, with the limited information I had, and received an answer fairly quickly. What was the answer, you ask? To contact the reservations department. The very same department that could do nothing to help me, the same department that refused to allow me to file a complaint with them, and the same department that referred me to customer relations to resolve my grievance in the first place.&lt;/p&gt;
-
-&lt;p&gt;And round and round she goes&amp;hellip; again.&lt;/p&gt;
-
-&lt;p&gt;These circles are making me dizzy.&lt;/p&gt;
-
-&lt;p&gt;So, an open question to all 3 of these seemingly impotent organizations. Which one of you will step up and make a legitimate attempt at resolving my problem?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New System Install</title>
-      <link>https://quandrei.com/post/new-system-install/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/new-system-install/</guid>
-      <description>
-
-&lt;p&gt;With the release of OS-X Yosemite, I decided it was time for a clean install of my system. I decided that this time, I would try and automate this as much as possible, without having to resort to being there very much, because, well&amp;hellip; time is precious and I have better things to do.&lt;/p&gt;
-
-&lt;p&gt;The script and general steps I used can be found in a bash file I have on my &lt;a href=&#34;https://github.com/quandrei/new-system-install-script-osx&#34;&gt;github account&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;initial-manual-steps:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;Initial (manual) steps&lt;/h3&gt;
-
-&lt;p&gt;You will notice that in the script, the first few installs are commented out. I originally did these manually, because they are crucial (i.e. the rest will just fail without the success of those), and hadn&amp;rsquo;t really planned on a script at that point. The tools are as follows:&lt;/p&gt;
-
-&lt;h4 id=&#34;os-x-command-line-tools:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;OS-X command line tools&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;$ xcode-select --install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;oh-my-zsh-http-ohmyz-sh:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://ohmyz.sh/&#34;&gt;Oh-my-ZSH&lt;/a&gt;&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;$ curl -L http://install.ohmyz.sh | sh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;homebrew-http-brew-sh:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://brew.sh/&#34;&gt;homebrew&lt;/a&gt;&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;$ ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;homebrew-cask-http-caskroom-io:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;&lt;a href=&#34;http://caskroom.io/&#34;&gt;homebrew-cask&lt;/a&gt;&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;$ brew install caskroom/cask/brew-cask
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You might also want to specify some defaults for homebrew-cask, e.g. default of where you want your apps installed:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;### Specify your defaults in this environment variable
-### (in .bash_profile or .zshenv)
-$ export HOMEBREW_CASK_OPTS=&amp;quot;--appdir=/Applications&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;More can be found in the &lt;a href=&#34;https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md&#34;&gt;usage docs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I will not go into explaining why these tools are great and why you should use them. There are many articles out there. Just use the googles or &lt;a href=&#34;https://duckduckgo.com/&#34;&gt;duck-duck-go&lt;/a&gt;, whichever you prefer.&lt;/p&gt;
-
-&lt;p&gt;The rest of the script is essentially grabbing what I need/want; specifically, environment-wise via homebrew and gui apps via homebrew-cask. Nice thing about this, is I don&amp;rsquo;t need to deal with downloaders and going to each invidual site. And updating/maintaining everything is a breeze, and achieved with a few simple commands in the terminal.&lt;/p&gt;
-
-&lt;p&gt;If you are too lazy to actually look at my bash script, the following is a list of what I install:&lt;/p&gt;
-
-&lt;h4 id=&#34;homebrew-packages:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;homebrew packages:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;wget&lt;/li&gt;
-&lt;li&gt;git&lt;/li&gt;
-&lt;li&gt;git-flow&lt;/li&gt;
-&lt;li&gt;tree&lt;/li&gt;
-&lt;li&gt;node&lt;/li&gt;
-&lt;li&gt;sqlite&lt;/li&gt;
-&lt;li&gt;postgresql&lt;/li&gt;
-&lt;li&gt;mongodb&lt;/li&gt;
-&lt;li&gt;mcrypt&lt;/li&gt;
-&lt;li&gt;php56&lt;/li&gt;
-&lt;li&gt;php56-mcrypt&lt;/li&gt;
-&lt;li&gt;php56-xdebug&lt;/li&gt;
-&lt;li&gt;phpunit&lt;/li&gt;
-&lt;li&gt;openssl&lt;/li&gt;
-&lt;li&gt;gpg2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;homebrew-cask-packages:e0ce1ac97769eb3e0c151cf3ab178f41&#34;&gt;homebrew cask packages&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;vagrant&lt;/li&gt;
-&lt;li&gt;virtualbox&lt;/li&gt;
-&lt;li&gt;alfred&lt;/li&gt;
-&lt;li&gt;iterm2&lt;/li&gt;
-&lt;li&gt;1password&lt;/li&gt;
-&lt;li&gt;seil&lt;/li&gt;
-&lt;li&gt;divvy&lt;/li&gt;
-&lt;li&gt;sourcetree&lt;/li&gt;
-&lt;li&gt;dropbox&lt;/li&gt;
-&lt;li&gt;firefox&lt;/li&gt;
-&lt;li&gt;firefoxdeveloperedition&lt;/li&gt;
-&lt;li&gt;google-chrome&lt;/li&gt;
-&lt;li&gt;google-chrome-canary&lt;/li&gt;
-&lt;li&gt;spotify&lt;/li&gt;
-&lt;li&gt;vlc&lt;/li&gt;
-&lt;li&gt;sublime-text3&lt;/li&gt;
-&lt;li&gt;sequel-pro&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I have not linked to any of these, cause I am lazy too. If this irks you, please submit your grievance to the complaints dept.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github Pages Launch</title>
-      <link>https://quandrei.com/post/github-pages-launch/</link>
-      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/github-pages-launch/</guid>
-      <description>
-
-&lt;p&gt;So the process was slow­moving (due to a few other things going on in my life), but it is finally up and running. A few things to take note of:&lt;/p&gt;
-
-&lt;h3 id=&#34;deciding-on-a-jekyll-theme:2c26a5b1b5753de0d42116532c98c907&#34;&gt;Deciding on a Jekyll theme&lt;/h3&gt;
-
-&lt;p&gt;This was more challenging than I thought. There are quite a few out there, but I decided on one that was simple, and looked slick, namely, &lt;a href=&#34;http://getpoole.com/&#34;&gt;Poole&lt;/a&gt; (the Jekyll butler) using the &lt;a href=&#34;http://lanyon.getpoole.com/&#34;&gt;Lanyon&lt;/a&gt; theme. &lt;a href=&#34;http://hyde.getpoole.com/&#34;&gt;Hyde&lt;/a&gt; was a close second, but I preferred having the hidden menu.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-css-is-a-bit-buggy:2c26a5b1b5753de0d42116532c98c907&#34;&gt;The CSS is a bit buggy&lt;/h3&gt;
-
-&lt;p&gt;It does not seem to be completely cross­browser friendly. I noticed that clicking on the menu icon (top­right) in FF will still have the icon super­imposed on the text, whereas in other browsers, it will move left when displaying the menu (as it should). When using a fresh Jekyll install locally, with no content changed, this is not the case, but as soon as I changed something, it broke for some reason. It&amp;rsquo;s possible I borked something somewhere, but haven&amp;rsquo;t looked into it much. Funny enough, it works nicely on my Nexus 4 using the FF browser.&lt;/p&gt;
-
-&lt;h3 id=&#34;moving-content:2c26a5b1b5753de0d42116532c98c907&#34;&gt;Moving Content&lt;/h3&gt;
-
-&lt;p&gt;Obviously, this was a little dull as I needed to grab the raw content from my SS site, and format it for markdown. SS doesn&amp;rsquo;t have an API I&amp;rsquo;m aware of for such a task (although I didn&amp;rsquo;t look into it much), and I probably could&amp;rsquo;ve written a script for this, but I would&amp;rsquo;ve needed to go through the content anyway to ensure everything was pristine. The script would&amp;rsquo;ve likely taken more time than actually going through the few blog posts I had.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-few-nice-things:2c26a5b1b5753de0d42116532c98c907&#34;&gt;A few nice things&amp;hellip;&lt;/h3&gt;
-
-&lt;p&gt;There are a few easily­ done things I liked about SS. One was having a tag cloud, which requires some plugin for Jekyll. Not sure if having a plugin is something I could do on Github Pages, so I would need to look into it. Another, was having a gallery of some photography I did in a past life. Again, a plugin is the likely route, and not sure if gh­pages blah blah blah&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;­­­&amp;mdash;&lt;/p&gt;
-
-&lt;p&gt;So that&amp;rsquo;s it. As a treat, I think everyone should read this: &lt;a href=&#34;http://chiefobrienatwork.com/&#34;&gt;Chief O&amp;rsquo;Brien at Work&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github Pages Transition</title>
-      <link>https://quandrei.com/post/github-pages-transition/</link>
-      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/github-pages-transition/</guid>
-      <description>&lt;p&gt;So I&amp;rsquo;ve decided to make the transition from SquareSpace to &lt;a href=&#34;http://pages.github.com/&#34;&gt;github pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are a few reasons for this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;gh-pages is available for the low, bargain-basement price of free as opposed to SS costing money&lt;/li&gt;
-&lt;li&gt;gh-pages allows me to version-control my site &amp;ndash; being an avid developer, this appeals to me&lt;/li&gt;
-&lt;li&gt;gh-pages has the basic features I need &amp;ndash; all I really do is put up links to my projects and blog, and gh-pages allows me to do this easily. SS offers many more features, like e-commerce, but when unused, seems silly to pay for them&lt;/li&gt;
-&lt;li&gt;the longer I stay with SS, the more difficult it will be to move away from them (i.e. move my content somewhere else, if I ever wish to leave)&lt;/li&gt;
-&lt;li&gt;the UI in SS seems to be a bit more cumbersome lately, and is starting to annoy me&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I will be moving my content gradually to my new digs: &lt;a href=&#34;http://quandrei.github.io/&#34;&gt;quandrei.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[End transmission]&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Grunt Master 6000</title>
-      <link>https://quandrei.com/post/grunt-master-6000/</link>
-      <pubDate>Sun, 29 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/grunt-master-6000/</guid>
-      <description>
-
-&lt;p&gt;So, let&amp;rsquo;s start this off with a quote from my last post:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There I was, fairly new to a company, and asked to take the reigns of a project because of limited developer resources. Everyone else was committed to another project, and although I didn&amp;rsquo;t have the expertise to do this on my own, I was the only one around available for the the task at hand. Although, it should be noted that one of the other developers committed to another project, was around to give guidance, should I encounter any serious problems.&lt;/p&gt;
-
-&lt;h3 id=&#34;challenge-the-first:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the first:&lt;/h3&gt;
-
-&lt;p&gt;Our first big challenge was designing what the system should look like, based on the requirements that were somewhat ambiguous at the time. Furthermore, one of the desires of the system was for the user to have complete freedom in designing the geological constructs to store data. This meant, we would have no idea what a &amp;ldquo;something&amp;rdquo; would look like until the user created it, and what additional attributes it may have. There was talk of creating database tables as needed, for each new construct. Basically, the user would be a god in the system (or dog, I forget which). This would be problematic. How does one query a database when you have no idea what it looks like? Furthermore, how does a DBA maintain it? How would you adapt software to adapt to the ever-changing data-store?&lt;/p&gt;
-
-&lt;p&gt;Our first conclusion was creating tables dynamically, for an unknown number of constructs, would be messy, and likely suicidal. There was a DB paradigm out there that we could possibly use, as a RDBMS didn&amp;rsquo;t seem ideal for our needs. It was &lt;a href=&#34;http://en.wikipedia.org/wiki/NoSQL&#34;&gt;No-SQL&lt;/a&gt;. We had focused a little on learning &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; and high hopes for using this, but alas, we had no in-house expertise, and the timeline for project completion didn&amp;rsquo;t leave much for gambling on something we knew little about. As an alternative, our database team suggested we use an &lt;a href=&#34;http://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model&#34;&gt;EAV&lt;/a&gt; database design pattern for storing dynamic data within a RDBMS. The only caveat would be we would need to limit the user from creating dynamic constructs, and give them pre-built ones, but general enough so they could design their own templates on top of our core. This was an accepted solution, so we moved forward.&lt;/p&gt;
-
-&lt;h3 id=&#34;challenge-the-second:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the second:&lt;/h3&gt;
-
-&lt;p&gt;Since another web product the company was committed to was already built using PHP and various Microsoft technologies (namely, IIS and SQL Server) due to client imposed restrictions, the trend was that we would develop this new web application with the same technologies.&lt;/p&gt;
-
-&lt;p&gt;Using PHP, and the Microsoft colors of the rainbow is not particularly advantageous. They are technologies that do not compliment each other. And as a result, there is very little help and documentation out there in the event you hit a wall. Stick to a solution stack that works well together, like LAMP (Linux, Apache, MySQL, PHP) or if Microsoft is your preference, well ASP.NET would be preferable over PHP.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Disclaimer: Microsoft is not my preference for web application development and I could go on and on about why I hate developing in Windows at all, because it is giant pile of garbage, but I won&amp;rsquo;t do that here. Maybe some other time. I will say that I do love their debugger for C++ development and is matched by no one right now, at least to my knowledge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And finally, a client should not be dictating what your software solution stack is, but rather it should be transparent to them when delivering a fully realized software solution. But that is an argument for a another time.&lt;/p&gt;
-
-&lt;h3 id=&#34;challenge-the-third:7f507c410b3db05852baf4c5df177f11&#34;&gt;Challenge the third:&lt;/h3&gt;
-
-&lt;p&gt;Development resources were something that was lacking on this project. Others assisted where they could, but they were primarily assigned to other projects, and so much of the day-to-day coding was done by myself. Now the main issue with this, was that I am not a web developer by trade, however, due to the circumstances, I became one. I learned as much as I could, and did the best with the what skills I had and what I could learn from the only other web developer in the company. I learned a great deal, which is one of the pluses when thrown into a situation as this, but most days I felt like this. Also, I am certain that had there been more experienced web developers throughout the development of the project, certain steps could have been achieved more quickly.&lt;/p&gt;
-
-&lt;p&gt;In the end, it turned out better than I had expected, but there is still much to be done in the next phases of QA, deployment, and maintenance.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learn me a PHP for great good: Laravel 4</title>
-      <link>https://quandrei.com/post/laravel4/</link>
-      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/laravel4/</guid>
-      <description>
-
-&lt;p&gt;About 8 months ago, I was put on a new project at work. It was a bit of a departure, as I was originally working on an an existing C++/Qt codebase, with other developers who knew the product and could help should I run into any road blocks. This new project, was essentially, to design and implement a brand new web application to store and view primary geo-technical data.&lt;/p&gt;
-
-&lt;p&gt;There were many obstacles from the very beginning, including architectural design decisions, unclear specifications and requirements, and limited developer resources and experience for the needed project. Those issues will be the subject of a later post. RIght now, I will just write about my experience with the framework and architecture decision we made.&lt;/p&gt;
-
-&lt;h3 id=&#34;laravel-4-http-laravel-com:d9086dbed090496934deaef636486657&#34;&gt;&lt;a href=&#34;http://laravel.com/&#34;&gt;Laravel 4:&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Basically, it is a PHP framework that uses an &lt;a href=&#34;http://en.wikipedia.org/wiki/Object-relational_mapping&#34;&gt;ORM&lt;/a&gt; implementation (referred to as &lt;a href=&#34;http://laravel.com/docs/eloquent&#34;&gt;Eloquent ORM&lt;/a&gt; in their documentation). It is somewhat reminiscent to Rails for Ruby. It works with various databases, including MySQL, Postgres, SQLite, and SQL Server. Dependencies and packages can be managed with &lt;a href=&#34;http://getcomposer.org/&#34;&gt;composer&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-dizzying-highs:d9086dbed090496934deaef636486657&#34;&gt;The dizzying highs:&lt;/h3&gt;
-
-&lt;p&gt;Development speed: Once our database schema was established, creating models and defining their relations was exceptionally quick and straightforward. There were very limited resources on this project (mostly it was me doing about 75% of the coding), but was still able to get a fully functional system in a few months.&lt;/p&gt;
-
-&lt;p&gt;RESTful routing: One of the aims of the web application was to make it RESTful, and setting up the &lt;a href=&#34;http://laravel.com/docs/routing&#34;&gt;routing with Laravel 4&lt;/a&gt; was simple, and had enough features to handle more complex requests.&lt;/p&gt;
-
-&lt;p&gt;MVC: Through the &lt;a href=&#34;https://github.com/JeffreyWay/Laravel-4-Generators&#34;&gt;Jeffrey Way Laravel 4 Generators&lt;/a&gt;, coding a model-view-controller web application became a lot quicker.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-terrifying-lows:d9086dbed090496934deaef636486657&#34;&gt;The terrifying lows:&lt;/h3&gt;
-
-&lt;p&gt;Magic unicorn sprinkles: With all the bells and whistles of Laravel 4, which speed up development time, there is a lot going on in the background, handling things for you, most of which you may not be aware of. This might be handy in a pinch, but this will eventually result in you hitting a wall when there is a bug, that you cannot immediately resolve because you do not fully understand what is going on under the hood.&lt;/p&gt;
-
-&lt;p&gt;One issue I encountered was naming of certain functions, classes, or tables, must follow a specific convention in order to work within the web application.&lt;/p&gt;
-
-&lt;p&gt;One example is camelCase must be used to define specific relational functions. I had made the mistake of using snake_case in the function definition of a many-to-many relationship (due to some older Laravel documantation where snake_case was the standard prior to Laravel 4), and the result was a rather bizarre and uninformative error. After much digging on StackOverflow, I found the resolution.&lt;/p&gt;
-
-&lt;p&gt;Another example of naming causing a problem, is that it is assumed that all &amp;lsquo;Model&amp;rsquo; classes are named in the singular tense, and the table that stores those instantiations of the model, in the plural tense. Often, this may work fine, however, there were a few situation where this did not make sense for my web application. This caused an issue, as my table schema didn&amp;rsquo;t follow this convention, and when trying to save a model instantiation, it would throw an error. The fix was simple (as you can specify a different table name in your model class), but again, something that may not be obvious to the new-comer.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-creamy-middles:d9086dbed090496934deaef636486657&#34;&gt;The creamy middles:&lt;/h3&gt;
-
-&lt;p&gt;All in all, I found this a pretty good framework to work with, and handles the ActiveRecord paradigm competently. I am sure I will be facing some magic unicorn dust in the near future, but the key will be understanding the underpinnings to handle any tailspins and &lt;a href=&#34;http://tinyurl.com/lpfef3n&#34;&gt;barrel rolls&lt;/a&gt;. I am still discovering new features everyday, and some neat things to optimize my web application. And the adventure continues, as I step into the QA testing and subsequent maintenance phases of this development project. My hope is that, time permitting, I can start implementing unit tests and continuous integration in phase 2. Until then, keep looking to the stars!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Codeschool</title>
-      <link>https://quandrei.com/post/codeschool/</link>
-      <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://quandrei.com/post/codeschool/</guid>
-      <description>
-
-&lt;p&gt;A few months ago, I had decided to give &lt;a href=&#34;http://www.codeschool.com&#34;&gt;codeschool&lt;/a&gt; a try. It was more out of curiosity than necessity, to see if an online learning tool would help me learn a new language more quickly. Due to a billing hiccup, they were very gracious and gave me a free subscription for 6 months. This is my take on the whole concept:&lt;/p&gt;
-
-&lt;h3 id=&#34;the-dizzying-highs:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The dizzying highs:&lt;/h3&gt;
-
-&lt;p&gt;Most of the courses give you a good overview of the subject it is trying to educate you on. They go into a few details, and I have experienced a few TIL moments. The interface is pretty slick, and the intro videos/themes of each subject is engaging and entertaining. Some neat features also include in-browser exercises and tracking of progress of each course, with badges as achievements. It is also handy to have the slides of each course available for later reference.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-terrifying-lows:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The terrifying lows:&lt;/h3&gt;
-
-&lt;p&gt;Their motto, &amp;ldquo;Learn by doing&amp;rdquo; is a little light on the &amp;lsquo;doing&amp;rsquo; part. I feel the &amp;lsquo;challenges&amp;rsquo; after each section are not terribly challenging. Most times, a quick view of the slides, and I can get through them fairly quickly (but this may also be due to my experience as a developer&amp;hellip; maybe beginners might find these more challenging). My one main critique would be to create more involved exercises for the subject matter, to really ingrain the material learned.&lt;/p&gt;
-
-&lt;p&gt;A second observation I have is how fickle the system is when interpreting your submitted code. Often, I have found that an odd space somewhere will throw an error, and your submission is considered incorrect, despite it being perfectly valid code for the solution. I have probably spent more time trying to figure out what EXACTLY they wanted (character by character), than actually solving the problems presented to me.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-creamy-middles:9bf04870cf6b8164fcd498e38ece23da&#34;&gt;The creamy middles:&lt;/h3&gt;
-
-&lt;p&gt;I would say that this would be a good beginner to anyone wanting to learn the very basics of language, and maybe pick up a few details. I don&amp;rsquo;t really feel this would be useful to experienced developers, as most of this information can be picked up through a good text, in which more details and subtleties of the language can be learned. It&amp;rsquo;s in knowing those underpinnings and details, that makes decisions on whether to use that language/technology on a project more informed and valid. And since getting a text would be the next step in really learning something, the codeschool step might seem unnecessary.&lt;/p&gt;
-
-&lt;p&gt;The only advantage I see would be that learning those tidbits from codeschool will definitely be quicker than learning from a text. In my humble opinion, that hardly seems worth it when there exists the potential of really borking something when you don&amp;rsquo;t know the technology all that well.&lt;/p&gt;
-
-&lt;p&gt;To learn and know something well, I feel that nothing really trumps experience. And experience takes TIME. There is no such thing as &lt;a href=&#34;http://www.acartoofar.co.uk/wp-content/uploads/2010/03/Teach-yourself-C++-in-21-days.png&#34;&gt;learning [insert language here] in 21 days&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My main concern with this form of learning (and other specialized courses), is the generation of incompetent coders, who deem themselves to be highly knowledgeable, that will be turning up due to this trend of learning. Many will have the skills to churn out working code, but not the knowledge of a solid CS background that teaches fundamental concepts, which in turn helps you produce efficient and future-proof products/code. Basically, they will know enough to be dangerous.&lt;/p&gt;
-</description>
+      <guid>https://quandrei.com/posts/1970/01/whoami/</guid>
+      <description>It is possible to commit no mistakes and still lose. That is not a weakness; that is life.
+&amp;ndash;Picard
+ I am not a ninja, or guru, or rockstar developer.
+I am a multi-disciplinary software developer with a wide range of experience. I have seen a lot of things and enjoy learning new tech, but with that comes a price. Am I the authority on a given language/tool? Probably not, but I would guess I could figure it out.</description>
     </item>
     
   </channel>
